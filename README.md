@@ -31,7 +31,7 @@ Datasets for download
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Info Visualization Tool][NRCAN]](naturalresources.jpg)
+![Info Visualization Tool](naturalresources.jpg)
 
 The Natural Resources Department of The Government of Canada.
 
