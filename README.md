@@ -31,7 +31,7 @@ Datasets for download
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Info Visualization Tool][product-screenshot]](https://www.canada.ca/content/dam/canada/tbs-sct/migration/hgw-cgf/oversight-surveillance/communications/fip-pcim/images/spec/T130-Canada.png)
+[![Info Visualization Tool][NRCAN]](naturalresources.jpg)
 
 The Natural Resources Department of The Government of Canada.
 
