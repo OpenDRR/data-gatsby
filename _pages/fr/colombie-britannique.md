@@ -1,20 +1,23 @@
 ---
-altLangPrefix: autre-page
-dateModified: 2020-01-08
+altLangPrefix: British Columbia
+dateModified: 2020-12-10
 description: 
-  en: Info Viz
+  fr: visualisation d'informations
 footer: true
 langtoggle: true
-lang: en
+lang: fr
 noMainContainer: false
 sitemenu: true
 sitesearch: true
-title: Another page
+title: British Columbia
+permalink: /fr/colombie-britannique/
 ---
 
-<h2>{{ page.description.en }}</h2>
 
-<ul>
+<h2>{{page.title}}</h2>
+<!-- <h2>{{ page.description.en }}</h2> -->
+
+<!-- <ul>
   {% for page in site.pages %}
   {% if page.path contains 'en/data' %}
     <li>
@@ -23,4 +26,4 @@ title: Another page
     {% endif %}
   {% endfor %}
 </ul>
-
+ -->
