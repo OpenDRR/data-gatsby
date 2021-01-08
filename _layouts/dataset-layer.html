@@ -10,12 +10,16 @@ featureClass: "{{page.featureClass}}"
 
 <section>
     <h2>{{page.cyclone.name}}</h2>
-    <ul>
-  <li><a>Wind Hazard</a></li>
-  <li><a>Threat to Assets</a></li>
-  <li><a>Threat to Buildings</a></li>
-  <li><a>Threat to People</a></li>
-    </ul>
+    <li>
+      <span class="favicon-download-alt">
+          <a
+              href="{{page.cyclone.layer}}"
+              download="{{page.cyclone.layer}}"
+              >Download</a
+          >
+      </span>
+  </li>
+
 </section>
 
 {% include leaflet.html %}

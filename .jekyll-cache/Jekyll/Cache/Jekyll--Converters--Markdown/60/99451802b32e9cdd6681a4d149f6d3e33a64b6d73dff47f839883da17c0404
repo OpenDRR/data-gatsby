@@ -1,4 +1,4 @@
-I"$#<p><a href="../">back</a></p>
+I"ž#<p><a href="../">back</a></p>
 <h1 id="casualties">Casualties</h1>
 
 <p>Supporting text explaining the economic impact of the dataset</p>
@@ -99,7 +99,7 @@ var basemap = {
     'minZoom': 3,
     'maxZoom': 18
   }),
-  'Gibs': L.tileLayer('https://map1.vis.earthdata.nasa.gov/wmts-webmerc/' + viirs + '/default/' + '2020-12-23' + '/GoogleMapsCompatible_Level9/{z}/{y}/{x}.jpg', {
+  'Gibs': L.tileLayer('https://map1.vis.earthdata.nasa.gov/wmts-webmerc/' + viirs + '/default/' + '2021-01-08' + '/GoogleMapsCompatible_Level9/{z}/{y}/{x}.jpg', {
     'attribution': 'Maps &copy; <a href="http://earthdata.nasa.gov">Gibs</a>, &copy; <a href="https://osmlab.github.io/attribution-mark/copyright/?name=gcweb-jekyll">OpenStreetMap</a> contributors',
     'minZoom': 3,
     'maxZoom': 9
@@ -112,7 +112,7 @@ var basemap = {
 // var OpenStreetMap = L.tileLayer(mapboxUrl, {id: 'MapID', minZoom: 2, maxZoom: 19, attribution: '&copy; <a href="https://osmlab.github.io/attribution-mark/copyright/?name=gcweb-jekyll">OpenStreetMap</a> contributors' }),
 
 // var map = L.map('map', {
-//   center: [, ],
+//   center: [49.24, -123.11],
 //   zoom: [10],
 //   layers: [OpenStreetMap, EconomicRegionLayer]
 // });
@@ -126,7 +126,7 @@ var basemap = {
 //       "type": "Feature",
 //       "geometry": {
 //         "type": "Point",
-//         "coordinates": [, ]
+//         "coordinates": [49.24, -123.11]
 //       }
 //       }
 //     ]
@@ -220,6 +220,10 @@ var map = L.map('map', {
 map.scrollWheelZoom.disable();
 
 
+var marker = L.marker(
+  [49.24, -123.11]
+).addTo(map);
+
 
 
 
@@ -271,6 +275,8 @@ function _addGeoJSONObjToMap( leafletItem, map ){
       style: featureStyle
   } );
   geojson.addTo( map );
+  
+  map.fitBounds(geojson.getBounds());
   
 }
 

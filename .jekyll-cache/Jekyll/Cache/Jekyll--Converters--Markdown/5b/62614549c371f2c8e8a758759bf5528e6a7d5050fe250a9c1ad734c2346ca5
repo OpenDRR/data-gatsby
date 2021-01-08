@@ -1,7 +1,7 @@
-I">#<p><a href="../">back</a></p>
-<h1 id="economic-loss">Economic Loss</h1>
+I""#<p><a href="../">back</a></p>
+<h1 id="damage-state">Damage State</h1>
 
-<p>Supporting text explaining the economic impact of the dataset</p>
+<p>DSRA full retrofit classified on sDtr_None_r2</p>
 
 <!-- <div class="map-grid"> -->
 <div id="map" class="leafmap" style="width: 100%;height:500px;"></div>
@@ -99,7 +99,7 @@ var basemap = {
     'minZoom': 3,
     'maxZoom': 18
   }),
-  'Gibs': L.tileLayer('https://map1.vis.earthdata.nasa.gov/wmts-webmerc/' + viirs + '/default/' + '2020-12-23' + '/GoogleMapsCompatible_Level9/{z}/{y}/{x}.jpg', {
+  'Gibs': L.tileLayer('https://map1.vis.earthdata.nasa.gov/wmts-webmerc/' + viirs + '/default/' + '2021-01-08' + '/GoogleMapsCompatible_Level9/{z}/{y}/{x}.jpg', {
     'attribution': 'Maps &copy; <a href="http://earthdata.nasa.gov">Gibs</a>, &copy; <a href="https://osmlab.github.io/attribution-mark/copyright/?name=gcweb-jekyll">OpenStreetMap</a> contributors',
     'minZoom': 3,
     'maxZoom': 9
@@ -120,7 +120,7 @@ var basemap = {
 
 // var geoJSON = [
 //   {
-//     "type": [sLmr_Bldg_b0],
+//     "type": [sDtr_None_r2],
 //     "features": [
 //       {
 //       "type": "Feature",
@@ -227,7 +227,7 @@ map.scrollWheelZoom.disable();
 
 
 var layer_obj;
-fetch( "/assets/data/afm7p2_lrdmf_economic_loss_sauid.geojson" ).then(( resp ) => {
+fetch( "/assets/data/afm7p2_lrdmf_damage_state_sauid.geojson" ).then(( resp ) => {
     return resp.json();
 }).then(( data ) => {
     layer_obj = data;
@@ -287,7 +287,7 @@ function getColor(d) {
 
 function featureStyle(feature) {
     return {
-        fillColor: getColor(feature.properties.sLmr_Bldg_b0),
+        fillColor: getColor(feature.properties.sDtr_None_r2),
         weight: 0.5,
         opacity: 1,
         color: 'white',
@@ -330,9 +330,9 @@ legend.onAdd = function (map) {
 legend.addTo(map);
 </script>
 
-<h2 id="download-data">Download Data</h2>
+<h2 id="downloads">Downloads</h2>
 
-<p><a href="/assets/data/afm7p2_lrdmf_economic_loss_sauid.geojson">GeoJSON</a>
+<p><a href="/assets/data/afm7p2_lrdmf_damage_state_sauid.geojson">GeoJSON</a>
 <a href="https://creativecommons.org/licenses/by/4.0/">License</a></p>
 <h4>Project Lead</h4>
 <p>Hastings, Nicky</p>

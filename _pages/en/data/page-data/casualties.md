@@ -25,7 +25,7 @@ zoom: 10
 layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
 featureClass: Sauid
 img: "http://placehold.it/100x100"
-# mlatlng: [49.24, -123.11] # marker lat/lon
+mlatlng: [49.24, -123.11] # marker lat/lon
 ---
 [back](../)
 # {{ page.contentTitle.en }}
