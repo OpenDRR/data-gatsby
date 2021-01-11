@@ -1,11 +1,17 @@
-{% if page.leaflet %}
+I"R#<p><a href="../">back</a></p>
+<h1 id="recovery-time-magnitude-72">Recovery Time (Magnitude 7.2)</h1>
+
+<p>Recovery time aggregated at building level</p>
+
+<!-- 
 <!-- <div class="map-grid"> -->
-  <div id="map" class="leafmap" style="width: 100%;height:500px;"></div>
-  <!-- <div class="heading">
+<div id="map" class="leafmap" style="width: 100%;height:500px;"></div>
+<p><!-- <div class="heading">
     <h2>Layers</h2>
   </div> -->
 <!-- </div> -->
-  <!-- <div id="custom-map-controls" class="custom-map-controls"></div> -->
+  <!-- <div id="custom-map-controls" class="custom-m
+    ap-controls"></div> --></p>
 <style>
 
 
@@ -62,39 +68,41 @@
 
   } */
 </style>
-<script src="https://unpkg.com/{{ site.leaflet }}/dist/leaflet.js"></script>
+
+<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+
 <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script> -->
 
 <script>
 
-// L.Icon.Default.imagePath = '{{ "images/carto/" | prepend: site.baseurl }}';
+// L.Icon.Default.imagePath = 'images/carto/';
 
 var viirs = 'VIIRS_SNPP_CorrectedReflectance_TrueColor';
 // var modis = 'MODIS_Terra_CorrectedReflectance_TrueColor';
 
 var basemap = {
   'OpenStreetMap': L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    'attribution': '&copy; <a href="https://osmlab.github.io/attribution-mark/copyright/?name={{ site.title }}">OpenStreetMap</a> contributors',
+    'attribution': '&copy; <a href="https://osmlab.github.io/attribution-mark/copyright/?name=gcweb-jekyll">OpenStreetMap</a> contributors',
     'minZoom': 2,
     'maxZoom': 19
   }),
-  'Thunderforest': L.tileLayer('https://{s}.tile.thunderforest.com/' + '{% if include.tf_layer %}{{ include.tf_layer }}{% else %}outdoors{% endif %}' + '/{z}/{x}/{y}.png', {
-    'attribution': 'Maps &copy; <a href="http://www.thunderforest.com/">Thunderforest</a>, &copy; <a href="https://osmlab.github.io/attribution-mark/copyright/?name={{ site.title }}">OpenStreetMap</a> contributors',
+  'Thunderforest': L.tileLayer('https://{s}.tile.thunderforest.com/' + 'outdoors' + '/{z}/{x}/{y}.png', {
+    'attribution': 'Maps &copy; <a href="http://www.thunderforest.com/">Thunderforest</a>, &copy; <a href="https://osmlab.github.io/attribution-mark/copyright/?name=gcweb-jekyll">OpenStreetMap</a> contributors',
     'minZoom': 2,
     'maxZoom': 19
   }),
-  'Carto': L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/' + '{% if include.c_layer %}{{ include.c_layer }}{% else %}dark_all{% endif %}' + '/{z}/{x}/{y}.png', {
-    'attribution': '&copy; <a href="http://cartodb.com/attributions">CartoDB</a>, &copy; <a href="https://osmlab.github.io/attribution-mark/copyright/?name={{ site.title }}">OpenStreetMap</a> contributors',
+  'Carto': L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/' + 'dark_all' + '/{z}/{x}/{y}.png', {
+    'attribution': '&copy; <a href="http://cartodb.com/attributions">CartoDB</a>, &copy; <a href="https://osmlab.github.io/attribution-mark/copyright/?name=gcweb-jekyll">OpenStreetMap</a> contributors',
     'minZoom': 2,
     'maxZoom': 19
   }),
   'Esri': L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-    'attribution': 'Tiles &copy; Esri, &copy; <a href="https://osmlab.github.io/attribution-mark/copyright/?name={{ site.title }}">OpenStreetMap</a> contributors',
+    'attribution': 'Tiles &copy; Esri, &copy; <a href="https://osmlab.github.io/attribution-mark/copyright/?name=gcweb-jekyll">OpenStreetMap</a> contributors',
     'minZoom': 3,
     'maxZoom': 18
   }),
-  'Gibs': L.tileLayer('https://map1.vis.earthdata.nasa.gov/wmts-webmerc/' + viirs + '/default/' + '{{ page.date| date: "%Y-%m-%d" }}' + '/GoogleMapsCompatible_Level9/{z}/{y}/{x}.jpg', {
-    'attribution': 'Maps &copy; <a href="http://earthdata.nasa.gov">Gibs</a>, &copy; <a href="https://osmlab.github.io/attribution-mark/copyright/?name={{ site.title }}">OpenStreetMap</a> contributors',
+  'Gibs': L.tileLayer('https://map1.vis.earthdata.nasa.gov/wmts-webmerc/' + viirs + '/default/' + '2021-01-11' + '/GoogleMapsCompatible_Level9/{z}/{y}/{x}.jpg', {
+    'attribution': 'Maps &copy; <a href="http://earthdata.nasa.gov">Gibs</a>, &copy; <a href="https://osmlab.github.io/attribution-mark/copyright/?name=gcweb-jekyll">OpenStreetMap</a> contributors',
     'minZoom': 3,
     'maxZoom': 9
   })
@@ -103,24 +111,24 @@ var basemap = {
 
 //  Mike's Code
 
-// var OpenStreetMap = L.tileLayer(mapboxUrl, {id: 'MapID', minZoom: 2, maxZoom: 19, attribution: '&copy; <a href="https://osmlab.github.io/attribution-mark/copyright/?name={{ site.title }}">OpenStreetMap</a> contributors' }),
+// var OpenStreetMap = L.tileLayer(mapboxUrl, {id: 'MapID', minZoom: 2, maxZoom: 19, attribution: '&copy; <a href="https://osmlab.github.io/attribution-mark/copyright/?name=gcweb-jekyll">OpenStreetMap</a> contributors' }),
 
 // var map = L.map('map', {
-//   center: [{{ page.mlatlng[0] }}, {{ page.mlatlng[1] }}],
-//   zoom: [{{ page.zoom }}],
+//   center: [, ],
+//   zoom: [10],
 //   layers: [OpenStreetMap, EconomicRegionLayer]
 // });
 
 
 // var geoJSON = [
 //   {
-//     "type": [{{ page.featureClass }}],
+//     "type": [Sauid],
 //     "features": [
 //       {
 //       "type": "Feature",
 //       "geometry": {
 //         "type": "Point",
-//         "coordinates": [{{ page.mlatlng[0] }}, {{ page.mlatlng[1] }}]
+//         "coordinates": [, ]
 //       }
 //       }
 //     ]
@@ -200,48 +208,28 @@ var basemap = {
 //  Mike's Code
 
 var map = L.map('map', {
-  {% if page.latlng %}
-  'center': [{{ page.latlng[0] }}, {{ page.latlng[1] }}],
-  {% endif %}
-  {% if page.zoom %}
-  'zoom': {{ page.zoom }},
-  {% endif %}
-  {% if include.leaflet_tile %}
-  'layers': [basemap.{{ include.leaflet_tile }}]
-  {% else %}
+  
+  'center': [49.24, -123.11],
+  
+  
+  'zoom': 10,
+  
+  
   'layers': [basemap.OpenStreetMap]
-  {% endif %}
+  
 	
 });
 map.scrollWheelZoom.disable();
 
-{% if page.mlatlng %}
-var marker = L.marker(
-  [{{ page.mlatlng[0] }}, {{ page.mlatlng[1] }}]
-).addTo(map);
-{% endif %}
 
-{% if page.icon %}
-var xmarker = L.icon({
-  iconUrl: '{{ page.icon | prepend: site.baseurl }}',
-  iconRetinaUrl: '{{ page.icon | prepend: site.baseurl }}',
-  iconSize: [37, 50],
-  iconAnchor: [18.5, 50],
-  popupAnchor: [0, -51]
-});
 
-var marker = L.marker([{{ page.mlatlng[0] }}, {{ page.mlatlng[1] }}], {
-  icon: {{ page.icon }}
-}).addTo(map);
-{% endif %}
 
-{% if page.mpop or page.icon %}
-marker.bindPopup("{{ page.mpop }}").openPopup();
-{% endif %}
 
-{% if page.layer %}
+
+
+
 var layer_obj;
-fetch( "{{ site.baseurl }}{{page.layer}}" ).then(( resp ) => {
+fetch( "/assets/data/afm7p2_lrdmf_recovery_time_sauid.geojson" ).then(( resp ) => {
     return resp.json();
 }).then(( data ) => {
     layer_obj = data;
@@ -250,11 +238,11 @@ fetch( "{{ site.baseurl }}{{page.layer}}" ).then(( resp ) => {
     console.log( err );
     _addGeoJSONObjToMap( layer_obj, map );
 });
-{% endif %}
 
-// {% if page.layer %}
+
+// 
 // var layer_obj;
-// fetch( "{{ site.baseurl }}{{page.damageState.layer}}" ).then(( resp ) => {
+// fetch( "" ).then(( resp ) => {
 //     return resp.json();
 // }).then(( data ) => {
 //     layer_obj = data;
@@ -263,7 +251,7 @@ fetch( "{{ site.baseurl }}{{page.layer}}" ).then(( resp ) => {
 //     console.log( err );
 //     _addGeoJSONObjToMap( layer_obj, map );
 // });
-// {% endif %}
+// 
 
 function _onEachFeature( feature, layer ) {
     var potentialPopup = ""
@@ -285,9 +273,7 @@ function _addGeoJSONObjToMap( leafletItem, map ){
       style: featureStyle
   } );
   geojson.addTo( map );
-  {% if !page.mlatlng %}
-  map.fitBounds(geojson.getBounds());
-  {% endif %}
+  
 }
 
 function getColor(d) {
@@ -303,7 +289,7 @@ function getColor(d) {
 
 function featureStyle(feature) {
     return {
-        fillColor: getColor(feature.properties.{{page.featureClass}}),
+        fillColor: getColor(feature.properties.Sauid),
         weight: 0.5,
         opacity: 1,
         color: 'white',
@@ -345,5 +331,16 @@ legend.onAdd = function (map) {
 
 legend.addTo(map);
 </script>
-{% endif %}
 
+<p>–&gt;</p>
+
+<h2 id="download-link"><a href="/assets/data/afm7p2_lrdmf_recovery_time_sauid.geojson">Download Link</a><br /></h2>
+<p><a href="https://creativecommons.org/licenses/by/4.0/">License</a></p>
+<h4>Project Lead</h4>
+<p>Hastings, Nicky</p>
+<ul>
+<li>Phone:+01-604-666-3955</li>
+<li>Fax:+01-604-666-1124</li>
+<li>Email:nicky.hastings@canada.ca</li>
+</ul>
+:ET
