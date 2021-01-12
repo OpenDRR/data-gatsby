@@ -163,11 +163,7 @@
       var cls = key.split("_")[0].toLowerCase();
       console.log(cls);
       string +=
-        '<div class="item col-md-3 small"><span class="prop">' +
-        key +
-        ': </span><span class="val">' +
-        props[key] +
-        '</span></div>';
+        '<div class="item col-md-3 small"><span class="prop ' + cls + '">' + key + '</span><span class="val pull-right">' + props[key] + '</span></div>';
     }
       $( '#sidebar' ).html( string );
     });
@@ -298,7 +294,9 @@
   });
 </script>
 <div id="map" class="leafmap" style="width:100%;height:500px;"></div>
-<div id="sidebar" class="row"></div>
+<div class="row">
+ <div id="sidebar"></div>
+</div>
  <div class="pagedetails">
 	<div class="row">
 		<div class="col-sm-6 col-md-5 col-lg-4">
