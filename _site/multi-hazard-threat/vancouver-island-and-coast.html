@@ -85,8 +85,8 @@
    <li>
       <span class="favicon-download-alt">
           <a
-              href="/"
-              download="/assets/data/afm7p2_lrdmf_casualties_sauid.geojson"
+              href="/assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg"
+              download="/assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg"
               >Download</a
           >
       </span>
@@ -259,7 +259,7 @@ var map = L.map('map', {
 });
 map.scrollWheelZoom.disable();
 var layer_obj;
-fetch( "/assets/data/afm7p2_lrdmf_casualties_sauid.geojson" ).then(( resp ) => {
+fetch( "/assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg" ).then(( resp ) => {
     return resp.json();
 }).then(( data ) => {
     layer_obj = data;
