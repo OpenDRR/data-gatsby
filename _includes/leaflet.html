@@ -84,10 +84,13 @@
       if ( ignore.includes( key ) ) { 
         continue;
       }
+
+      var cls = key.split("_")[0].toLowerCase();
+      console.log(cls);
       string +=
-        '<div class="item"><span class="label">' +
+        '<div class="item col-md-3 small"><span class="prop">' +
         key +
-        ': </span><span class="value">' +
+        ': </span><span class="val">' +
         props[key] +
         '</span></div>';
     }
@@ -180,35 +183,35 @@
 
     function onEachFeature( feature, layer ) {
 
-      var ignore = [
-        'fid',
-        'Sauid',
-        'pruid',
-        'prname',
-        'eruid',
-        'ername',
-        'cduid',
-        'cdname',
-        'csduid',
-        'csdname',
-        'SauidLon',
-        'SauidLat'
-      ];
+      // var ignore = [
+      //   'fid',
+      //   'Sauid',
+      //   'pruid',
+      //   'prname',
+      //   'eruid',
+      //   'ername',
+      //   'cduid',
+      //   'cdname',
+      //   'csduid',
+      //   'csdname',
+      //   'SauidLon',
+      //   'SauidLat'
+      // ];
 
-      let string = '';
-      for ( const key in feature.properties ) {
-        if ( ignore.includes( key ) ) { 
-          continue;
-        }
-        string +=
-          '<div class="item"><span class="label">' +
-          key +
-          ': </span><span class="value">' +
-          feature.properties[key] +
-          '</span></div>';
-      }
+      // let string = '';
+      // for ( const key in feature.properties ) {
+      //   if ( ignore.includes( key ) ) { 
+      //     continue;
+      //   }
+      //   string +=
+      //     '<div class="item"><span class="label">' +
+      //     key +
+      //     ': </span><span class="value">' +
+      //     feature.properties[key] +
+      //     '</span></div>';
+      // }
 
-      layer.bindPopup( string );
+      // layer.bindPopup( string );
       layer.on({
           mouseover: highlightFeature,
           mouseout: resetHighlight,
@@ -259,7 +262,8 @@
 
 </script>
 
-<div id="map" class="leafmap" style="width: 100%;height:500px;"></div>
+<div id="map" class="leafmap" style="width:100%;height:500px;"></div>
+<div id="sidebar" class="row"></div>
 
 {% endif %}
 
