@@ -5,7 +5,7 @@
     <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW) wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
    <title>Vancouver Island and Coast</title>
    <meta content="width=device-width, initial-scale=1" name="viewport">
-   <meta name="description" content=" " />
+   <meta name="description" content="Supporting text explaining the economic impact of the dataset" />
       <link href="https://wet-boew.github.io/themes-dist/GCWeb/assets/favicon.ico" rel="icon" type="image/x-icon" />
   <link rel="stylesheet" href="https://wet-boew.github.io/themes-dist/GCWeb/css/theme.css" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
@@ -27,7 +27,7 @@
                   "url": "http://www.canada.ca/"
                }
             },
-            "description": " "
+            "description": "Supporting text explaining the economic impact of the dataset"
         }
     </script>
  </head>
@@ -48,7 +48,7 @@
 			<section id="wb-lng" class="text-right">
 				<h2 class="wb-inv">Language selection</h2>
 				<ul class="list-inline margin-bottom-none">
-					<li><a lang="fr" hreflang="fr" href="/fr/.html">Français</a></li>
+					<li><a lang="fr" hreflang="fr" href="/fr/index.html">Français</a></li>
 				</ul>
 			</section>
 			<div class="row">
@@ -80,176 +80,223 @@
     <!-- Static header ends -->
    <main property="mainContentOfPage" class="container
     " typeof="WebPageElement">
-     <h1 property="name" id="wb-cont"></h1>
-     <style>
-  .map-grid {
-    display: grid;
-    grid-template-columns: 9fr 3fr;
-  }
-  .heading {
-    border-right:1px solid rgba(0,0,0,0.25);
-  }
-  .legend {
-    line-height: 18px;
-    color: #555;
-    background: white;
-    background: rgba(255,255,255,0.8);
-    box-shadow: 0 0 15px rgba(0,0,0,0.2);
-    border-radius: 5px;
-    padding: 6px 8px;
-  }
-  .legend i {
-      width: 18px;
-      height: 18px;
-      float: left;
-      margin-right: 8px;
-      opacity: 0.7;
-  }
-</style>
-<script>
-//   
-// <!--<div class="map-grid"> -->
-//  <div id="map" class="leafmap" style="width: 100%;height:500px;"></div>
-//   <!--<div class="heading">
-//    <h2>Layers</h2>
-//  </div>-->
-// <!--</div>-->
-//   <!--<div id="custom-map-controls" class="custom-map-controls"></div>-->
-// <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
-<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script> -->
-<script>
-// L.Icon.Default.imagePath = 'images/carto/';
-var viirs = 'VIIRS_SNPP_CorrectedReflectance_TrueColor';
-// var modis = 'MODIS_Terra_CorrectedReflectance_TrueColor';
-var basemap = {
-  'OpenStreetMap': L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    'attribution': '&copy; <a href="https://osmlab.github.io/attribution-mark/copyright/?name=gcweb-jekyll">OpenStreetMap</a> contributors',
-    'minZoom': 2,
-    'maxZoom': 19
-  }),
-  'Thunderforest': L.tileLayer('https://{s}.tile.thunderforest.com/' + 'outdoors' + '/{z}/{x}/{y}.png', {
-    'attribution': 'Maps &copy; <a href="http://www.thunderforest.com/">Thunderforest</a>, &copy; <a href="https://osmlab.github.io/attribution-mark/copyright/?name=gcweb-jekyll">OpenStreetMap</a> contributors',
-    'minZoom': 2,
-    'maxZoom': 19
-  }),
-  'Carto': L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/' + 'dark_all' + '/{z}/{x}/{y}.png', {
-    'attribution': '&copy; <a href="http://cartodb.com/attributions">CartoDB</a>, &copy; <a href="https://osmlab.github.io/attribution-mark/copyright/?name=gcweb-jekyll">OpenStreetMap</a> contributors',
-    'minZoom': 2,
-    'maxZoom': 19
-  }),
-  'Esri': L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-    'attribution': 'Tiles &copy; Esri, &copy; <a href="https://osmlab.github.io/attribution-mark/copyright/?name=gcweb-jekyll">OpenStreetMap</a> contributors',
-    'minZoom': 3,
-    'maxZoom': 18
-  }),
-  'Gibs': L.tileLayer('https://map1.vis.earthdata.nasa.gov/wmts-webmerc/' + viirs + '/default/' + '' + '/GoogleMapsCompatible_Level9/{z}/{y}/{x}.jpg', {
-    'attribution': 'Maps &copy; <a href="http://earthdata.nasa.gov">Gibs</a>, &copy; <a href="https://osmlab.github.io/attribution-mark/copyright/?name=gcweb-jekyll">OpenStreetMap</a> contributors',
-    'minZoom': 3,
-    'maxZoom': 9
-  })
-};
-var map = L.map('map', {
-  'center': [, ],
-  'zoom': {{page.zoom}},
-  'layers': [basemap.OpenStreetMap]
-});
-map.scrollWheelZoom.disable();
-var layer_obj;
-fetch( "{{page.layer}}" ).then(( resp ) => {
-    return resp.json();
-}).then(( data ) => {
-    layer_obj = data;
-    _addGeoJSONObjToMap( layer_obj, map );
-}).catch(( err ) => {
-    console.log( err );
-    _addGeoJSONObjToMap( layer_obj, map );
-});
-// 
-// var layer_obj;
-// fetch( "" ).then(( resp ) => {
-//     return resp.json();
-// }).then(( data ) => {
-//     layer_obj = data;
-//     _addGeoJSONObjToMap( layer_obj, map );
-// }).catch(( err ) => {
-//     console.log( err );
-//     _addGeoJSONObjToMap( layer_obj, map );
-// });
-// 
-function _onEachFeature( feature, layer ) {
-    var potentialPopup = ""
-    if ( feature.properties && feature.properties.popupContent ) {
-        potentialPopup += feature.properties.popupContent;
-    }
-    if ( feature.properties && feature.properties.href ) {
-        potentialPopup += 
-            '<a href="' + feature.properties.href + '">' + 
-                '<img src="' + newWindowImgSrcBase64 + '"></img></a>';}
-    if( potentialPopup ){
-        layer.bindPopup(potentialPopup );
-    }
-}
-function _addGeoJSONObjToMap( leafletItem, map ){
-  var geojson = L.geoJSON( leafletItem, { 
-      onEachFeature: _onEachFeature,
-      style: featureStyle
-  } );
-  geojson.addTo( map );
-}
-function getColor(d) {
-    return d > 1000 ? '#800026' :
-           d > 500  ? '#BD0026' :
-           d > 200  ? '#E31A1C' :
-           d > 100  ? '#FC4E2A' :
-           d > 50   ? '#FD8D3C' :
-           d > 20   ? '#FEB24C' :
-           d > 10   ? '#FED976' :
-                      '#FFEDA0';
-}
-function featureStyle(feature) {
-    return {
-        fillColor: getColor(feature.properties.),
-        weight: 0.5,
-        opacity: 1,
-        color: 'white',
-        dashArray: '0',
-        fillOpacity: 0.5
-    };
-}
-// var customMapControls = L.control({position: 'right'});
-// customMapControls.onAdd = function (customMapControls) {
-// return div;
-// };
-// customMapControlsaddTo('custom-map-controls');
-var legend = L.control({position: 'bottomright'});
-legend.onAdd = function (map) {
-    var div = L.DomUtil.create('div', 'info legend'),
-        grades = [0, 10, 20, 50, 100, 200, 500, 1000],
-        labels = [];
-    // loop through our density intervals and generate a label with a colored square for each interval
-    for (var i = 0; i < grades.length; i++) {
-        div.innerHTML +=
-            '<i style="background:' + getColor(grades[i] + 1) + '"></i> ' +
-            grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
-    }
-    return div;
-};
-legend.addTo(map);
-</script>
-</script>
-<section>
+     <section>
    <h2>Multi Hazard Threat — Cyclone</h2>
    <li>
       <span class="favicon-download-alt">
           <a
-              href="/"
-              download="/assets/data/afm7p2_lrdmf_casualties_sauid.geojson"
+              href="/assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg"
+              download="/assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg"
               >Download</a
           >
       </span>
  </li>
- <div id="map" class="leafmap" style="width: 100%;height:500px;"></div>
 </section>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+  crossorigin="" />
+<link rel="stylesheet" href="/assets/css/app.css" />
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+  integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+  crossorigin=""></script>
+<script src="https://code.jquery.com/jquery-1.12.2.min.js"
+  integrity="sha256-lZFHibXzMHo3GGeehn1hudTAP3Sc0uKXBXAzHX1sjtk=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@ngageoint/leaflet-geopackage@3.0.3/dist/leaflet-geopackage.min.js"></script>
+<!-- <script src="/assets/js/indicators.js"></script> -->
+<script>
+  $( document ).ready(function() {
+    var tiles = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors, Points &copy 2012 LINZ'
+    });
+    var map = L.map( 'map', { layers: [tiles] } ),
+      filter = null,
+      indicator = null, //"E_LandUse",
+      gpkg;
+    var pane = map.createPane( 'fixed', document.getElementById( 'map' ) );
+    map.setView( [65, -106], 3 );
+    L.Layer.include({
+      getProps: function () {
+        var feature = this.feature = this.feature || {}; // Initialize the feature, if missing.
+        feature.type = 'Feature';
+        feature.properties = feature.properties || {}; // Initialize the properties, if missing.
+        return feature.properties;
+      }
+    });
+    if ( gpkg ) { 
+      map.removeLayer( gpkg );
+    }
+    var geoPackageUrl = '/assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg';
+    gpkg = L.geoPackageFeatureLayer( [], {
+      geoPackageUrl: geoPackageUrl,
+      layerName: 'sql_statement',
+      filter: function ( feature, layer ) {
+        if ( !filter ) {
+          return true;
+        }
+        if ( feature.properties[ filter.property ] == filter.value ) { return  'true' }
+      },
+      style: style
+      // onEachFeature: onEachFeature
+    });
+    gpkg.on( 'click', function ( e ) {
+      var source = e.sourceTarget;
+      var props = source.getProps();
+      var ignore = [
+      'fid',
+      'Sauid',
+      'pruid',
+      'prname',
+      'eruid',
+      'ername',
+      'cduid',
+      'cdname',
+      'csduid',
+      'csdname',
+      'SauidLon',
+      'SauidLat'
+    ];
+    let string = '';
+    for ( const key in props ) {
+      if ( ignore.includes( key ) ) { 
+        continue;
+      }
+      var cls = key.split("_")[0].toLowerCase();
+      console.log(cls);
+      string +=
+        '<div class="item col-md-3 small"><span class="prop ' + cls + '">' + key + '</span><span class="val pull-right">' + props[key] + '</span></div>';
+    }
+      $( '#sidebar' ).html( string );
+    });
+    gpkg.on( 'add', function( evt ) { 
+      zoomToExtent();
+    }); 
+    gpkg.addTo( map );
+    function zoomToExtent( layer ) {
+      if ( !gpkg.geoPackageLoaded ) {
+        setTimeout( zoomToExtent, 100 );
+      } else {
+        map.fitBounds( gpkg.getBounds() );
+      }
+    }
+    function getColor( d, indicator ) {
+      if ( indicator ) {
+        var color = indicators[ indicator ].style[ d ].color;
+        return color ? color : "#999";
+    } else {
+        return d > 1000 ? '#800026' :
+          d > 500  ? '#BD0026' :
+          d > 200  ? '#E31A1C' :
+          d > 100  ? '#FC4E2A' :
+          d > 50   ? '#FD8D3C' :
+          d > 20   ? '#FEB24C' :
+          d > 10   ? '#FED976' :
+                    '#FFEDA0';
+      }
+    }
+    function style( feature ) {
+      if ( indicator ) {
+        return {
+            fillColor: getColor( feature.properties[ indicator ], indicator ),
+            weight: 1,
+            opacity: 1,
+            color: 'white',
+            dashArray: '0',
+            fillOpacity: 0.7
+        };
+      } else {
+        return {
+            fillColor: getColor( feature.properties[4] ),
+            weight: 1,
+            opacity: 1,
+            color: 'white',
+            dashArray: '0',
+            fillOpacity: 0.7
+        };
+      }
+    }
+    function highlightFeature(e) {
+      var layer = e.target;
+      layer.setStyle({
+          fillColor: 'red',
+          fillOpacity: 0.7
+      });
+      if ( !L.Browser.ie && !L.Browser.opera && !L.Browser.edge ) {
+          layer.bringToFront();
+      }
+    }
+    function resetHighlight(e) {
+      gpkg.resetStyle(e.target);
+    }
+    function zoomToFeature(e) {
+      map.fitBounds( e.target.getBounds() );
+    }
+    function onEachFeature( feature, layer ) {
+      // var ignore = [
+      //   'fid',
+      //   'Sauid',
+      //   'pruid',
+      //   'prname',
+      //   'eruid',
+      //   'ername',
+      //   'cduid',
+      //   'cdname',
+      //   'csduid',
+      //   'csdname',
+      //   'SauidLon',
+      //   'SauidLat'
+      // ];
+      // let string = '';
+      // for ( const key in feature.properties ) {
+      //   if ( ignore.includes( key ) ) { 
+      //     continue;
+      //   }
+      //   string +=
+      //     '<div class="item"><span class="label">' +
+      //     key +
+      //     ': </span><span class="value">' +
+      //     feature.properties[key] +
+      //     '</span></div>';
+      // }
+      // layer.bindPopup( string );
+      layer.on({
+          mouseover: highlightFeature,
+          mouseout: resetHighlight,
+          // click: zoomToFeature
+      });
+    }
+    var legend = L.control( { position: 'bottomright' } );
+    legend.onAdd = function ( map ) {
+      if ( indicator ) {
+        var div = L.DomUtil.create('div', 'info legend');
+        div.innerHTML += '<p><center><strong>' + indicators[ indicator ].title['en'] + '</strong></center></p>';
+        // loop throught the indicator specification in indicators.js
+        var indicatorStyle = indicators[ indicator ].style;
+        for (var key in indicatorStyle) {
+          if (indicatorStyle.hasOwnProperty(key)) {
+            div.innerHTML +=
+              '<i style="background:' + indicatorStyle[key].color + '"></i> ' + indicatorStyle[key].label + '<br>';
+            // console.log(key + " -> " + indicatorStyle[key]);
+          }
+        }
+        // var div = L.DomUtil.create('div', 'info legend'),
+        //     grades = [0, 10, 20, 50, 100, 200, 500, 1000],
+        //     labels = [];
+        // // loop through our density intervals and generate a label with a colored square for each interval
+        // for (var i = 0; i < grades.length; i++) {
+        //     div.innerHTML +=
+        //         '<i style="background:' + getColor(grades[i] + 1) + '"></i> ' +
+        //         grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
+        // }
+        return div;
+      }
+    };
+    legend.addTo( map );
+  });
+</script>
+<div id="map" class="leafmap" style="width:100%;height:500px;"></div>
+<div class="row">
+ <div id="sidebar"></div>
+</div>
  <div class="pagedetails">
 	<div class="row">
 		<div class="col-sm-6 col-md-5 col-lg-4">
@@ -319,7 +366,7 @@ legend.addTo(map);
 	</div>
 	<dl id="wb-dtmd">
 		<dt>Date modified:&#32;</dt>
-		<dd><time property="dateModified">2021-01-11</time></dd>
+		<dd><time property="dateModified">2020-09-18</time></dd>
 	</dl>
 </div>
 </main>
