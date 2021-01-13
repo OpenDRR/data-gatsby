@@ -1,9 +1,5 @@
-
 vendor/*
 .jekyll-cache
 _site/feed.xml
-_site/feed.xml
-_site/feed.xml
 _pages/en/.DS_Store
-.DS_Store
 .DS_Store

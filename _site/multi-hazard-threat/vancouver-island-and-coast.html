@@ -96,6 +96,7 @@
   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
   crossorigin="" />
 <link rel="stylesheet" href="/assets/css/app.css" />
+<link rel="stylesheet" href="/assets/css/geostats.css" />
 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
   crossorigin=""></script>
@@ -103,6 +104,7 @@
   integrity="sha256-lZFHibXzMHo3GGeehn1hudTAP3Sc0uKXBXAzHX1sjtk=" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/@ngageoint/leaflet-geopackage@3.0.3/dist/leaflet-geopackage.min.js"></script>
 <!-- <script src="/assets/js/indicators.js"></script> -->
+<script type="text/javascript" src="/assets/js/geostats.min.js"></script>
 <script>
   $( document ).ready(function() {
     var tiles = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
@@ -134,8 +136,8 @@
         }
         if ( feature.properties[ filter.property ] == filter.value ) { return  'true' }
       },
-      style: style
-      // onEachFeature: onEachFeature
+      style: style,
+      onEachFeature: onEachFeature
     });
     gpkg.on( 'click', function ( e ) {
       var source = e.sourceTarget;
@@ -160,7 +162,6 @@
         continue;
       }
       var cls = key.split("_")[0].toLowerCase();
-      console.log(cls);
       string +=
         '<div class="item col-md-3 small"><span class="prop ' + cls + '">' + key + '</span><span class="val pull-right">' + props[key] + '</span></div>';
     }
@@ -255,7 +256,7 @@
       layer.on({
           mouseover: highlightFeature,
           mouseout: resetHighlight,
-          // click: zoomToFeature
+          click: zoomToFeature
       });
     }
     var legend = L.control( { position: 'bottomright' } );
