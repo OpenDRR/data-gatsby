@@ -16,6 +16,7 @@
     neighbourhoods: "51,295"
     lastUpdated: 2020-12-13
   threatType: yes
+  
   multiHazardThreat:
     read: yes
     cyclone:
@@ -26,7 +27,7 @@
       leaflet: true
       latlng: [49.24, -123.11]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     earthquake:
       name: Earthquake
@@ -35,7 +36,7 @@
       leaflet: true
       latlng: [49.24, -123.11]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     flood:
       name: Flood
@@ -44,7 +45,7 @@
       leaflet: true
       latlng: [49.24, -123.11]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     landslide:
       name: Landslide
@@ -53,7 +54,7 @@
       leaflet: true
       latlng: [49.24, -123.11]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     tsunami:
       name: Tsunami
@@ -62,7 +63,7 @@
       leaflet: true
       latlng: [49.24, -123.11]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     wildfire:
       name: Wildfire
@@ -71,7 +72,7 @@
       leaflet: true
       latlng: [49.24, -123.11]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
 
   physicalExposure:
@@ -83,7 +84,7 @@
       leaflet: true
       latlng: [49.24, -123.11]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     assets:
       name: Assets
@@ -92,7 +93,7 @@
       leaflet: true
       latlng: [49.24, -123.11]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     buildings:
       name: Buildings
@@ -101,7 +102,7 @@
       leaflet: true
       latlng: [49.24, -123.11]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     people:
       name: People
@@ -110,7 +111,7 @@
       leaflet: true
       latlng: [49.24, -123.11]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     settledArea:
       name: Settled Area
@@ -119,7 +120,7 @@
       leaflet: true
       latlng: [49.24, -123.11]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
 
   riskDynamics:
@@ -131,7 +132,7 @@
       leaflet: true
       latlng: [49.24, -123.11]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     landUsageChange:
       name: Land Usage Change
@@ -140,7 +141,7 @@
       leaflet: true
       latlng: [49.24, -123.11]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     populationGrowth:
       name: Population Growth
@@ -149,7 +150,7 @@
       leaflet: true
       latlng: [49.24, -123.11]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
 
   socialFabric:
@@ -161,7 +162,7 @@
       leaflet: true
       latlng: [49.24, -123.11]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     financialAgency:
       name: Financial Agency
@@ -170,7 +171,7 @@
       leaflet: true
       latlng: [49.24, -123.11]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     housingConditions:
       name: Housing Conditions
@@ -179,7 +180,7 @@
       leaflet: true
       latlng: [49.24, -123.11]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     individualAutonomy:
       name: Individual Autonomy
@@ -188,7 +189,7 @@
       leaflet: true
       latlng: [49.24, -123.11]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
 
 - region: Lower Mainland Southwest
@@ -219,7 +220,7 @@
       leaflet: true
       latlng: [49.05, -122.32]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     earthquake:
       name: Earthquake
@@ -228,7 +229,7 @@
       leaflet: true
       latlng: [49.05, -122.32]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     flood:
       name: Flood
@@ -237,7 +238,7 @@
       leaflet: true
       latlng: [49.05, -122.32]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     landslide:
       name: Landslide
@@ -246,7 +247,7 @@
       leaflet: true
       latlng: [49.05, -122.32]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     tsunami:
       name: Tsunami
@@ -255,7 +256,7 @@
       leaflet: true
       latlng: [49.05, -122.32]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     wildfire:
       name: Wildfire
@@ -264,7 +265,7 @@
       leaflet: true
       latlng: [49.05, -122.32]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
 
   physicalExposure:
@@ -276,7 +277,7 @@
       leaflet: true
       latlng: [49.05, -122.32]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     assets:
       name: Assets
@@ -285,7 +286,7 @@
       leaflet: true
       latlng: [49.05, -122.32]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     buildings:
       name: Buildings
@@ -294,7 +295,7 @@
       leaflet: true
       latlng: [49.05, -122.32]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     people:
       name: People
@@ -303,7 +304,7 @@
       leaflet: true
       latlng: [49.05, -122.32]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     settledArea:
       name: Settled Area
@@ -312,7 +313,7 @@
       leaflet: true
       latlng: [49.05, -122.32]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
 
   riskDynamics:
@@ -324,7 +325,7 @@
       leaflet: true
       latlng: [49.05, -122.32]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     landUsageChange:
       name: Land Usage Change
@@ -333,7 +334,7 @@
       leaflet: true
       latlng: [49.05, -122.32]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     populationGrowth:
       name: Population Growth
@@ -342,7 +343,7 @@
       leaflet: true
       latlng: [49.05, -122.32]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
 
   socialFabric:
@@ -354,7 +355,7 @@
       leaflet: true
       latlng: [49.05, -122.32]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     financialAgency:
       name: Financial Agency
@@ -363,7 +364,7 @@
       leaflet: true
       latlng: [49.05, -122.32]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     housingConditions:
       name: Housing Conditions
@@ -372,7 +373,7 @@
       leaflet: true
       latlng: [49.05, -122.32]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     individualAutonomy:
       name: Individual Autonomy
@@ -381,7 +382,7 @@
       leaflet: true
       latlng: [49.05, -122.32]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
 
 - region: Thompson Okanagan
@@ -412,7 +413,7 @@
       leaflet: true
       latlng: [49.88, -119.43]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     earthquake:
       name: Earthquake
@@ -421,7 +422,7 @@
       leaflet: true
       latlng: [49.88, -119.43]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     flood:
       name: Flood
@@ -430,7 +431,7 @@
       leaflet: true
       latlng: [49.88, -119.43]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     landslide:
       name: Landslide
@@ -439,7 +440,7 @@
       leaflet: true
       latlng: [49.88, -119.43]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     tsunami:
       name: Tsunami
@@ -448,7 +449,7 @@
       leaflet: true
       latlng: [49.88, -119.43]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     wildfire:
       name: Wildfire
@@ -457,7 +458,7 @@
       leaflet: true
       latlng: [49.88, -119.43]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
 
   physicalExposure:
@@ -469,7 +470,7 @@
       leaflet: true
       latlng: [49.88, -119.43]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     assets:
       name: Assets
@@ -478,7 +479,7 @@
       leaflet: true
       latlng: [49.88, -119.43]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     buildings:
       name: Buildings
@@ -487,7 +488,7 @@
       leaflet: true
       latlng: [49.88, -119.43]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     people:
       name: People
@@ -496,7 +497,7 @@
       leaflet: true
       latlng: [49.88, -119.43]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     settledArea:
       name: Settled Area
@@ -505,7 +506,7 @@
       leaflet: true
       latlng: [49.88, -119.43]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
 
   riskDynamics:
@@ -517,7 +518,7 @@
       leaflet: true
       latlng: [49.88, -119.43]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     landUsageChange:
       name: Land Usage Change
@@ -526,7 +527,7 @@
       leaflet: true
       latlng: [49.88, -119.43]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     populationGrowth:
       name: Population Growth
@@ -535,7 +536,7 @@
       leaflet: true
       latlng: [49.88, -119.43]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
 
   socialFabric:
@@ -547,7 +548,7 @@
       leaflet: true
       latlng: [49.88, -119.43]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     financialAgency:
       name: Financial Agency
@@ -556,7 +557,7 @@
       leaflet: true
       latlng: [49.88, -119.43]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     housingConditions:
       name: Housing Conditions
@@ -565,7 +566,7 @@
       leaflet: true
       latlng: [49.88, -119.43]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     individualAutonomy:
       name: Individual Autonomy
@@ -574,7 +575,7 @@
       leaflet: true
       latlng: [49.88, -119.43]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
 
 - region: Kootenay
@@ -606,7 +607,7 @@
       leaflet: true
       latlng: [49.91, -117.49]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     earthquake:
       name: Earthquake
@@ -615,7 +616,7 @@
       leaflet: true
       latlng: [49.91, -117.49]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     flood:
       name: Flood
@@ -624,7 +625,7 @@
       leaflet: true
       latlng: [49.91, -117.49]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     landslide:
       name: Landslide
@@ -633,7 +634,7 @@
       leaflet: true
       latlng: [49.91, -117.49]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     tsunami:
       name: Tsunami
@@ -642,7 +643,7 @@
       leaflet: true
       latlng: [49.91, -117.49]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     wildfire:
       name: Wildfire
@@ -651,7 +652,7 @@
       leaflet: true
       latlng: [49.91, -117.49]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
 
   physicalExposure:
@@ -663,7 +664,7 @@
       leaflet: true
       latlng: [49.91, -117.49]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     assets:
       name: Assets
@@ -672,7 +673,7 @@
       leaflet: true
       latlng: [49.91, -117.49]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     buildings:
       name: Buildings
@@ -681,7 +682,7 @@
       leaflet: true
       latlng: [49.91, -117.49]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     people:
       name: People
@@ -690,7 +691,7 @@
       leaflet: true
       latlng: [49.91, -117.49]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     settledArea:
       name: Settled Area
@@ -699,7 +700,7 @@
       leaflet: true
       latlng: [49.91, -117.49]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
 
   riskDynamics:
@@ -711,7 +712,7 @@
       leaflet: true
       latlng: [49.91, -117.49]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     landUsageChange:
       name: Land Usage Change
@@ -720,7 +721,7 @@
       leaflet: true
       latlng: [49.91, -117.49]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     populationGrowth:
       name: Population Growth
@@ -729,7 +730,7 @@
       leaflet: true
       latlng: [49.91, -117.49]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
 
   socialFabric:
@@ -741,7 +742,7 @@
       leaflet: true
       latlng: [49.91, -117.49]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     financialAgency:
       name: Financial Agency
@@ -750,7 +751,7 @@
       leaflet: true
       latlng: [49.91, -117.49]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     housingConditions:
       name: Housing Conditions
@@ -759,7 +760,7 @@
       leaflet: true
       latlng: [49.91, -117.49]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     individualAutonomy:
       name: Individual Autonomy
@@ -768,7 +769,7 @@
       leaflet: true
       latlng: [49.91, -117.49]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
 
 - region: Cariboo
@@ -800,7 +801,7 @@
       leaflet: true
       latlng: [52.40, -123.45]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     earthquake:
       name: Earthquake
@@ -809,7 +810,7 @@
       leaflet: true
       latlng: [52.40, -123.45]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     flood:
       name: Flood
@@ -818,7 +819,7 @@
       leaflet: true
       latlng: [52.40, -123.45]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     landslide:
       name: Landslide
@@ -827,7 +828,7 @@
       leaflet: true
       latlng: [52.40, -123.45]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     tsunami:
       name: Tsunami
@@ -836,7 +837,7 @@
       leaflet: true
       latlng: [52.40, -123.45]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     wildfire:
       name: Wildfire
@@ -845,7 +846,7 @@
       leaflet: true
       latlng: [52.40, -123.45]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
 
   physicalExposure:
@@ -857,7 +858,7 @@
       leaflet: true
       latlng: [52.40, -123.45]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     assets:
       name: Assets
@@ -866,7 +867,7 @@
       leaflet: true
       latlng: [52.40, -123.45]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     buildings:
       name: Buildings
@@ -875,7 +876,7 @@
       leaflet: true
       latlng: [52.40, -123.45]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     people:
       name: People
@@ -884,7 +885,7 @@
       leaflet: true
       latlng: [52.40, -123.45]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     settledArea:
       name: Settled Area
@@ -893,7 +894,7 @@
       leaflet: true
       latlng: [52.40, -123.45]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
 
   riskDynamics:
@@ -905,7 +906,7 @@
       leaflet: true
       latlng: [52.40, -123.45]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     landUsageChange:
       name: Land Usage Change
@@ -914,7 +915,7 @@
       leaflet: true
       latlng: [52.40, -123.45]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     populationGrowth:
       name: Population Growth
@@ -923,7 +924,7 @@
       leaflet: true
       latlng: [52.40, -123.45]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
 
   socialFabric:
@@ -935,7 +936,7 @@
       leaflet: true
       latlng: [52.40, -123.45]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     financialAgency:
       name: Financial Agency
@@ -944,7 +945,7 @@
       leaflet: true
       latlng: [52.40, -123.45]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     housingConditions:
       name: Housing Conditions
@@ -953,7 +954,7 @@
       leaflet: true
       latlng: [52.40, -123.45]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     individualAutonomy:
       name: Individual Autonomy
@@ -962,7 +963,7 @@
       leaflet: true
       latlng: [52.40, -123.45]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
 
 - region: North Coast
@@ -993,7 +994,7 @@
       leaflet: true
       latlng: [50.20, -122.15]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
 
     earthquake:
@@ -1003,7 +1004,7 @@
       leaflet: true
       latlng: [50.20, -122.15]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     flood:
       name: Flood
@@ -1012,7 +1013,7 @@
       leaflet: true
       latlng: [50.20, -122.15]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     landslide:
       name: Landslide
@@ -1021,7 +1022,7 @@
       leaflet: true
       latlng: [50.20, -122.15]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     tsunami:
       name: Tsunami
@@ -1030,7 +1031,7 @@
       leaflet: true
       latlng: [50.20, -122.15]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     wildfire:
       name: Wildfire
@@ -1039,7 +1040,7 @@
       leaflet: true
       latlng: [50.20, -122.15]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
 
   physicalExposure:
@@ -1051,7 +1052,7 @@
       leaflet: true
       latlng: [50.20, -122.15]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     assets:
       name: Assets
@@ -1060,7 +1061,7 @@
       leaflet: true
       latlng: [50.20, -122.15]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     buildings:
       name: Buildings
@@ -1069,7 +1070,7 @@
       leaflet: true
       latlng: [50.20, -122.15]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     people:
       name: People
@@ -1078,7 +1079,7 @@
       leaflet: true
       latlng: [50.20, -122.15]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     settledArea:
       name: Settled Area
@@ -1087,7 +1088,7 @@
       leaflet: true
       latlng: [50.20, -122.15]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
 
   riskDynamics:
@@ -1099,7 +1100,7 @@
       leaflet: true
       latlng: [50.20, -122.15]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     landUsageChange:
       name: Land Usage Change
@@ -1108,7 +1109,7 @@
       leaflet: true
       latlng: [50.20, -122.15]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     populationGrowth:
       name: Population Growth
@@ -1117,7 +1118,7 @@
       leaflet: true
       latlng: [50.20, -122.15]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
 
   socialFabric:
@@ -1129,7 +1130,7 @@
       leaflet: true
       latlng: [50.20, -122.15]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     financialAgency:
       name: Financial Agency
@@ -1138,7 +1139,7 @@
       leaflet: true
       latlng: [50.20, -122.15]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     housingConditions:
       name: Housing Conditions
@@ -1147,7 +1148,7 @@
       leaflet: true
       latlng: [50.20, -122.15]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     individualAutonomy:
       name: Individual Autonomy
@@ -1156,7 +1157,7 @@
       leaflet: true
       latlng: [50.20, -122.15]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
 
 - region: Nechako
@@ -1187,7 +1188,7 @@
       leaflet: true
       latlng: [53.91, -122.71]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid     
     earthquake:
       name: Earthquake
@@ -1196,7 +1197,7 @@
       leaflet: true
       latlng: [53.91, -122.71]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     flood:
       name: Flood
@@ -1205,7 +1206,7 @@
       leaflet: true
       latlng: [53.91, -122.71]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     landslide:
       name: Landslide
@@ -1214,7 +1215,7 @@
       leaflet: true
       latlng: [53.91, -122.71]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     tsunami:
       name: Tsunami
@@ -1223,7 +1224,7 @@
       leaflet: true
       latlng: [53.91, -122.71]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     wildfire:
       name: Wildfire
@@ -1232,7 +1233,7 @@
       leaflet: true
       latlng: [53.91, -122.71]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
 
   physicalExposure:
@@ -1244,7 +1245,7 @@
       leaflet: true
       latlng: [53.91, -122.71]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     assets:
       name: Assets
@@ -1253,7 +1254,7 @@
       leaflet: true
       latlng: [53.91, -122.71]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     buildings:
       name: Buildings
@@ -1262,7 +1263,7 @@
       leaflet: true
       latlng: [53.91, -122.71]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     people:
       name: People
@@ -1271,7 +1272,7 @@
       leaflet: true
       latlng: [53.91, -122.71]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     settledArea:
       name: Settled Area
@@ -1280,7 +1281,7 @@
       leaflet: true
       latlng: [53.91, -122.71]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
 
   riskDynamics:
@@ -1292,7 +1293,7 @@
       leaflet: true
       latlng: [53.91, -122.71]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     landUsageChange:
       name: Land Usage Change
@@ -1301,7 +1302,7 @@
       leaflet: true
       latlng: [53.91, -122.71]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     populationGrowth:
       name: Population Growth
@@ -1310,7 +1311,7 @@
       leaflet: true
       latlng: [53.91, -122.71]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
 
   socialFabric:
@@ -1322,7 +1323,7 @@
       leaflet: true
       latlng: [53.91, -122.71]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     financialAgency:
       name: Financial Agency
@@ -1331,7 +1332,7 @@
       leaflet: true
       latlng: [53.91, -122.71]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     housingConditions:
       name: Housing Conditions
@@ -1340,7 +1341,7 @@
       leaflet: true
       latlng: [53.91, -122.71]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     individualAutonomy:
       name: Individual Autonomy
@@ -1349,7 +1350,7 @@
       leaflet: true
       latlng: [53.91, -122.71]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
 
 - region: Northeast
@@ -1372,7 +1373,7 @@
     leaflet: true
     latlng: [58.80, -122.69]
     zoom: 10
-    layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
     featureClass: Sauid
   threatType: yes
   multiHazardThreat:
@@ -1385,7 +1386,7 @@
       leaflet: true
       latlng: [58.80, -122.69]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     earthquake:
       name: Earthquake
@@ -1394,7 +1395,7 @@
       leaflet: true
       latlng: [58.80, -122.69]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     flood:
       name: Flood
@@ -1403,7 +1404,7 @@
       leaflet: true
       latlng: [58.80, -122.69]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     landslide:
       name: Landslide
@@ -1412,7 +1413,7 @@
       leaflet: true
       latlng: [58.80, -122.69]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     tsunami:
       name: Tsunami
@@ -1421,7 +1422,7 @@
       leaflet: true
       latlng: [58.80, -122.69]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     wildfire:
       name: Wildfire
@@ -1430,7 +1431,7 @@
       leaflet: true
       latlng: [58.80, -122.69]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
 
   physicalExposure:
@@ -1442,7 +1443,7 @@
       leaflet: true
       latlng: [58.80, -122.69]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     assets:
       name: Assets
@@ -1451,7 +1452,7 @@
       leaflet: true
       latlng: [58.80, -122.69]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     buildings:
       name: Buildings
@@ -1460,7 +1461,7 @@
       leaflet: true
       latlng: [58.80, -122.69]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     people:
       name: People
@@ -1469,7 +1470,7 @@
       leaflet: true
       latlng: [58.80, -122.69]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     settledArea:
       name: Settled Area
@@ -1478,7 +1479,7 @@
       leaflet: true
       latlng: [58.80, -122.69]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
 
   riskDynamics:
@@ -1490,7 +1491,7 @@
       leaflet: true
       latlng: [58.80, -122.69]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     landUsageChange:
       name: Land Usage Change
@@ -1499,7 +1500,7 @@
       leaflet: true
       latlng: [58.80, -122.69]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     populationGrowth:
       name: Population Growth
@@ -1508,7 +1509,7 @@
       leaflet: true
       latlng: [58.80, -122.69]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
 
   socialFabric:
@@ -1520,7 +1521,7 @@
       leaflet: true
       latlng: [58.80, -122.69]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     financialAgency:
       name: Financial Agency
@@ -1529,7 +1530,7 @@
       leaflet: true
       latlng: [58.80, -122.69]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     housingConditions:
       name: Housing Conditions
@@ -1538,7 +1539,7 @@
       leaflet: true
       latlng: [58.80, -122.69]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
     individualAutonomy:
       name: Individual Autonomy
@@ -1547,7 +1548,7 @@
       leaflet: true
       latlng: [58.80, -122.69]
       zoom: 10
-      layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+      layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
       featureClass: Sauid
 
 
@@ -1556,12 +1557,18 @@
 - multihazardthreat: Vancouver Island and Coast
   region: Vancouver Island and Coast
   read: yes
+  regionSummary:
+    assets: "$274,522M"
+    buildings: "262,018"
+    people: "800,225"
+    neighbourhoods: "51,295"
+    lastUpdated: 2020-12-13
   cyclone:
-    name: Multi Hazard Threat — Cyclone
+    name: Cyclone
     leaflet: true
     latlng: [49.24, -123.11]
     zoom: 10
-    layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
     featureClass: Sauid
   earthquake:
     name: Earthquake
@@ -1569,7 +1576,7 @@
     leaflet: true
     latlng: [49.24, -123.11]
     zoom: 10
-    layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
     featureClass: Sauid
   flood:
     name: Flood
@@ -1577,7 +1584,7 @@
     leaflet: true
     latlng: [49.24, -123.11]
     zoom: 10
-    layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
     featureClass: Sauid
   landslide:
     name: Landslide
@@ -1585,7 +1592,7 @@
     leaflet: true
     latlng: [49.24, -123.11]
     zoom: 10
-    layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
     featureClass: Sauid
   tsunami:
     name: Tsunami
@@ -1594,7 +1601,7 @@
     leaflet: true
     latlng: [49.24, -123.11]
     zoom: 10
-    layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
     featureClass: Sauid
   wildfire:
     name: Wildfire
@@ -1603,7 +1610,422 @@
     leaflet: true
     latlng: [49.24, -123.11]
     zoom: 10
-    layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
+    featureClass: Sauid
+
+
+- multihazardthreat: Lower Mainland Southwest
+  region: Lower Mainland Southwest
+  read: yes
+  regionSummary:
+    assets: "$784,129M"
+    buildings: "562,095"
+    people: "2,831,708"
+    neighbourhoods: "122,512"
+    lastUpdated: 2020-12-13
+  cyclone:
+    name: Multi Hazard Threat — Cyclone
+    leaflet: true
+    latlng: [49.05, -122.32]
+    zoom: 10
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
+    featureClass: Sauid
+  earthquake:
+    name: Earthquake
+    lastUpdated: 2020-12-13
+    leaflet: true
+    latlng: [49.05, -122.32]
+    zoom: 10
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
+    featureClass: Sauid
+  flood:
+    name: Flood
+    lastUpdated: 2020-12-13
+    leaflet: true
+    latlng: [49.05, -122.32]
+    zoom: 10
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
+    featureClass: Sauid
+  landslide:
+    name: Landslide
+    lastUpdated: 2020-12-13
+    leaflet: true
+    latlng: [49.05, -122.32]
+    zoom: 10
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
+    featureClass: Sauid
+  tsunami:
+    name: Tsunami
+    datasets: 4
+    lastUpdated: 2020-12-13
+    leaflet: true
+    latlng: [49.05, -122.32]
+    zoom: 10
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
+    featureClass: Sauid
+  wildfire:
+    name: Wildfire
+    datasets: 4
+    lastUpdated: 2020-12-13
+    leaflet: true
+    latlng: [49.05, -122.32]
+    zoom: 10
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
+    featureClass: Sauid
+
+- multihazardthreat: Thompson Okanagan
+  region: Thompson Okanagan
+  read: yes
+  regionSummary:
+    assets: "$182,430M"
+    buildings: "186,339"
+    people: "544,783"
+    neighbourhoods: "43,330"
+    lastUpdated: 2020-12-13
+  cyclone:
+    name: Multi Hazard Threat — Cyclone
+    leaflet: true
+    latlng: [49.51, 120.12]
+    zoom: 10
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
+    featureClass: Sauid
+  earthquake:
+    name: Earthquake
+    lastUpdated: 2020-12-13
+    leaflet: true
+    latlng: [49.51, 120.12]
+    zoom: 10
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
+    featureClass: Sauid
+  flood:
+    name: Flood
+    lastUpdated: 2020-12-13
+    leaflet: true
+    latlng: [49.51, 120.12]
+    zoom: 10
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
+    featureClass: Sauid
+  landslide:
+    name: Landslide
+    lastUpdated: 2020-12-13
+    leaflet: true
+    latlng: [49.51, 120.12]
+    zoom: 10
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
+    featureClass: Sauid
+  tsunami:
+    name: Tsunami
+    datasets: 4
+    lastUpdated: 2020-12-13
+    leaflet: true
+    latlng: [49.51, 120.12]
+    zoom: 10
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
+    featureClass: Sauid
+  wildfire:
+    name: Wildfire
+    datasets: 4
+    lastUpdated: 2020-12-13
+    leaflet: true
+    latlng: [49.88, -119.43]
+    zoom: 10
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
+    featureClass: Sauid
+
+- multihazardthreat: Kootenay
+  region: Kootenay
+  read: yes
+  regionSummary:
+    assets: "$53,219M"
+    buildings: "63,941"
+    people: "151,852"
+    neighbourhoods: "17,349"
+    lastUpdated: 2020-12-13
+  cyclone:
+    name: Multi Hazard Threat — Cyclone
+    leaflet: true
+    latlng: [49.24, -123.11]
+    zoom: 10
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
+    featureClass: Sauid
+  earthquake:
+    name: Earthquake
+    lastUpdated: 2020-12-13
+    leaflet: true
+    latlng: [49.24, -123.11]
+    zoom: 10
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
+    featureClass: Sauid
+  flood:
+    name: Flood
+    lastUpdated: 2020-12-13
+    leaflet: true
+    latlng: [49.24, -123.11]
+    zoom: 10
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
+    featureClass: Sauid
+  landslide:
+    name: Landslide
+    lastUpdated: 2020-12-13
+    leaflet: true
+    latlng: [49.24, -123.11]
+    zoom: 10
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
+    featureClass: Sauid
+  tsunami:
+    name: Tsunami
+    datasets: 4
+    lastUpdated: 2020-12-13
+    leaflet: true
+    latlng: [49.24, -123.11]
+    zoom: 10
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
+    featureClass: Sauid
+  wildfire:
+    name: Wildfire
+    datasets: 4
+    lastUpdated: 2020-12-13
+    leaflet: true
+    latlng: [49.24, -123.11]
+    zoom: 10
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
+    featureClass: Sauid
+
+
+- multihazardthreat: Cariboo
+  region: Cariboo
+  read: yes
+  regionSummary:
+    assets: "$61,967M"
+    buildings: "60,317"
+    people: "156,268"
+    neighbourhoods: "18,332"
+    lastUpdated: 2020-12-13
+  cyclone:
+    name: Multi Hazard Threat — Cyclone
+    leaflet: true
+    latlng: [49.24, -123.11]
+    zoom: 10
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
+    featureClass: Sauid
+  earthquake:
+    name: Earthquake
+    lastUpdated: 2020-12-13
+    leaflet: true
+    latlng: [49.24, -123.11]
+    zoom: 10
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
+    featureClass: Sauid
+  flood:
+    name: Flood
+    lastUpdated: 2020-12-13
+    leaflet: true
+    latlng: [49.24, -123.11]
+    zoom: 10
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
+    featureClass: Sauid
+  landslide:
+    name: Landslide
+    lastUpdated: 2020-12-13
+    leaflet: true
+    latlng: [49.24, -123.11]
+    zoom: 10
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
+    featureClass: Sauid
+  tsunami:
+    name: Tsunami
+    datasets: 4
+    lastUpdated: 2020-12-13
+    leaflet: true
+    latlng: [49.24, -123.11]
+    zoom: 10
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
+    featureClass: Sauid
+  wildfire:
+    name: Wildfire
+    datasets: 4
+    lastUpdated: 2020-12-13
+    leaflet: true
+    latlng: [49.24, -123.11]
+    zoom: 10
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
+    featureClass: Sauid
+
+- multihazardthreat: North Coast
+  region: North Coast
+  read: yes
+  regionSummary:
+    assets: "$18,246M"
+    buildings: "20,032"
+    people: "55,174"
+    neighbourhoods: "4,995"
+    lastUpdated: 2021-01-14
+  cyclone:
+    name: Multi Hazard Threat — Cyclone
+    leaflet: true
+    latlng: [49.24, -123.11]
+    zoom: 10
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
+    featureClass: Sauid
+  earthquake:
+    name: Earthquake
+    lastUpdated: 2020-12-13
+    leaflet: true
+    latlng: [49.24, -123.11]
+    zoom: 10
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
+    featureClass: Sauid
+  flood:
+    name: Flood
+    lastUpdated: 2020-12-13
+    leaflet: true
+    latlng: [49.24, -123.11]
+    zoom: 10
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
+    featureClass: Sauid
+  landslide:
+    name: Landslide
+    lastUpdated: 2020-12-13
+    leaflet: true
+    latlng: [49.24, -123.11]
+    zoom: 10
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
+    featureClass: Sauid
+  tsunami:
+    name: Tsunami
+    datasets: 4
+    lastUpdated: 2020-12-13
+    leaflet: true
+    latlng: [49.24, -123.11]
+    zoom: 10
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
+    featureClass: Sauid
+  wildfire:
+    name: Wildfire
+    datasets: 4
+    lastUpdated: 2020-12-13
+    leaflet: true
+    latlng: [49.24, -123.11]
+    zoom: 10
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
+    featureClass: Sauid
+
+- multihazardthreat: Nechako
+  region: Nechako
+  read: yes
+  regionSummary:
+    assets: "$15,893M"
+    buildings: "15,845"
+    people: "38,390"
+    neighbourhoods: "6,925"
+    lastUpdated: 2020-12-13
+  cyclone:
+    name: Multi Hazard Threat — Cyclone
+    leaflet: true
+    latlng: [49.24, -123.11]
+    zoom: 10
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
+    featureClass: Sauid
+  earthquake:
+    name: Earthquake
+    lastUpdated: 2020-12-13
+    leaflet: true
+    latlng: [49.24, -123.11]
+    zoom: 10
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
+    featureClass: Sauid
+  flood:
+    name: Flood
+    lastUpdated: 2020-12-13
+    leaflet: true
+    latlng: [49.24, -123.11]
+    zoom: 10
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
+    featureClass: Sauid
+  landslide:
+    name: Landslide
+    lastUpdated: 2020-12-13
+    leaflet: true
+    latlng: [49.24, -123.11]
+    zoom: 10
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
+    featureClass: Sauid
+  tsunami:
+    name: Tsunami
+    datasets: 4
+    lastUpdated: 2020-12-13
+    leaflet: true
+    latlng: [49.24, -123.11]
+    zoom: 10
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
+    featureClass: Sauid
+  wildfire:
+    name: Wildfire
+    datasets: 4
+    lastUpdated: 2020-12-13
+    leaflet: true
+    latlng: [49.24, -123.11]
+    zoom: 10
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
+    featureClass: Sauid
+
+- multihazardthreat: Northeast
+  region: Northeast
+  read: yes
+  regionSummary:
+    assets: "$26,926M"
+    buildings: "24,921"
+    people: "68,335"
+    neighbourhoods: "9,892"
+    lastUpdated: 2020-12-13
+  cyclone:
+    name: Multi Hazard Threat — Cyclone
+    leaflet: true
+    latlng: [49.24, -123.11]
+    zoom: 10
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
+    featureClass: Sauid
+  earthquake:
+    name: Earthquake
+    lastUpdated: 2020-12-13
+    leaflet: true
+    latlng: [49.24, -123.11]
+    zoom: 10
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
+    featureClass: Sauid
+  flood:
+    name: Flood
+    lastUpdated: 2020-12-13
+    leaflet: true
+    latlng: [49.24, -123.11]
+    zoom: 10
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
+    featureClass: Sauid
+  landslide:
+    name: Landslide
+    lastUpdated: 2020-12-13
+    leaflet: true
+    latlng: [49.24, -123.11]
+    zoom: 10
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
+    featureClass: Sauid
+  tsunami:
+    name: Tsunami
+    datasets: 4
+    lastUpdated: 2020-12-13
+    leaflet: true
+    latlng: [49.24, -123.11]
+    zoom: 10
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
+    featureClass: Sauid
+  wildfire:
+    name: Wildfire
+    datasets: 4
+    lastUpdated: 2020-12-13
+    leaflet: true
+    latlng: [49.24, -123.11]
+    zoom: 10
+    layer: assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicators_s_5910.gpkg
     featureClass: Sauid
 
 

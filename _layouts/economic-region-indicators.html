@@ -11,7 +11,7 @@ layout: page
     }
     .title {
         margin: 5px;
-        text-align: center;
+        /* text-align: center; */
         margin-bottom: 1vh;
     }
 
@@ -62,16 +62,16 @@ layout: page
 </style>
 <section>
     <div class="container">
-        <div class="col-lg-6">
-        <h2>{{page.regionName.en}} Region</h2>
-        <blockquote>Province: {{page.province}}</blockquote>
+        <div class="col-md-6">
+        <h2 class="title">{{page.region}} Region</h2>
+        <!-- <blockquote>Province: {{page.province}}</blockquote>
         <div>
             <p>{{page.regionDescription.en}}</p>
-        </div>
+        </div> -->
     </div>
         <div id="region-summary">
             <tr>
-                <h2 class="title">Region Summary</h2>
+                <h3 class="title">Region Summary</h3>
             </tr>
             <ul>
                 <li>Assets: {{page.regionSummary.assets}}</li>
@@ -83,45 +83,46 @@ layout: page
         </div>
     </div>
 </section>
+<!-- {% assign url = "example.com" %} -->
 <section class="indicators">
     <div class="container">
-        <div class="col-lg-12">
+        <div class="col-md-12">
             <h2>Multi Hazard Threat</h2>
-            <table id="multi-hazard-threat">
+            <table id="multi-hazard-threat" class="table">
                 <tr>
                     <th>Threat Type</th>
-                    <th>Datasets</th>
+                    <!-- <th>Datasets</th> -->
                     <th>Last Updated</th>
                 </tr>
                 <tr>
-                    <td><a href="{{ '/' | relative_url }}">{{page.multiHazardThreat.cyclone.name}}</a></td>
-                    <td>{{page.multiHazardThreat.cyclone.datasets}}</td>
-                    <td>{{page.multiHazardThreat.cyclone.lastUpdated}}</td>
+                    <td><a href="http://127.0.0.1:4000/multi-hazard-threat/vancouver-island-and-coast.html">{{page.cyclone.name}}</a></td>
+                    <!-- <td>{{page.multiHazardThreat.cyclone.datasets}}</td> -->
+                    <td>{{page.regionSummary.lastUpdated}}</td>
                 </tr>
                 <tr>
-                    <td><a href="/">{{page.multiHazardThreat.earthquake.name}}</a></td>
-                    <td>{{page.multiHazardThreat.earthquake.datasets}}</td>
-                    <td>{{page.multiHazardThreat.earthquake.lastUpdated}}</td>
+                    <td><a href="http://127.0.0.1:4000/multi-hazard-threat/vancouver-island-and-coast.html">{{page.earthquake.name}}</a></td>
+                    <!-- <td>{{page.multiHazardThreat.earthquake.datasets}}</td> -->
+                    <td>{{page.regionSummary.lastUpdated}}</td>
                 </tr>
                 <tr>
-                    <td><a href="/">{{page.multiHazardThreat.flood.name}}</a></td>
-                    <td>{{page.multiHazardThreat.flood.datasets}}</td>
-                    <td>{{page.multiHazardThreat.flood.lastUpdated}}</td>
+                    <td><a href="http://127.0.0.1:4000/multi-hazard-threat/vancouver-island-and-coast.html">{{page.flood.name}}</a></td>
+                    <!-- <td>{{page.multiHazardThreat.flood.datasets}}</td> -->
+                    <td>{{page.regionSummary.lastUpdated}}</td>
                 </tr>
                 <tr>
-                    <td><a href="/">{{page.multiHazardThreat.landslide.name}}</a></td>
-                    <td>{{page.multiHazardThreat.landslide.datasets}}</td>
-                    <td>{{page.multiHazardThreat.landslide.lastUpdated}}</td>
+                    <td><a href="http://127.0.0.1:4000/multi-hazard-threat/vancouver-island-and-coast.html">{{page.landslide.name}}</a></td>
+                    <!-- <td>{{page.multiHazardThreat.landslide.datasets}}</td> -->
+                    <td>{{page.regionSummary.lastUpdated}}</td>
                 </tr>
                 <tr>
-                    <td><a href="/">{{page.multiHazardThreat.tsunami.name}}</a></td>
-                    <td>{{page.multiHazardThreat.tsunami.datasets}}</td>
-                    <td>{{page.multiHazardThreat.tsunami.lastUpdated}}</td>
+                    <td><a href="http://127.0.0.1:4000/multi-hazard-threat/vancouver-island-and-coast.html">{{page.tsunami.name}}</a></td>
+                    <!-- <td>{{page.multiHazardThreat.tsunami.datasets}}</td> -->
+                    <td>{{page.regionSummary.lastUpdated}}</td>
                 </tr>
                 <tr>
-                    <td><a href="/">{{page.multiHazardThreat.wildfire.name}}</a></td>
-                    <td>{{page.multiHazardThreat.wildfire.datasets}}</td>
-                    <td>{{page.multiHazardThreat.wildfire.lastUpdated}}</td>
+                    <td><a href="http://127.0.0.1:4000/multi-hazard-threat/vancouver-island-and-coast.html">{{page.wildfire.name}}</a></td>
+                    <!-- <td>{{page.multiHazardThreat.wildfire.datasets}}</td> -->
+                    <td>{{page.regionSummary.lastUpdated}}</td>
                 </tr>
             </table>
          </div>   
@@ -129,110 +130,7 @@ layout: page
     </div>
 </section>
 
-<section class="indicators">
-    <div class="container">
-        <div class="col-lg-12">
-            <h2>Physical Exposure</h2>
-            <table id="physical-exposure">
-                <tr>
-                    <th>Threat Type</th>
-                    <th>Datasets</th>
-                    <th>Last Updated</th>
-                </tr>
-                <tr>
-                    <td><a href="/">{{page.physicalExposure.summary.name}}</a></td>
-                    <td>{{page.physicalExposure.summary.datasets}}</td>
-                    <td>{{page.physicalExposure.summary.lastUpdated}}</td>
-                </tr>
-                <tr>
-                    <td><a href="/">{{page.physicalExposure.assets.name}}</a></td>
-                    <td>{{page.physicalExposure.assets.datasets}}</td>
-                    <td>{{page.physicalExposure.assets.lastUpdated}}</td>
-                </tr>
-                <tr>
-                    <td><a href="/">{{page.physicalExposure.buildings.name}}</a></td>
-                    <td>{{page.physicalExposure.buildings.datasets}}</td>
-                    <td>{{page.physicalExposure.buildings.lastUpdated}}</td>
-                </tr>
-                <tr>
-                    <td><a href="/">{{page.physicalExposure.people.name}}</a></td>
-                    <td>{{page.physicalExposure.people.datasets}}</td>
-                    <td>{{page.physicalExposure.people.lastUpdated}}</td>
-                </tr>
-                <tr>
-                    <td><a href="/">{{page.physicalExposure.settledArea.name}}</a></td>
-                    <td>{{page.physicalExposure.settledArea.datasets}}</td>
-                    <td>{{page.physicalExposure.settledArea.lastUpdated}}</td>
-                </tr>
-            </table>
-         </div>   
 
-    </div>
-</section>
 
-<section class="indicators">
-    <div class="container">
-        <div class="col-lg-12">
-            <h2>Risk Dynamics</h2>
-            <table id="risk-dynamics">
-                <tr>
-                    <th>Threat Type</th>
-                    <th>Datasets</th>
-                    <th>Last Updated</th>
-                </tr>
-                <tr>
-                    <td><a href="/">{{page.riskDynamics.hazardSusceptibility.name}}</a></td>
-                    <td>{{page.riskDynamics.hazardSusceptibility.datasets}}</td>
-                    <td>{{page.riskDynamics.hazardSusceptibility.lastUpdated}}</td>
-                </tr>
-                <tr>
-                    <td><a href="/">{{page.riskDynamics.landUsageChange.name}}</a></td>
-                    <td>{{page.riskDynamics.landUsageChange.datasets}}</td>
-                    <td>{{page.riskDynamics.landUsageChange.lastUpdated}}</td>
-                </tr>
-                <tr>
-                    <td><a href="/">{{page.riskDynamics.populationGrowth.name}}</a></td>
-                    <td>{{page.riskDynamics.populationGrowth.datasets}}</td>
-                    <td>{{page.riskDynamics.populationGrowth.lastUpdated}}</td>
-                </tr>
-            </table>
-         </div>   
 
-    </div>
-</section>
 
-<section>
-    <div class="container">
-        <div class="col-lg-12">
-            <h2>Social Fabric</h2>
-            <table id="social-fabric">
-                <tr>
-                    <th>Threat Type</th>
-                    <th>Datasets</th>
-                    <th>Last Updated</th>
-                </tr>
-                <tr>
-                    <td><a href="/">{{page.socialFabric.familyStructure.name}}</a></td>
-                    <td>{{page.socialFabric.familyStructure.datasets}}</td>
-                    <td>{{page.socialFabric.familyStructure.lastUpdated}}</td>
-                </tr>
-                <tr>
-                    <td><a href="/">{{page.socialFabric.financialAgency.name}}</a></td>
-                    <td>{{page.socialFabric.financialAgency.datasets}}</td>
-                    <td>{{page.socialFabric.financialAgency.lastUpdated}}</td>
-                </tr>
-                <tr>
-                    <td><a href="/">{{page.socialFabric.housingConditions.name}}</a></td>
-                    <td>{{page.socialFabric.housingConditions.datasets}}</td>
-                    <td>{{page.socialFabric.housingConditions.lastUpdated}}</td>
-                </tr>
-                <tr>
-                    <td><a href="/">{{page.socialFabric.individualAutonomy.name}}</a></td>
-                    <td>{{page.socialFabric.individualAutonomy.datasets}}</td>
-                    <td>{{page.socialFabric.individualAutonomy.lastUpdated}}</td>
-                </tr>
-            </table>
-         </div>   
-
-    </div>
-</section>
