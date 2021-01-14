@@ -13,11 +13,6 @@ title: British Columbia
 permalink: /en/british-columbia/
 ---
 
-<style>
-    a {
-        color: inherit;
-    }
-</style>
 
 
 <h2>{{page.title}} — Economic Regions</h2>

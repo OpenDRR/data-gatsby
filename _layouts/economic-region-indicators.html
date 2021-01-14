@@ -83,6 +83,7 @@ layout: page
         </div>
     </div>
 </section>
+{% assign url = "http://127.0.0.1:4000/" %}
 <section class="indicators">
     <div class="container">
         <div class="col-md-12">
@@ -94,7 +95,7 @@ layout: page
                     <th>Last Updated</th>
                 </tr>
                 <tr>
-                    <td><a href="/">{{page.multiHazardThreat.cyclone.name}}</a></td>
+                    <td><a href="{{ "multi-hazard-threat/vancouver-island-and-coast.html" | prepend: url }}">{{page.multiHazardThreat.cyclone.name}}</a></td>
                     <td>{{page.multiHazardThreat.cyclone.datasets}}</td>
                     <td>{{page.multiHazardThreat.cyclone.lastUpdated}}</td>
                 </tr>
