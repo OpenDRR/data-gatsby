@@ -33,7 +33,7 @@ layer: /assets/data/bc/5910/multi_hazard_threat/nhsl_hazard_threat_all_indicator
     <section>
 
       {% for folder in site.static_files %}
-      {% if folder.path contains '/data/' %}
+      {% if folder.path contains '/data/bc/5910/multi_hazard_threat' %}
           {% assign my_array = folder.path | split: "/" %}
           {% assign province = my_array[3] %}
           {% assign provinces = provinces | append: province | append: "," %}
