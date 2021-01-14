@@ -66,6 +66,10 @@
     var brew = new classyBrew(),
         values = [];
       
+    // function changeIndicator( indctr ) {
+    //   console.log( indctr );
+    // }
+
     // style function to return
     // fill color based on brew.getColorInRange() method
     function brewStyle( feature ) {
@@ -84,32 +88,40 @@
       var props = source.getProps();
 
       var ignore = [
-      'fid',
-      'Sauid',
-      'pruid',
-      'prname',
-      'eruid',
-      'ername',
-      'cduid',
-      'cdname',
-      'csduid',
-      'csdname',
-      'SauidLon',
-      'SauidLat'
-    ];
+        'fid',
+        'Sauid',
+        'pruid',
+        'prname',
+        'eruid',
+        'ername',
+        'cduid',
+        'cdname',
+        'csduid',
+        'csdname',
+        'SauidLon',
+        'SauidLat'
+      ];
 
-    let string = '';
-    for ( const key in props ) {
-      if ( ignore.includes( key ) ) { 
-        continue;
+      let string = '';
+
+      for ( const key in props ) {
+        if ( ignore.includes( key ) ) { 
+          continue;
+        }
+
+        var cls = key.split("_")[0].toLowerCase();
+
+        string +=
+          '<div class="item col-md-3 small"><span class="prop ' + cls + '">' + key + '</span><span class="val pull-right">' + props[key] + '</span></div>';
       }
-
-      var cls = key.split("_")[0].toLowerCase();
-
-      string +=
-        '<div class="item col-md-3 small"><span class="prop ' + cls + '">' + key + '</span><span class="val pull-right">' + props[key] + '</span></div>';
-    }
+      
       $( '#sidebar' ).html( string );
+
+      // $( ".prop" ).on( 'click', function ( evt ) {
+      //   evt.preventDefault();
+      //   changeIndicator( evt.target.textContent );
+      // });
+
     });
 
     gpkg.on( 'add', function( evt ) { 
@@ -166,7 +178,7 @@
               if ( !breaks[i + 1] ) { continue; }
               div.innerHTML +=
                   '<i style="background:' + colors[i] + '"></i> ' +
-                  Math.round( breaks[i] ) + '&ndash;' + Math.round( breaks[i + 1] ) + '<br>';
+                  breaks[i].toFixed(6) + '&ndash;' + breaks[i + 1].toFixed(6) + '<br>';
           }
 
           return div;
