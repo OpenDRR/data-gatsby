@@ -86,17 +86,27 @@
         background-color: #34495e;
         color: white;
         border-radius: 10px;
-        width: 40vw;
     }
     .title {
         margin: 5px;
-        margin-left: 2vw;
+        text-align: center;
+        margin-bottom: 1vh;
+    }
+    ul {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
     }
     li {
         list-style: none;
         margin: 0;
         padding: 0;
     }
+    /* .indicators, th, td {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+        grid-template-rows: 1fr;
+    } */
     #multi-hazard-threat th,
     #physical-exposure th,
     #risk-dynamics th,
@@ -134,16 +144,16 @@
                <h2 class="title">Region Summary</h2>
            </tr>
            <ul>
-               <li>Assets — $18,246M</li>
-               <li>Buildings — 20,032</li>
-               <li>People — 55,174</li>
-               <li>Neighbourhoods — 4,995</li>
-               <li>Last Updated —</li>
+               <li>Assets: $18,246M</li>
+               <li>Buildings: 20,032</li>
+               <li>People: 55,174</li>
+               <li>Neighbourhoods: 4,995</li>
+               <li>Last Updated:</li>
            </ul>
        </div>
    </div>
 </section>
-<section>
+<section class="indicators">
    <div class="container">
        <div class="col-lg-12">
            <h2>Multi Hazard Threat</h2>
@@ -154,32 +164,32 @@
                    <th>Last Updated</th>
                </tr>
                <tr>
-                   <td>Cyclone</td>
+                   <td><a href="/">Cyclone</a></td>
                    <td>4</td>
                    <td>2020-12-13</td>
                </tr>
                <tr>
-                   <td>Earthquake</td>
+                   <td><a href="/">Earthquake</a></td>
                    <td>4</td>
                    <td>2020-12-13</td>
                </tr>
                <tr>
-                   <td>Flood</td>
+                   <td><a href="/">Flood</a></td>
                    <td>4</td>
                    <td>2020-12-13</td>
                </tr>
                <tr>
-                   <td>Landslide</td>
+                   <td><a href="/">Landslide</a></td>
                    <td>4</td>
                    <td>2020-12-13</td>
                </tr>
                <tr>
-                   <td>Tsunami</td>
+                   <td><a href="/">Tsunami</a></td>
                    <td>4</td>
                    <td>2020-12-13</td>
                </tr>
                <tr>
-                   <td>Wildfire</td>
+                   <td><a href="/">Wildfire</a></td>
                    <td>4</td>
                    <td>2020-12-13</td>
                </tr>
@@ -187,7 +197,7 @@
         </div>  
    </div>
 </section>
-<section>
+<section class="indicators">
    <div class="container">
        <div class="col-lg-12">
            <h2>Physical Exposure</h2>
@@ -198,27 +208,27 @@
                    <th>Last Updated</th>
                </tr>
                <tr>
-                   <td>Summary</td>
+                   <td><a href="/">Summary</a></td>
                    <td>2</td>
                    <td>2020-12-13</td>
                </tr>
                <tr>
-                   <td>Assets</td>
+                   <td><a href="/">Assets</a></td>
                    <td>2</td>
                    <td>2020-12-13</td>
                </tr>
                <tr>
-                   <td>Buildings</td>
+                   <td><a href="/">Buildings</a></td>
                    <td>3</td>
                    <td>2020-12-13</td>
                </tr>
                <tr>
-                   <td>People</td>
+                   <td><a href="/">People</a></td>
                    <td>2</td>
                    <td>2020-12-13</td>
                </tr>
                <tr>
-                   <td>Settled Area</td>
+                   <td><a href="/">Settled Area</a></td>
                    <td>1</td>
                    <td>2020-12-13</td>
                </tr>
@@ -226,7 +236,7 @@
         </div>  
    </div>
 </section>
-<section>
+<section class="indicators">
    <div class="container">
        <div class="col-lg-12">
            <h2>Risk Dynamics</h2>
@@ -237,17 +247,17 @@
                    <th>Last Updated</th>
                </tr>
                <tr>
-                   <td>Hazard Susceptibility</td>
+                   <td><a href="/">Hazard Susceptibility</a></td>
                    <td>1</td>
                    <td>2020-12-13</td>
                </tr>
                <tr>
-                   <td>Land Usage Change</td>
+                   <td><a href="/">Land Usage Change</a></td>
                    <td>1</td>
                    <td>2020-12-13</td>
                </tr>
                <tr>
-                   <td>Population Growth</td>
+                   <td><a href="/">Population Growth</a></td>
                    <td>1</td>
                    <td>2020-12-13</td>
                </tr>
@@ -266,22 +276,22 @@
                    <th>Last Updated</th>
                </tr>
                <tr>
-                   <td>Family Structure</td>
+                   <td><a href="/">Family Structure</a></td>
                    <td>1</td>
                    <td>2020-12-13</td>
                </tr>
                <tr>
-                   <td>Financial Agency</td>
+                   <td><a href="/">Financial Agency</a></td>
                    <td>1</td>
                    <td>2020-12-13</td>
                </tr>
                <tr>
-                   <td>Housing Conditions</td>
+                   <td><a href="/">Housing Conditions</a></td>
                    <td>1</td>
                    <td>2020-12-13</td>
                </tr>
                <tr>
-                   <td>Individual Autonomy</td>
+                   <td><a href="/">Individual Autonomy</a></td>
                    <td>1</td>
                    <td>2020-12-13</td>
                </tr>
@@ -358,7 +368,7 @@
 	</div>
 	<dl id="wb-dtmd">
 		<dt>Date modified:&#32;</dt>
-		<dd><time property="dateModified">2021-01-08</time></dd>
+		<dd><time property="dateModified">2021-01-14</time></dd>
 	</dl>
 </div>
 </main>
