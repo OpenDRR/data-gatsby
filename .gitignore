@@ -1,5 +1,5 @@
-vendor/*
-.jekyll-cache
-_site/feed.xml
-_pages/en/.DS_Store
+
 .DS_Store
+.jekyll-cache/*
+vendor/*
+.ruby-version

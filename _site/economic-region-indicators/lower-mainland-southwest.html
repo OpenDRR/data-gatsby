@@ -89,7 +89,7 @@
     }
     .title {
         margin: 5px;
-        text-align: center;
+        /* text-align: center; */
         margin-bottom: 1vh;
     }
     ul {
@@ -133,15 +133,15 @@
 <section>
    <div class="container">
        <div class="col-md-6">
-       <h2>Lower Mainland Southwest Region</h2>
-       <blockquote>Province: British Columbia</blockquote>
+       <h2 class="title">Lower Mainland Southwest Region</h2>
+        <!--<blockquote>Province:</blockquote>
        <div>
-           <p>example</p>
-       </div>
+           <p></p>
+       </div>-->
    </div>
        <div id="region-summary">
            <tr>
-               <h2 class="title">Region Summary</h2>
+               <h3 class="title">Region Summary</h3>
            </tr>
            <ul>
                <li>Assets: $784,129M</li>
@@ -153,6 +153,7 @@
        </div>
    </div>
 </section>
+<!--  -->
 <section class="indicators">
    <div class="container">
        <div class="col-md-12">
@@ -160,139 +161,37 @@
            <table id="multi-hazard-threat" class="table">
                <tr>
                    <th>Threat Type</th>
-                   <th>Datasets</th>
+                    <!--<th>Datasets</th>-->
                    <th>Last Updated</th>
                </tr>
                <tr>
-                   <td><a href="/">Cyclone</a></td>
-                   <td>4</td>
+                   <td><a href="http://127.0.0.1:4000/multi-hazard-threat/vancouver-island-and-coast.html">Multi Hazard Threat — Cyclone</a></td>
+                    <!--<td></td>-->
                    <td>2020-12-13</td>
                </tr>
                <tr>
-                   <td><a href="/">Earthquake</a></td>
-                   <td>4</td>
+                   <td><a href="http://127.0.0.1:4000/multi-hazard-threat/vancouver-island-and-coast.html">Earthquake</a></td>
+                    <!--<td></td>-->
                    <td>2020-12-13</td>
                </tr>
                <tr>
-                   <td><a href="/">Flood</a></td>
-                   <td>4</td>
+                   <td><a href="http://127.0.0.1:4000/multi-hazard-threat/vancouver-island-and-coast.html">Flood</a></td>
+                    <!--<td></td>-->
                    <td>2020-12-13</td>
                </tr>
                <tr>
-                   <td><a href="/">Landslide</a></td>
-                   <td>4</td>
+                   <td><a href="http://127.0.0.1:4000/multi-hazard-threat/vancouver-island-and-coast.html">Landslide</a></td>
+                    <!--<td></td>-->
                    <td>2020-12-13</td>
                </tr>
                <tr>
-                   <td><a href="/">Tsunami</a></td>
-                   <td>4</td>
+                   <td><a href="http://127.0.0.1:4000/multi-hazard-threat/vancouver-island-and-coast.html">Tsunami</a></td>
+                    <!--<td></td>-->
                    <td>2020-12-13</td>
                </tr>
                <tr>
-                   <td><a href="/">Wildfire</a></td>
-                   <td>4</td>
-                   <td>2020-12-13</td>
-               </tr>
-           </table>
-        </div>  
-   </div>
-</section>
-<section class="indicators">
-   <div class="container">
-       <div class="col-md-12">
-           <h2>Physical Exposure</h2>
-           <table id="physical-exposure">
-               <tr>
-                   <th>Threat Type</th>
-                   <th>Datasets</th>
-                   <th>Last Updated</th>
-               </tr>
-               <tr>
-                   <td><a href="/">Summary</a></td>
-                   <td>2</td>
-                   <td>2020-12-13</td>
-               </tr>
-               <tr>
-                   <td><a href="/">Assets</a></td>
-                   <td>2</td>
-                   <td>2020-12-13</td>
-               </tr>
-               <tr>
-                   <td><a href="/">Buildings</a></td>
-                   <td>3</td>
-                   <td>2020-12-13</td>
-               </tr>
-               <tr>
-                   <td><a href="/">People</a></td>
-                   <td>2</td>
-                   <td>2020-12-13</td>
-               </tr>
-               <tr>
-                   <td><a href="/">Settled Area</a></td>
-                   <td>1</td>
-                   <td>2020-12-13</td>
-               </tr>
-           </table>
-        </div>  
-   </div>
-</section>
-<section class="indicators">
-   <div class="container">
-       <div class="col-md-12">
-           <h2>Risk Dynamics</h2>
-           <table id="risk-dynamics">
-               <tr>
-                   <th>Threat Type</th>
-                   <th>Datasets</th>
-                   <th>Last Updated</th>
-               </tr>
-               <tr>
-                   <td><a href="/">Hazard Susceptibility</a></td>
-                   <td>1</td>
-                   <td>2020-12-13</td>
-               </tr>
-               <tr>
-                   <td><a href="/">Land Usage Change</a></td>
-                   <td>1</td>
-                   <td>2020-12-13</td>
-               </tr>
-               <tr>
-                   <td><a href="/">Population Growth</a></td>
-                   <td>1</td>
-                   <td>2020-12-13</td>
-               </tr>
-           </table>
-        </div>  
-   </div>
-</section>
-<section>
-   <div class="container">
-       <div class="col-md-12">
-           <h2>Social Fabric</h2>
-           <table id="social-fabric">
-               <tr>
-                   <th>Threat Type</th>
-                   <th>Datasets</th>
-                   <th>Last Updated</th>
-               </tr>
-               <tr>
-                   <td><a href="/">Family Structure</a></td>
-                   <td>1</td>
-                   <td>2020-12-13</td>
-               </tr>
-               <tr>
-                   <td><a href="/">Financial Agency</a></td>
-                   <td>1</td>
-                   <td>2020-12-13</td>
-               </tr>
-               <tr>
-                   <td><a href="/">Housing Conditions</a></td>
-                   <td>1</td>
-                   <td>2020-12-13</td>
-               </tr>
-               <tr>
-                   <td><a href="/">Individual Autonomy</a></td>
-                   <td>1</td>
+                   <td><a href="http://127.0.0.1:4000/multi-hazard-threat/vancouver-island-and-coast.html">Wildfire</a></td>
+                    <!--<td></td>-->
                    <td>2020-12-13</td>
                </tr>
            </table>
@@ -368,7 +267,7 @@
 	</div>
 	<dl id="wb-dtmd">
 		<dt>Date modified:&#32;</dt>
-		<dd><time property="dateModified">2021-01-13</time></dd>
+		<dd><time property="dateModified">2021-01-14</time></dd>
 	</dl>
 </div>
 </main>

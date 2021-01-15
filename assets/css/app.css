@@ -87,3 +87,19 @@
 .prop.wfn {
   background-color:darkkhaki;
 }
+
+.popup-fixed {
+  position: fixed;
+  top: auto;
+  bottom: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  transform: none !important;
+  margin: 0;
+  border-radius: 0;
+}
+div.item .label, div.item .value {
+  color: #000;
+  font-size: 14px;
+  border: none;
+}
