@@ -1,5 +1,5 @@
 # data
-Datasets for download
+[Download datasets](https://opendrr.github.io/data/)
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
