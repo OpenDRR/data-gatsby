@@ -6,12 +6,6 @@ Datasets for download
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
@@ -26,15 +20,6 @@ Datasets for download
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
-
-
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
-![Info Visualization Tool](naturalresources.jpg)
-
-The Natural Resources Department of The Government of Canada.
-
 
 ### Built With
 
