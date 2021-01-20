@@ -3,3 +3,5 @@
 vendor/
 .ruby-version
 _site/
+.bundle/config
+Gemfile.lock
