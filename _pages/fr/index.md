@@ -95,7 +95,7 @@ Actuellement, seul le format GeoPackage (.gpkg) est fourni.
                       <td><span class="label label-default">{{ folder.extname }}</span></td>
                       <td>
                           <!-- <a class="btn btn-primary btn-sm map-link pull-right" href="#" data="{{ folder.path }}">Preview</a> -->
-                          <a class="btn btn-primary btn-sm pull-right" href="{{ site.baseurl }}{{ folder.path }}">Téléchargement</a>
+                          <a class="btn btn-primary btn-sm pull-right" href="https://www.github.com/OpenDRR/data/raw/main{{ folder.path }}">Téléchargement</a>
                       </td>
                   </tr>
 
@@ -148,7 +148,7 @@ Actuellement, seul le format GeoPackage (.gpkg) est fourni.
                             <td><span class="label label-default">{{ folder.extname }}</span></td>
                             <td>
                                 <!-- <a class="btn btn-primary btn-sm map-link pull-right" href="#" data="{{ folder.path }}">Preview</a> -->
-                                <a class="btn btn-primary btn-sm pull-right" href="{{ site.baseurl }}{{ folder.path }}">Téléchargement</a>
+                                <a class="btn btn-primary btn-sm pull-right" href="https://www.github.com/OpenDRR/data/raw/main{{ folder.path }}">Téléchargement</a>
                             </td>
                         </tr>
                     {% endif %}
