@@ -61,7 +61,7 @@ Currently only GeoPackage (.gpkg) format is provided.
 
         <h3 style="text-transform:uppercase">{{ prov }}</h3>
 
-        <table class="table">
+        <table class="table table-hover">
           <tr>
             <th scope="col" class="col-sm-8"></th>
             <th scope="col" class="col-sm-2">Date modified</th>
@@ -73,11 +73,16 @@ Currently only GeoPackage (.gpkg) format is provided.
 
             {% if folder.path contains p %}
 
+                {% assign geom = "" %}
+                {% assign icon = "" %}
+                
                 {% if folder.path contains "_b_" %}
-                    {% assign geom = "Buildings" %}
+                    {% assign geom = "(Buildings)" %}
                     {% assign icon = "multipoint.svg" %}
-                {% else %}
-                    {% assign geom = "Census Subdivision" %}
+                {% endif %}
+                
+                {% if folder.path contains "_s_" %}
+                    {% assign geom = "(Census Subdivision)" %}
                     {% assign icon = "polygon.svg" %}
                 {% endif %}
 
@@ -87,9 +92,9 @@ Currently only GeoPackage (.gpkg) format is provided.
 
                   <tr>
                       <td>
-                          <img width="36" src="{{ site.baseurl }}/assets/img/{{ icon }}" style="margin-right:10px;"/>
-                         <!-- <a href="{{ folder.path }}" style="text-transform:capitalize">{{ my_array[6] | replace: "_", " " }}</a> <span>({{ geom }})</span> -->
-                          <span style="text-transform:capitalize">{{ my_array[4] | replace: "_", " " }}</span> <span>({{ geom }})</span>
+                          <!-- <img width="36" src="{{ site.baseurl }}/assets/img/{{ icon }}" style="margin-right:10px;"/> -->
+                        <!-- <a href="{{ folder.path }}" style="text-transform:capitalize">{{ my_array[6] | replace: "_", " " }}</a> <span>{{ geom }}</span> -->
+                          <span style="text-transform:capitalize">{{ my_array[4] | replace: "_", " " }}</span> <span>{{ geom }}</span>
                       </td>
                       <td>{{folder.modified_time | date: "%a, %b %d, %y" }}</td>
                       <td><span class="label label-default">{{ folder.extname }}</span></td>
@@ -132,11 +137,16 @@ Currently only GeoPackage (.gpkg) format is provided.
 
                     {% if folder.path contains path and folder.path contains p and folder.path contains '/er/' %}
 
+                        {% assign geom = "" %}
+                        {% assign icon = "" %}
+                        
                         {% if folder.path contains "_b_" %}
-                            {% assign geom = "Buildings" %}
+                            {% assign geom = "(Buildings)" %}
                             {% assign icon = "multipoint.svg" %}
-                        {% else %}
-                            {% assign geom = "Census Subdivision" %}
+                        {% endif %}
+                        
+                        {% if folder.path contains "_s_" %}
+                            {% assign geom = "(Census Subdivision)" %}
                             {% assign icon = "polygon.svg" %}
                         {% endif %}
 
@@ -144,9 +154,9 @@ Currently only GeoPackage (.gpkg) format is provided.
                         
                         <tr>
                             <td>
-                                <img width="36" src="{{ site.baseurl }}/assets/img/{{ icon }}" style="margin-right:10px;"/>
-                                <!-- <a href="{{ folder.path }}" style="text-transform:capitalize">{{ my_array[6] | replace: "_", " " }}</a> <span>({{ geom }})</span> -->
-                                <span style="text-transform:capitalize">{{ my_array[6] | replace: "_", " " }}</span> <span>({{ geom }})</span>
+                                <!-- <img width="36" src="{{ site.baseurl }}/assets/img/{{ icon }}" style="margin-right:10px;"/> -->
+                                <!-- <a href="{{ folder.path }}" style="text-transform:capitalize">{{ my_array[6] | replace: "_", " " }}</a> <span>{{ geom }}</span> -->
+                                <span style="text-transform:capitalize">{{ my_array[6] | replace: "_", " " }}</span> <span>{{ geom }}</span>
                             </td>
                             <td>{{folder.modified_time | date: "%a, %b %d, %y" }}</td>
                             <td><span class="label label-default">{{ folder.extname }}</span></td>

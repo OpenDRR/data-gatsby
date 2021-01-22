@@ -73,11 +73,16 @@ Actuellement, seul le format GeoPackage (.gpkg) est fourni.
 
             {% if folder.path contains p %}
 
+                {% assign geom = "" %}
+                {% assign icon = "" %}
+                
                 {% if folder.path contains "_b_" %}
-                    {% assign geom = "Bâtiments" %}
+                    {% assign geom = "(Bâtiments)" %}
                     {% assign icon = "multipoint.svg" %}
-                {% else %}
-                    {% assign geom = "Subdivision de recensement" %}
+                {% endif %}
+                
+                {% if folder.path contains "_s_" %}
+                    {% assign geom = "(Subdivision de recensement)" %}
                     {% assign icon = "polygon.svg" %}
                 {% endif %}
 
@@ -87,9 +92,9 @@ Actuellement, seul le format GeoPackage (.gpkg) est fourni.
 
                   <tr>
                       <td>
-                          <img width="36" src="{{ site.baseurl }}/assets/img/{{ icon }}" style="margin-right:10px;"/>
+                          <!-- <img width="36" src="{{ site.baseurl }}/assets/img/{{ icon }}" style="margin-right:10px;"/> -->
                           <!-- <a href="{{ folder.path }}" style="text-transform:capitalize">{{ my_array[4] | replace: "_", " " }}</a> <span>({{ geom }})</span> -->
-                          <span style="text-transform:capitalize">{{ my_array[4] | replace: "_", " " }}</span> <span>({{ geom }})</span>
+                          <span style="text-transform:capitalize">{{ my_array[4] | replace: "_", " " }}</span> <span>{{ geom }}</span>
                       </td>
                       <td>{{folder.modified_time | date: "%a, %b %d, %y" }}</td>
                       <td><span class="label label-default">{{ folder.extname }}</span></td>
@@ -128,11 +133,16 @@ Actuellement, seul le format GeoPackage (.gpkg) est fourni.
 
                     {% if folder.path contains path and folder.path contains p and folder.path contains '/er/' %}
 
+                        {% assign geom = "" %}
+                        {% assign icon = "" %}
+                        
                         {% if folder.path contains "_b_" %}
-                            {% assign geom = "Bâtiments" %}
+                            {% assign geom = "(Bâtiments)" %}
                             {% assign icon = "multipoint.svg" %}
-                        {% else %}
-                            {% assign geom = "Subdivision de recensement" %}
+                        {% endif %}
+                        
+                        {% if folder.path contains "_s_" %}
+                            {% assign geom = "(Subdivision de recensement)" %}
                             {% assign icon = "polygon.svg" %}
                         {% endif %}
 
@@ -140,9 +150,9 @@ Actuellement, seul le format GeoPackage (.gpkg) est fourni.
                         
                         <tr>
                             <td>
-                                <img width="36" src="{{ site.baseurl }}/assets/img/{{ icon }}" style="margin-right:10px;"/>
+                                <!-- <img width="36" src="{{ site.baseurl }}/assets/img/{{ icon }}" style="margin-right:10px;"/> -->
                                 <!-- <a href="{{ folder.path }}" style="text-transform:capitalize">{{ my_array[6] | replace: "_", " " }}</a> <span>({{ geom }})</span> -->
-                                <span style="text-transform:capitalize">{{ my_array[6] | replace: "_", " " }}</span> <span>({{ geom }})</span>
+                                <span style="text-transform:capitalize">{{ my_array[6] | replace: "_", " " }}</span> <span>{{ geom }}</span>
                             </td>
                             <td>{{folder.modified_time | date: "%a, %b %d, %y" }}</td>
                             <td><span class="label label-default">{{ folder.extname }}</span></td>
