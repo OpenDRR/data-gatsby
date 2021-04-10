@@ -15,7 +15,6 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-modal-routing`,
     `gatsby-transformer-yaml`,
-    `gatsby-plugin-emotion`,
     `gatsby-plugin-sass`,
     // {
     //   resolve: `gatsby-plugin-layout`,
