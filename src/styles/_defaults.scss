@@ -89,7 +89,7 @@ input[placeholder],
 }
 
 h1 {
-	border-bottom: 1px solid $border-red;
+	border-bottom: 1px solid $border-red !important;
 	margin-bottom: .2em;
 	margin-top: 1em;
 	padding-bottom: .2em;

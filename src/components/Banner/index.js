@@ -48,7 +48,7 @@ const Banner = ({ slides }) => {
             <div className="hero-slide" key={index}>
               {index === current && (
                 <div className="hero-slider">
-                       <h1 className="slide-title">{slide.title}</h1>
+                       <h2 className="slide-title">{slide.title}</h2>
                
                     <Link className="slide-button" to={slide.path}><h2>{slide.label}</h2></Link>
 

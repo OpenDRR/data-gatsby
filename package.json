@@ -63,7 +63,7 @@
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
-    "develop": "yarn build && gh-pages -d public -b gh-pages",
+    "develop": "yarn dev",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",

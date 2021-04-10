@@ -10,7 +10,7 @@ export default function Template({
     <Layout>
     <div className="container">
       <div className="news">
-        <Link to="/">Home</Link>
+        <Link to="/en/">Home</Link>
         <h1>{frontmatter.title}</h1>
         <h2>{frontmatter.date}</h2>
         <div

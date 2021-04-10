@@ -5,7 +5,7 @@ import ContactInfo from "../../content/data/yaml/contact.yaml";
 
 const DatasetDetails = (props) => {
   const { pageContext } = props;
-  const { details } = pageContext;
+  const { details, name } = pageContext;
   return (
     <Layout>
       <div className="container">
@@ -18,10 +18,9 @@ const DatasetDetails = (props) => {
           /<Link to="/en/Provinces-and-Territories"> Details </Link>
         </div>
         <div>
-          {details.map((item, index) => {
-            return <h1 key={`details_title_${index}`}>{item.title}</h1>;
+          {name.map((data, index) => {
+            return <h1 key={`name_title_${index}`}>{data.title}</h1>;
           })}
-          <hr />
         </div>
         <section className="module-content indent-large col-md-7">
           <div id="resource-desc" className="pull-left">
@@ -74,7 +73,7 @@ const DatasetDetails = (props) => {
           <p>Country: {ContactInfo.contact.country}</p>
           <p>Phone: {ContactInfo.contact.phone}</p>
           <p>Fax: {ContactInfo.contact.fax}</p>
-          <p>Email:{ContactInfo.contact.email}</p>
+          <p>Email: {ContactInfo.contact.email}</p>
           <p>{ContactInfo.contact.url}</p>
           <p>Hours: {ContactInfo.contact.hours}</p>
           <p>Instructions: {ContactInfo.contact.instructions}</p>

@@ -10,6 +10,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       path: element.path,
       component: require.resolve("./src/templates/datasetDetails.js"),
       context: {
+        name: element.name,
         details: element.details,
         supportingdownloads: element.supportingdownloads
       },

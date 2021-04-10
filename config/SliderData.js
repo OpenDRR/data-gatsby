@@ -1,6 +1,6 @@
-import SliderImageOne from "../src/images/pexels-james-wheeler-417074.jpg"
-import SliderImageTwo from "../src/images/pexels-james-wheeler-1592461.jpg"
-import SliderImageThree from "../src/images/pexels-rok-romih-3312678.jpg"
+import SliderImageOne from "../src/images/NHSL-slide1.jpg"
+import SliderImageTwo from "../src/images/NHSL-slide2.jpg"
+import SliderImageThree from "../src/images/NHSL-slide3.jpg"
 
 export const SliderData = [
   {
@@ -28,21 +28,21 @@ export const SliderData = [
 
 export const SliderDataFR = [
   {
-    title: "Couche nationale des établissements humains",
+    title: "Couche Nationale des Établissements Humains",
     path: "/fr/Ensembles-De-Données-Nationales#NHSL",
     label: "Voir",
     image: SliderImageOne,
     alt: "National Human Settlement Layer",
   },
   {
-    title: "Risque sismique",
+    title: "Risque Sismique",
     path: "/fr/Ensembles-De-Données-Nationales#SR",
     label: "Voir",
     image: SliderImageTwo,
     alt: "Risque sismique",
   },
   {
-    title: "Scénarios de tremblement de terre",
+    title: "Scénarios de Tremblement de Terre",
     path: "/fr/Ensembles-De-Données-Nationales#ES",
     label: "Voir",
     image: SliderImageThree,
