@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image"
+import '../styles/index.scss'
 
 const IndexPage = () => (
   <div className="background">
