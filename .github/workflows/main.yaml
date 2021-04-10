@@ -1,4 +1,4 @@
-name: Gatsby Publish Site
+name: Gatsby Publish
 
 on:
   push:
@@ -8,8 +8,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: enriikke/gatsby-gh-pages-action@v2
+      - uses: enriikke/gatsby-gh-pages-action@v2.1.1
         with:
           access-token: ${{ secrets.data }}
           deploy-branch: gh-pages
+          gatsby-args: --prefix-paths
