@@ -14326,24 +14326,24 @@ function combine (array, callback) {
 /***/ }),
 
 /***/ "react-dom/server":
-/*!****************************************************************************************************!*\
-  !*** external "/Users/michaelchristianson/Documents/gatsby-data/node_modules/react-dom/server.js" ***!
-  \****************************************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** external "/Users/michaelchristianson/Documents/gd-clone/node_modules/react-dom/server.js" ***!
+  \*************************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("/Users/michaelchristianson/Documents/gatsby-data/node_modules/react-dom/server.js");;
+module.exports = require("/Users/michaelchristianson/Documents/gd-clone/node_modules/react-dom/server.js");;
 
 /***/ }),
 
 /***/ "react":
-/*!***********************************************************************************************!*\
-  !*** external "/Users/michaelchristianson/Documents/gatsby-data/node_modules/react/index.js" ***!
-  \***********************************************************************************************/
+/*!********************************************************************************************!*\
+  !*** external "/Users/michaelchristianson/Documents/gd-clone/node_modules/react/index.js" ***!
+  \********************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("/Users/michaelchristianson/Documents/gatsby-data/node_modules/react/index.js");;
+module.exports = require("/Users/michaelchristianson/Documents/gd-clone/node_modules/react/index.js");;
 
 /***/ }),
 
