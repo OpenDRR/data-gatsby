@@ -13,9 +13,9 @@ const DatasetDetails = (props) => {
           <Link to="https://www.canada.ca/en.html">Canada.ca </Link>/
           <Link to="/en/Provinces-and-Territories">
             {" "}
-            Provinces and Territories{" "}
+            Provinces and Territories {" "}
           </Link>
-          /<Link to="/en/Provinces-and-Territories"> Details </Link>
+           / Details 
         </div>
         <div>
           {name.map((data, index) => {

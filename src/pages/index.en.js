@@ -8,7 +8,7 @@ import Layout from "../components/layout";
 
 const IndexPage = () => (
   <Layout>
-    <div className="container">
+    <div className="container home">
       <h1>OpenDRR Downloads</h1>
       <p>
         Welcome to the OpenDRR data download site. Here you will find the latest

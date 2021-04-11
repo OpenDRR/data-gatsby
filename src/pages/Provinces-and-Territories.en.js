@@ -21,7 +21,7 @@ const ProvincesAndTerritories = () => {
     <Layout>
       <div className="container">
         <div>
-          <Link to="/">Home</Link> / Provinces and Territories
+          <Link to="/en/">Home</Link> / Provinces and Territories
         </div>
         <h1 id="wb-cont">Province And Territory Datasets</h1>
       </div>

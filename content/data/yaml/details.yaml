@@ -1,10 +1,75 @@
-# future developer eruid legend
-# when making a change a change to a certain economic region 
-# 
+# Developer eruid legend
+# when making a change to a certain economic region in VSCODE CMD + F to search for a given region
 
 # Alberta
-# British Columbia
+# - Lethbridge--Medicine Hat - 4810
+# - Camrose--Drumheller - 4820
+# - Calgary - 4830
+# - Banff--Jasper--Rocky Mountain House - 4840
+# - Red Deer - 4850
+# - Edmonton - 4860
+# - Athabasca--Grande Prairie--Peace River - 4870
+# - Wood Buffalo--Cold Lake - 4880
+
+# British Columbia / Colombie-Britannique
+# - Vancouver Island and Coast / ele de Vancouver et la c
+# - Lower Mainland--Southwest / Lower Mainland--Sud-ouest
+# - Thompson--Okanagan
+# - Kootenay
+# - Cariboo
+# - North Coast / Cote-nord
+# - Nechako
+# - Northeast / Nord-est
+
 # Saskatchewan
+# - Regina--Moose Mountain - 4710
+# - Swift Current--Moose Jaw - 4720
+# - Saskatoon--Biggar - 4730
+# - Yorkton--Melville - 4740
+# - Prince Albert - 4750
+# - Northern / Nord - 4760
+
+# Manitoba
+# - Southeast / Sud-est - 4610
+# - South Central / Centre sud - 4620
+# - Southwest / Sud-ouest - 4630
+# - North Central / Centre nord - 4640
+# - Winnipeg - 4650
+# - Interlake - 4660
+# - Parklands - 4670
+# - North / Nord - 4680
+
+# Ontario
+# - Ottawa - 3510
+# - Kingston--Pembroke - 3515
+# - Muskoka--Kawarthas - 3520
+# - Toronto - 3530
+# - Kitchener--Waterloo--Barrie - 3540
+# - Hamilton--Niagara Peninsula - 3550
+# - London -3560
+# - Windsor--Sarnia - 3570
+# - Stratford--Bruce Peninsula - 3580
+# - Northeast / Nord-est - 3590
+# - Northwest / Nord-ouest - 3595
+
+
+#Quebec
+# - Laurentides - 2455
+# - Estrie - 2430
+# - Outaouais - 2460
+# - Cóte-Nord -2480
+# - Bas-Saint-Laurent - 2415
+# - Saguenay--Lac-Saint-Jean - 2475
+# - Nord-du-Qu-bec - 2490
+# - Montreal - 2440 
+# - Lanaudi - 2450
+# - Abitibi-TQmiscamingue - 2465
+# - Gasp - 2410
+# - Chaudi re-Appalaches - 2425
+# - Capitale-Nationale - 2420
+# - Centre-du-Quebec - 2433
+# - Mont - 2435
+# - Mauricie - 2470
 
 
 

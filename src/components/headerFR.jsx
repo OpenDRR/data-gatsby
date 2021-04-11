@@ -15,7 +15,7 @@ class HeaderFR extends Component {
             property="publisher"
             typeof="GovernmentOrganization"
           >
-            <a href="/">
+            <a href="https://www.canada.ca/fr.html">
               <img className="" src={Logo} alt="logo" />
             </a>
         </div>

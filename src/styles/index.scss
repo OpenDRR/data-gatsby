@@ -6,7 +6,26 @@
 @import 'breadcrumb.scss';
 @import 'carousel.scss';
 @import 'variables.scss';
+@import 'defaults.scss';
+@import './main/base.scss';
+@import './main//print.scss';
 
+@import './views/print.scss';
+@import './views/screen-lg-max.scss';
+@import './views/screen-lg-min-to-screen-lg-max.scss';
+@import './views/screen-lg-min.scss';
+@import './views/screen-md-min.scss';
+@import './views/screen-md-max.scss';
+@import './views/screen-md-min-to-screen-md-max.scss';
+@import './views/screen-md-min.scss';
+@import './views/screen-sm-max.scss';
+@import './views/screen-sm-min-to-screen-sm-max.scss';
+@import './views/screen-sm-min.scss';
+@import './views/screen-xl-min.scss';
+@import './views/screen-xs-max.scss';
+@import './views/screen-xs-min-to-screen-xs-max.scss';
+@import './views/screen-xs-min.scss';
+@import './views/screen-xxs-max.scss';
 
 
 // @import './variables.scss';

@@ -8,7 +8,7 @@ import { Helmet } from "react-helmet";
 import LayoutFR from "../components/layoutFR";
 const IndexPage = () => (
   <LayoutFR>
-    <div className="container">
+    <div className="container home">
       <Helmet>
         <html lang="fr"></html>
       </Helmet>
