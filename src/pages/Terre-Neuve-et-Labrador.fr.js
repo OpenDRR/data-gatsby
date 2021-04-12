@@ -48,9 +48,9 @@ const NewfoundlandAndLabrador = () => {
           >
             <thead>
               <tr>
-              <th>Nom</th>
-                        <th>Date de modification</th>
-                        <th>Format</th>
+                <th>Nom</th>
+                <th>Date de modification</th>
+                <th>Format</th>
               </tr>
             </thead>
             <tbody>
@@ -70,7 +70,7 @@ const NewfoundlandAndLabrador = () => {
                         href={data.url}
                         download
                       >
-                        Download
+                        Accès
                       </a>
                     </td>
                   </tr>
@@ -97,35 +97,35 @@ const NewfoundlandAndLabrador = () => {
                   <table className="table table-hover">
                     <thead>
                       <tr>
-                      <th>Nom</th>
+                        <th>Nom</th>
                         <th>Date de modification</th>
                         <th>Format</th>
                       </tr>
                     </thead>
                     <tbody>
-                      {YAMLData.downloads5910.map((data, index) => {
+                      {YAMLData.downloads1010.map((data, index) => {
                         return (
-                          <tr key={`downloads5910_${index}`}>
-                            <td key={`downloads5910_threat_title_${index}`}>
-                              {data.title}
+                          <tr key={`downloads1010_${index}`}>
+                            <td key={`downloads1010_threat_title_${index}`}>
+                              {data.titlefr}
                             </td>
                             <td
-                              key={`downloads5910_threat_lastUpdated_${index}`}
+                              key={`downloads1010_threat_lastUpdated_${index}`}
                             >
                               {data.lastUpdated}
                             </td>
-                            <td key={`downloads5910_threat_format_${index}`}>
+                            <td key={`downloads1010_threat_format_${index}`}>
                               <span className="label label-default">
                                 {data.format}
                               </span>
                             </td>
-                            <td key={`downloads5910_threat_url_${index}`}>
-                            <Link
-                        className="btn btn-primary btn-sm pull-right"
-                        to={data.url}
-                      >
-                        Accès
-                      </Link>
+                            <td key={`downloads1010_threat_url_${index}`}>
+                              <Link
+                                className="btn btn-primary btn-sm pull-right"
+                                to={data.urlfr}
+                              >
+                                Accès
+                              </Link>
                             </td>
                           </tr>
                         );
@@ -146,35 +146,35 @@ const NewfoundlandAndLabrador = () => {
                   <table className="table table-hover">
                     <thead>
                       <tr>
-                      <th>Nom</th>
+                        <th>Nom</th>
                         <th>Date de modification</th>
                         <th>Format</th>
                       </tr>
                     </thead>
                     <tbody>
-                      {YAMLData.downloads5920.map((data, index) => {
+                      {YAMLData.downloads1020.map((data, index) => {
                         return (
-                          <tr key={`downloads5920_${index}`}>
-                            <td key={`downloads5920_threat_title_${index}`}>
-                              {data.title}
+                          <tr key={`downloads1020_${index}`}>
+                            <td key={`downloads1020_threat_title_${index}`}>
+                              {data.titlefr}
                             </td>
                             <td
-                              key={`downloads5920_threat_lastUpdated_${index}`}
+                              key={`downloads1020_threat_lastUpdated_${index}`}
                             >
                               {data.lastUpdated}
                             </td>
-                            <td key={`downloads5920_threat_format_${index}`}>
+                            <td key={`downloads1020_threat_format_${index}`}>
                               <span className="label label-default">
                                 {data.format}
                               </span>
                             </td>
-                            <td key={`downloads5920_threat_url_${index}`}>
-                            <Link
-                        className="btn btn-primary btn-sm pull-right"
-                        to={data.url}
-                      >
-                        Accès
-                      </Link>
+                            <td key={`downloads1020_threat_url_${index}`}>
+                              <Link
+                                className="btn btn-primary btn-sm pull-right"
+                                to={data.urlfr}
+                              >
+                                Accès
+                              </Link>
                             </td>
                           </tr>
                         );
@@ -195,35 +195,35 @@ const NewfoundlandAndLabrador = () => {
                   <table className="table table-hover">
                     <thead>
                       <tr>
-                      <th>Nom</th>
+                        <th>Nom</th>
                         <th>Date de modification</th>
                         <th>Format</th>
                       </tr>
                     </thead>
                     <tbody>
-                      {YAMLData.downloads5930.map((data, index) => {
+                      {YAMLData.downloads1030.map((data, index) => {
                         return (
-                          <tr key={`downloads5930_${index}`}>
-                            <td key={`downloads5930_threat_title_${index}`}>
-                              {data.title}
+                          <tr key={`downloads1030_${index}`}>
+                            <td key={`downloads1030_threat_title_${index}`}>
+                              {data.titlefr}
                             </td>
                             <td
-                              key={`downloads5930_threat_lastUpdated_${index}`}
+                              key={`downloads1030_threat_lastUpdated_${index}`}
                             >
                               {data.lastUpdated}
                             </td>
-                            <td key={`downloads5930_threat_format_${index}`}>
+                            <td key={`downloads1030_threat_format_${index}`}>
                               <span className="label label-default">
                                 {data.format}
                               </span>
                             </td>
-                            <td key={`downloads5930_threat_url_${index}`}>
-                            <Link
-                        className="btn btn-primary btn-sm pull-right"
-                        to={data.url}
-                      >
-                        Accès
-                      </Link>
+                            <td key={`downloads1030_threat_url_${index}`}>
+                              <Link
+                                className="btn btn-primary btn-sm pull-right"
+                                to={data.urlfr}
+                              >
+                                Accès
+                              </Link>
                             </td>
                           </tr>
                         );
@@ -244,35 +244,35 @@ const NewfoundlandAndLabrador = () => {
                   <table className="table table-hover">
                     <thead>
                       <tr>
-                      <th>Nom</th>
+                        <th>Nom</th>
                         <th>Date de modification</th>
                         <th>Format</th>
                       </tr>
                     </thead>
                     <tbody>
-                      {YAMLData.downloads5940.map((data, index) => {
+                      {YAMLData.downloads1040.map((data, index) => {
                         return (
-                          <tr key={`downloads5940_${index}`}>
-                            <td key={`downloads5940_threat_title_${index}`}>
-                              {data.title}
+                          <tr key={`downloads1040_${index}`}>
+                            <td key={`downloads1040_threat_title_${index}`}>
+                              {data.titlefr}
                             </td>
                             <td
-                              key={`downloads5940_threat_lastUpdated_${index}`}
+                              key={`downloads1040_threat_lastUpdated_${index}`}
                             >
                               {data.lastUpdated}
                             </td>
-                            <td key={`downloads5940_threat_format_${index}`}>
+                            <td key={`downloads1040_threat_format_${index}`}>
                               <span className="label label-default">
                                 {data.format}
                               </span>
                             </td>
-                            <td key={`downloads5940_threat_url_${index}`}>
-                            <Link
-                        className="btn btn-primary btn-sm pull-right"
-                        to={data.url}
-                      >
-                        Accès
-                      </Link>
+                            <td key={`downloads1040_threat_url_${index}`}>
+                              <Link
+                                className="btn btn-primary btn-sm pull-right"
+                                to={data.urlfr}
+                              >
+                                Accès
+                              </Link>
                             </td>
                           </tr>
                         );

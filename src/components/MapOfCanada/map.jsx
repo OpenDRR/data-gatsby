@@ -1,6 +1,6 @@
-import React from "react"
+import React from "react";
 // import "./mapstyles.css"
-import { Link } from "gatsby"
+import { Link } from "gatsby";
 const Map = () => {
   return (
     <svg viewBox="-24500 -27050 55700 47100">
@@ -1867,6 +1867,6 @@ const Map = () => {
         <use mask="url(#all)" xlinkHref="#i-CA-NU" />
       </g>
     </svg>
-  )
-}
-export default Map
+  );
+};
+export default Map;

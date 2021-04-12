@@ -122,7 +122,7 @@ const Yukon = () => {
                             <td key={`downloads6010_threat_url_${index}`}>
                             <Link
                         className="btn btn-primary btn-sm pull-right"
-                        to={data.url}
+                        to={data.urlfr}
                       >
                         Accès
                       </Link>

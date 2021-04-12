@@ -122,7 +122,7 @@ const Quebec = () => {
                             <td key={`downloads2410_threat_url_${index}`}>
                               <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>
@@ -171,7 +171,7 @@ const Quebec = () => {
                             <td key={`downloads2415_threat_url_${index}`}>
                               <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>
@@ -220,7 +220,7 @@ const Quebec = () => {
                             <td key={`downloads2420_threat_url_${index}`}>
                               <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>
@@ -269,7 +269,7 @@ const Quebec = () => {
                             <td key={`downloads2425_threat_url_${index}`}>
                               <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>
@@ -318,7 +318,7 @@ const Quebec = () => {
                             <td key={`downloads2430_threat_url_${index}`}>
                               <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>
@@ -367,7 +367,7 @@ const Quebec = () => {
                             <td key={`downloads2433_threat_url_${index}`}>
                               <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>
@@ -416,7 +416,7 @@ const Quebec = () => {
                             <td key={`downloads2435_threat_url_${index}`}>
                               <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>
@@ -465,7 +465,7 @@ const Quebec = () => {
                             <td key={`downloads2440_threat_url_${index}`}>
                               <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>
@@ -514,7 +514,7 @@ const Quebec = () => {
                             <td key={`downloads2450_threat_url_${index}`}>
                               <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>
@@ -563,7 +563,7 @@ const Quebec = () => {
                             <td key={`downloads2455_threat_url_${index}`}>
                               <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>
@@ -612,7 +612,7 @@ const Quebec = () => {
                             <td key={`downloads2460_threat_url_${index}`}>
                               <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>
@@ -661,7 +661,7 @@ const Quebec = () => {
                             <td key={`downloads2465_threat_url_${index}`}>
                               <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>
@@ -710,7 +710,7 @@ const Quebec = () => {
                             <td key={`downloads2470_threat_url_${index}`}>
                               <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>
@@ -759,7 +759,7 @@ const Quebec = () => {
                             <td key={`downloads2475_threat_url_${index}`}>
                               <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>
@@ -808,7 +808,7 @@ const Quebec = () => {
                             <td key={`downloads2480_threat_url_${index}`}>
                               <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>
@@ -857,7 +857,7 @@ const Quebec = () => {
                             <td key={`downloads2490_threat_url_${index}`}>
                               <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>

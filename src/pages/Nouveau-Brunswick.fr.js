@@ -171,7 +171,7 @@ const NouveauBrunswick = () => {
                             <td key={`downloads1320_threat_url_${index}`}>
                             <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>
@@ -220,7 +220,7 @@ const NouveauBrunswick = () => {
                             <td key={`downloads1330_threat_url_${index}`}>
                             <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>
@@ -269,7 +269,7 @@ const NouveauBrunswick = () => {
                             <td key={`downloads1340_threat_url_${index}`}>
                             <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>
@@ -318,7 +318,7 @@ const NouveauBrunswick = () => {
                             <td key={`downloads1350_threat_url_${index}`}>
                             <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>

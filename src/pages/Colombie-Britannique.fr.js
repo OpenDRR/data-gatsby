@@ -4,12 +4,12 @@ import YAMLData from "../../content/data/yaml/prov-terr.yaml";
 import { Link } from "gatsby";
 import { Accordion, Card, Button } from "react-bootstrap";
 import LayoutFR from "../components/layoutFR";
-import SEO from '../components/seo'
+import SEO from "../components/seo";
 
 const ColombieBritannique = () => {
   return (
     <LayoutFR>
-      <SEO title="Colombie-Britannique"/>
+      <SEO title="Colombie-Britannique" />
       <div className="container provincial-banner">
         <div className="breadcrumb">
           <Link to="/fr/Provinces-et-Territoires">
@@ -72,7 +72,7 @@ const ColombieBritannique = () => {
                         href={data.url}
                         download
                       >
-                       Access
+                        Access
                       </a>
                     </td>
                   </tr>
@@ -91,7 +91,7 @@ const ColombieBritannique = () => {
             <Card>
               <Card.Header>
                 <Accordion.Toggle as={Button} variant="link" eventKey="0">
-                 Ele de Vancouver et la c (5910)
+                  Ele de Vancouver et la c (5910)
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="0">
@@ -122,9 +122,9 @@ const ColombieBritannique = () => {
                               </span>
                             </td>
                             <td key={`downloads5910_threat_url_${index}`}>
-                            <Link
+                              <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>
@@ -171,9 +171,9 @@ const ColombieBritannique = () => {
                               </span>
                             </td>
                             <td key={`downloads5920_threat_url_${index}`}>
-                            <Link
+                              <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>
@@ -220,9 +220,9 @@ const ColombieBritannique = () => {
                               </span>
                             </td>
                             <td key={`downloads5930_threat_url_${index}`}>
-                            <Link
+                              <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>
@@ -269,9 +269,9 @@ const ColombieBritannique = () => {
                               </span>
                             </td>
                             <td key={`downloads5940_threat_url_${index}`}>
-                            <Link
+                              <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>
@@ -318,9 +318,9 @@ const ColombieBritannique = () => {
                               </span>
                             </td>
                             <td key={`downloads5950_threat_url_${index}`}>
-                            <Link
+                              <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>
@@ -367,9 +367,9 @@ const ColombieBritannique = () => {
                               </span>
                             </td>
                             <td key={`downloads5960_threat_url_${index}`}>
-                            <Link
+                              <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Access
                               </Link>
@@ -416,9 +416,9 @@ const ColombieBritannique = () => {
                               </span>
                             </td>
                             <td key={`downloads5970_threat_url_${index}`}>
-                            <Link
+                              <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>
@@ -465,9 +465,9 @@ const ColombieBritannique = () => {
                               </span>
                             </td>
                             <td key={`downloads5980_threat_url_${index}`}>
-                            <Link
+                              <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>

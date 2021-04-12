@@ -1,11 +1,18 @@
 import React from "react";
 import { Link } from "gatsby";
-import { StaticImage } from "gatsby-plugin-image"
-import '../styles/index.scss'
+import { StaticImage } from "gatsby-plugin-image";
+import "../styles/index.scss";
 
 const IndexPage = () => (
   <div className="background">
-    <StaticImage className="splash-image" src="../images/sp-bg-2.jpg" alt="splash-image" />
+    <StaticImage
+      className="splash-image"
+      placeholder="blurred"
+      src="../images/sp-bg-2.jpg"
+      alt="splash-image"
+      width={100}
+      height={100}
+    />
     <div className="container landing-content">
       <h1 className="wb-inv">
         Language selection - Web Experience Toolkit /{" "}

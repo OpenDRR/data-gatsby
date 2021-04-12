@@ -39,6 +39,7 @@ downloadsBC:
     title: "PSRA All Indicators B"
     url: "/details/PSRA-All-Indicators-B"
     lastUpdated: 2021-03-18
+    urlfr: "/details/5910/"
     format: ".gpkg"
 
   - file:
@@ -55,6 +56,7 @@ downloads:
     title: "PSRA All Indicators B"
     url: "psra_bc_all_indicators_b_.gpkg"
     lastUpdated: 2021-03-18
+    urlfr: "/details/5910/"
     format: ".gpkg"
 
   - file:
@@ -68,30 +70,35 @@ downloads5910:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/5910/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/5910/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/5910/Physical-Exposure-Buildings"
+    urlfr: "/details/5910/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/5910/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/5910/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/5910/Risk-Dynamics"
+    urlfr: "/details/5910/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/5910/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/5910/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -100,63 +107,72 @@ downloads5920:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/5920/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/5920/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
-    
     url: "/details/5920/Physical-Exposure-Buildings"
+    urlfr: "/details/5920/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/5920/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/5920/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/5920/Risk-Dynamics"
+    urlfr: "/details/5920/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/5920/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/5920/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
 downloads5930:
   - threat:
     title: "Multi Hazard Threat (Census Subdivision)"
-    titlefr: "Menace multirisque (Subdivision de recensement)"
+    titlefr: "Menace Multirisque (Subdivision de recensement)"
     url: "/details/5930/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/5930/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/5930/Physical-Exposure-Buildings"
+    urlfr: "/details/5930/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/5930/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/5930/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/5930/Risk-Dynamics"
+    urlfr: "/details/5930/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/5930/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/5930/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -165,30 +181,35 @@ downloads5940:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/5940/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/5940/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/5940/Physical-Exposure-Buildings"
+    urlfr: "/details/5940/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/5940/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/5940/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/5940/Risk-Dynamics"
+    urlfr: "/details/5940/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/5940/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/5940/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -197,30 +218,35 @@ downloads5950:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/5950/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/5950/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/5950/Physical-Exposure-Buildings"
+    urlfr: "/details/5950/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/5950/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/5950/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/5950/Risk-Dynamics"
+    urlfr: "/details/5950/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/5950/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/5950/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -229,30 +255,35 @@ downloads5960:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/5960/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/5960/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/5960/Physical-Exposure-Buildings"
+    urlfr: "/details/5960/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/5960/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/5960/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/5960/Risk-Dynamics"
+    urlfr: "/details/5960/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/5960/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/5960/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -261,30 +292,35 @@ downloads5970:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/5970/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/5970/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/5970/Physical-Exposure-Buildings"
+    urlfr: "/details/5970/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/5970/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/5970/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/5970/Risk-Dynamics"
+    urlfr: "/details/5970/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/5970/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/5970/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -293,30 +329,35 @@ downloads5980:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/5980/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/5980/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/5980/Physical-Exposure-Buildings"
+    urlfr: "/details/5980/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/5980/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/5980/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/5980/Risk-Dynamics"
+    urlfr: "/details/5980/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/5980/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/5980/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -364,30 +405,35 @@ downloads4810:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/4810/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/4810/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/4810/Physical-Exposure-Buildings"
+    urlfr: "/details/4810/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/4810/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/4810/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/4810/Risk-Dynamics"
+    urlfr: "/details/4810/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/4810/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/4810/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -396,30 +442,35 @@ downloads4820:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/4820/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/4820/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/4820/Physical-Exposure-Buildings"
+    urlfr: "/details/4820/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/4820/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/4820/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/4820/Risk-Dynamics"
+    urlfr: "/details/4820/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/4820/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/4820/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -428,30 +479,35 @@ downloads4830:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/4830/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/4830/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/4830/Physical-Exposure-Buildings"
+    urlfr: "/details/4830/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/4830/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/4830/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/4830/Risk-Dynamics"
+    urlfr: "/details/4830/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/4830/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/4830/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -460,30 +516,35 @@ downloads4840:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/4840/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/4840/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/4840/Physical-Exposure-Buildings"
+    urlfr: "/details/4840/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/4840/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/4840/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/4840/Risk-Dynamics"
+    urlfr: "/details/4840/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/4840/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/4840/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -492,30 +553,35 @@ downloads4850:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/4850/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/4850/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/4850/Physical-Exposure-Buildings"
+    urlfr: "/details/4850/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/4850/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/4850/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/4850/Risk-Dynamics"
+    urlfr: "/details/4850/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/4850/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/4850/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -524,30 +590,35 @@ downloads4860:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/4860/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/4860/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/4860/Physical-Exposure-Buildings"
+    urlfr: "/details/4860/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/4860/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/4860/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/4860/Risk-Dynamics"
+    urlfr: "/details/4860/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/4860/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/4860/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -556,30 +627,35 @@ downloads4870:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/4870/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/4870/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/4870/Physical-Exposure-Buildings"
+    urlfr: "/details/4870/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/4870/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/4870/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/4870/Risk-Dynamics"
+    urlfr: "/details/4870/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/4870/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/4870/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -588,30 +664,35 @@ downloads4880:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/4880/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/4880/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/4880/Physical-Exposure-Buildings"
+    urlfr: "/details/4880/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/4880/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/4880/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/4880/Risk-Dynamics"
+    urlfr: "/details/4880/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/4880/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/4880/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -651,6 +732,7 @@ downloads4710:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/4710/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/5910/"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
@@ -683,6 +765,7 @@ downloads4720:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/4720/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/5910/"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
@@ -715,6 +798,7 @@ downloads4730:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/4730/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/5910/"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
@@ -747,6 +831,7 @@ downloads4740:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/4740/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/5910/"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
@@ -779,6 +864,7 @@ downloads4750:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/4750/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/5910/"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
@@ -811,6 +897,7 @@ downloads4760:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/4760/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/5910/"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
@@ -882,24 +969,28 @@ downloads4610:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/4610/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/4610/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/4610/Physical-Exposure-Buildings"
+    urlfr: "/details/4610/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/4610/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/4610/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/4610/Risk-Dynamics"
+    urlfr: "/details/4610/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
@@ -914,30 +1005,35 @@ downloads4620:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/4620/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/4620/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/4620/Physical-Exposure-Buildings"
+    urlfr: "/details/4620/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/4620/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/4620/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/4620/Risk-Dynamics"
+    urlfr: "/details/4620/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/4620/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/4620/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -946,30 +1042,35 @@ downloads4630:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/4630/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/4630/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/4630/Physical-Exposure-Buildings"
+    urlfr: "/details/4630/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/4630/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/4630/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/4630/Risk-Dynamics"
+    urlfr: "/details/4630/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/4630/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/4630/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -978,30 +1079,35 @@ downloads4640:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/4640/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/4640/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/4640/Physical-Exposure-Buildings"
+    urlfr: "/details/4640/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/4640/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/4640/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/4640/Risk-Dynamics"
+    urlfr: "/details/4640/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/4640/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/4640/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -1010,30 +1116,35 @@ downloads4650:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/4650/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/4650/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/4650/Physical-Exposure-Buildings"
+    urlfr: "/details/4650/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/4650/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/4650/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/4650/Risk-Dynamics"
+    urlfr: "/details/4650/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/4650/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/4650/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -1042,30 +1153,35 @@ downloads4660:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/4660/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/4660/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/4660/Physical-Exposure-Buildings"
+    urlfr: "/details/4660/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/4660/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/4660/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/4660/Risk-Dynamics"
+    urlfr: "/details/4660/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/4660/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/4660/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -1074,30 +1190,35 @@ downloads4670:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/4670/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/4670/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/4670/Physical-Exposure-Buildings"
+    urlfr: "/details/4670/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/4670/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/4670/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/4670/Risk-Dynamics"
+    urlfr: "/details/4670/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/4670/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/4670/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -1106,30 +1227,35 @@ downloads4680:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/4680/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/4680/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/4680/Physical-Exposure-Buildings"
+    urlfr: "/details/4680/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/4680/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/4680/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/4680/Risk-Dynamics"
+    urlfr: "/details/4680/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/4680/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/4680/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -1189,30 +1315,35 @@ downloads3510:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/3510/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/3510/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/3510/Physical-Exposure-Buildings"
+    urlfr: "/details/3510/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/3510/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/3510/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/3510/Risk-Dynamics"
+    urlfr: "details/3510/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/3510/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/3510/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -1221,30 +1352,35 @@ downloads3515:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/3515/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/3515/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/3515/Physical-Exposure-Buildings"
+    urlfr: "/details/3515/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/3515/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/3515/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/3515/Risk-Dynamics"
+    urlfr: "/details/3515/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/3515/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/3515/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -1253,30 +1389,35 @@ downloads3520:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/3520/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/3520/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/3520/Physical-Exposure-Buildings"
+    urlfr: "/details/3520/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/3520/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/3520/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/3520/Risk-Dynamics"
+    urlfr: "/details/3520/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/3520/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/3520/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -1285,30 +1426,35 @@ downloads3530:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/3530/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/3530/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/3530/Physical-Exposure-Buildings"
+    urlfr: "/details/3530/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/3530/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/3530/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/3530/Risk-Dynamics"
+    urlfr: "/details/3530/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/3530/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/3530/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -1317,30 +1463,35 @@ downloads3540:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/3540/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/3540/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/3540/Physical-Exposure-Buildings"
+    urlfr: "/details/3540/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/3540/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/3540/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/3540/Risk-Dynamics"
+    urlfr: "/details/3540/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/3540/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/3540/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -1349,30 +1500,35 @@ downloads3550:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/3550/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/3550/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/3550/Physical-Exposure-Buildings"
+    urlfr: "/details/3550/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/3550/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/3550/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/3550/Risk-Dynamics"
+    urlfr: "/details/3550/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/3550/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/3550/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -1381,30 +1537,35 @@ downloads3560:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/3560/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/3560/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/3560/Physical-Exposure-Buildings"
+    urlfr: "/details/3560/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/3560/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/3560/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/3560/Risk-Dynamics"
+    urlfr: "/details/3560/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/3560/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/3560/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -1413,30 +1574,35 @@ downloads3570:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/3570/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/3570/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/3570/Physical-Exposure-Buildings"
+    urlfr: "/details/3570/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/3570/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/3570/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/3570/Risk-Dynamics"
+    urlfr: "/details/3570/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/3570/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/3570/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -1445,30 +1611,35 @@ downloads3580:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/3580/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/3580/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/3580/Physical-Exposure-Buildings"
+    urlfr: "/details/3580/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/3580/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/3580/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/3580/Risk-Dynamics"
+    urlfr: "/details/3580/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/3580/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/3580/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -1477,30 +1648,35 @@ downloads3590:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/3590/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/3590/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/3590/Physical-Exposure-Buildings"
+    urlfr: "/details/3590/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/3590/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/3590/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/3590/Risk-Dynamics"
+    urlfr: "/details/3590/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/3590/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/3590/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -1509,30 +1685,35 @@ downloads3595:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/3595/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/3595/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/3595/Physical-Exposure-Buildings"
+    urlfr: "/details/3595/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/3595/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/3595/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/3595/Risk-Dynamics"
+    urlfr: "/details/3595/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/3595/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/3595/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -1616,30 +1797,35 @@ downloads2410:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/2410/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/2410/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/2410/Physical-Exposure-Buildings"
+    urlfr: "/details/2410/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/2410/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/2410/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/2410/Risk-Dynamics"
+    urlfr: "/details/2410/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/2410/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/2410/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -1648,30 +1834,35 @@ downloads2415:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/2415/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/2415/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/2415/Physical-Exposure-Buildings"
+    urlfr: "/details/2415/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/2415/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/2415/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/2415/Risk-Dynamics"
+    urlfr: "/details/2415/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/2415/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/2415/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -1680,30 +1871,35 @@ downloads2420:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/2420/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/2420/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/2420/Physical-Exposure-Buildings"
+    urlfr: "/details/2420/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/2420/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/2420/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/2420/Risk-Dynamics"
+    urlfr: "/details/2420/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/2420/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/2420/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -1712,30 +1908,35 @@ downloads2425:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/2425/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/2425/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/2425/Physical-Exposure-Buildings"
+    urlfr: "/details/2425/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/2425/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/2425/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/2425/Risk-Dynamics"
+    urlfr: "/details/2425/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/2425/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/2425/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -1744,30 +1945,35 @@ downloads2430:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/2430/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/2430/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/2430/Physical-Exposure-Buildings"
+    urlfr: "/details/2430/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/2430/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/2430/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/2430/Risk-Dynamics"
+    urlfr: "/details/2430/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/2430/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/2430/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -1776,30 +1982,35 @@ downloads2433:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/2433/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/2433/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/2433/Physical-Exposure-Buildings"
+    urlfr: "/details/2433/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/2433/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/2433/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/2433/Risk-Dynamics"
+    urlfr: "/details/2433/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/2433/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/2433/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -1808,30 +2019,35 @@ downloads2435:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/2435/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/2435/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/2435/Physical-Exposure-Buildings"
+    urlfr: "/details/2435/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/2435/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/2435/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/2435/Risk-Dynamics"
+    urlfr: "/details/2435/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/2435/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/2435/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -1840,30 +2056,35 @@ downloads2440:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/2440/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/2440/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/2440/Physical-Exposure-Buildings"
+    urlfr: "/details/2440/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/2440/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/2440/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/2440/Risk-Dynamics"
+    urlfr: "/details/2440/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/2440/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/2440/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -1872,30 +2093,35 @@ downloads2450:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/2450/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/2450/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/2450/Physical-Exposure-Buildings"
+    urlfr: "/details/2450/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/2450/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/2450/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/2450/Risk-Dynamics"
+    urlfr: "/details/2450/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/2450/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/2450/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -1904,30 +2130,35 @@ downloads2455:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/2455/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/2455/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/2455/Physical-Exposure-Buildings"
+    urlfr: "/details/2455/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/2455/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/2455/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/2455/Risk-Dynamics"
+    urlfr: "/details/2455/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/2455/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/2455/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -1936,30 +2167,35 @@ downloads2460:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/2460/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/2460/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/2460/Physical-Exposure-Buildings"
+    urlfr: "/details/2460/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/2460/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/2460/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/2460/Risk-Dynamics"
+    urlfr: "/details/2460/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/2460/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/2460/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -1968,30 +2204,35 @@ downloads2465:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/2465/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/2465/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/2465/Physical-Exposure-Buildings"
+    urlfr: "/details/2465/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/2465/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/2465/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/2465/Risk-Dynamics"
+    urlfr: "/details/2465/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/2465/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/2465/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -2000,30 +2241,35 @@ downloads2470:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/2470/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/2470/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/2470/Physical-Exposure-Buildings"
+    urlfr: "/details/2470/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/2470/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/2470/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/2470/Risk-Dynamics"
+    urlfr: "/details/2470/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/2470/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/2470/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -2032,30 +2278,35 @@ downloads2475:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/2475/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/2475/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/2475/Physical-Exposure-Buildings"
+    urlfr: "/details/2475/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/2475/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/2475/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/2475/Risk-Dynamics"
+    urlfr: "/details/2475/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/2475/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/2475/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -2064,30 +2315,35 @@ downloads2480:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/2480/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/2480/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/2480/Physical-Exposure-Buildings"
+    urlfr: "/details/2480/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/2480/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/2480/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/2480/Risk-Dynamics"
+    urlfr: "/details/2480/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/2480/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/2480/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -2096,30 +2352,35 @@ downloads2490:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/2490/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/2490/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/2490/Physical-Exposure-Buildings"
+    urlfr: "/details/2490/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/2490/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/2490/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/2490/Risk-Dynamics"
+    urlfr: "/details/2490/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/2490/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/2490/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -2155,30 +2416,35 @@ downloads1310:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/1310/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/1310/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/1310/Physical-Exposure-Buildings"
+    urlfr: "/details/1310/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/1310/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/1310/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/1310/Risk-Dynamics"
+    urlfr: "/details/1310/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/1310/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/1310/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -2187,30 +2453,35 @@ downloads1320:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/1320/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/1320/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/1320/Physical-Exposure-Buildings"
+    urlfr: "/details/1320/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/1320/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/1320/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/1320/Risk-Dynamics"
+    urlfr: "/details/1320/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/1320/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/1320/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -2219,30 +2490,35 @@ downloads1330:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/1330/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/1330/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/1330/Physical-Exposure-Buildings"
+    urlfr: "/details/1330/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/1330/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/1330/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/1330/Risk-Dynamics"
+    urlfr: "/details/1330/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/1330/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/1330/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -2251,30 +2527,35 @@ downloads1340:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/1340/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/1340/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/1340/Physical-Exposure-Buildings"
+    urlfr: "/details/1340/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/1340/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/1340/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/1340/Risk-Dynamics"
+    urlfr: "/details/1340/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/1340/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/1340/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -2283,30 +2564,35 @@ downloads1350:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/1350/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/1350/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/1350/Physical-Exposure-Buildings"
+    urlfr: "/details/1350/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/1350/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/1350/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/1350/Risk-Dynamics"
+    urlfr: "/details/1350/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/1350/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/1350/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -2342,30 +2628,35 @@ downloads1210:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/1210/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/1210/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/1210/Physical-Exposure-Buildings"
+    urlfr: "/details/1210/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/1210/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/1210/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/1210/Risk-Dynamics"
+    urlfr: "/details/1210/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/1210/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/1210/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -2374,30 +2665,35 @@ downloads1220:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/1220/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/1220/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/1220/Physical-Exposure-Buildings"
+    urlfr: "/details/1220/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/1220/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/1220/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/1220/Risk-Dynamics"
+    urlfr: "/details/1220/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/1220/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/1220/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -2406,30 +2702,35 @@ downloads1230:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/1230/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/1230/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/1230/Physical-Exposure-Buildings"
+    urlfr: "/details/1230/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/1230/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/1230/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/1230/Risk-Dynamics"
+    urlfr: "/details/1230/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/1230/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/1230/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -2438,30 +2739,35 @@ downloads1240:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/1240/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/1240/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/1240/Physical-Exposure-Buildings"
+    urlfr: "/details/1240/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/1240/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/1240/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/1240/Risk-Dynamics"
+    urlfr: "/details/1240/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/1240/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/1240/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -2470,30 +2776,35 @@ downloads1250:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/1250/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/1250/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/1250/Physical-Exposure-Buildings"
+    urlfr: "/details/1250/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/1250/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/1250/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/1250/Risk-Dynamics"
+    urlfr: "/details/1250/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/1250/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/1250/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -2513,30 +2824,35 @@ downloads1110:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/1110/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/1110/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/1110/Physical-Exposure-Buildings"
+    urlfr: "/details/1110/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/1110/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/1110/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/1110/Risk-Dynamics"
+    urlfr: "/details/1110/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/1110/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/1110/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -2568,30 +2884,35 @@ downloads1010:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/1010/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/1010/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/1010/Physical-Exposure-Buildings"
+    urlfr: "/details/1010/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/1010/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/1010/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/1010/Risk-Dynamics"
+    urlfr: "/details/1010/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/1010/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/1010/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -2600,30 +2921,35 @@ downloads1020:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/1020/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/1020/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/1020/Physical-Exposure-Buildings"
+    urlfr: "/details/1020/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/1020/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/1020/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/1020/Risk-Dynamics"
+    urlfr: "/details/1020/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/1020/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/1020/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -2632,62 +2958,71 @@ downloads1030:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/1030/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/1030/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/1030/Physical-Exposure-Buildings"
+    urlfr: "/details/1030/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/1030/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/1030/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/1030/Risk-Dynamics"
+    urlfr: "/details/1030/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/1030/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/1030/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
-
 downloads1040:
   - threat:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/1040/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/1040/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/1040/Physical-Exposure-Buildings"
+    urlfr: "/details/1040/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/1040/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/1040/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/1040/Risk-Dynamics"
+    urlfr: "/details/1040/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/1040/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/1040/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -2707,30 +3042,35 @@ downloads6110:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/6110/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/6110/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/6110/Physical-Exposure-Buildings"
+    urlfr: "/details/6110/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/6110/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/6110/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/6110/Risk-Dynamics"
+    urlfr: "/details/6110/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/6110/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/6110/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -2750,30 +3090,35 @@ downloads6210:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/6210/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/6210/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/6210/Physical-Exposure-Buildings"
+    urlfr: "/details/6210/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/6210/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/6210/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/6210/Risk-Dynamics"
+    urlfr: "/details/6210/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/6210/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/6210/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
@@ -2793,30 +3138,35 @@ downloads6010:
     title: "Multi Hazard Threat (Census Subdivision)"
     titlefr: "Menace multirisque (Subdivision de recensement)"
     url: "/details/6010/Multi-Hazard-Threat-Census-Subdivision"
+    urlfr: "/details/6010/Menace-Multirisque-Subdivision-de-Recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Buildings)"
     titlefr: "Exposition physique (Bâtiments)"
     url: "/details/6010/Physical-Exposure-Buildings"
+    urlfr: "/details/6010/Exposition-physique-Bâtiments"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Physical Exposure (Census Subdivision)"
     titlefr: "Exposition physique (subdivision de recensement)"
     url: "/details/6010/Physical-Exposure-Census-Subdivision"
+    urlfr: "/details/6010/Exposition-physique-Subdivision-de-recensement"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Risk Dynamics"
     titlefr: "Dynamique des risques"
     url: "/details/6010/Risk-Dynamics"
+    urlfr: "/details/6010/Dynamique-du-risque"
     lastUpdated: 2021-03-18
     format: ".gpkg"
   - threat:
     title: "Social Fabric (Census Subdivision)"
     titlefr: "Tissu social (subdivision de recensement)"
     url: "/details/6010/Social-Fabric-Census-Subdivision"
+    urlfr: "/details/6010/Tissu-Social"
     lastUpdated: 2021-03-18
     format: ".gpkg"
 # Yukon End

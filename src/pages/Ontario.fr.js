@@ -122,7 +122,7 @@ const Ontario = () => {
                             <td key={`downloads3510_threat_url_${index}`}>
                               <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>
@@ -171,7 +171,7 @@ const Ontario = () => {
                             <td key={`downloads3515_threat_url_${index}`}>
                               <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>
@@ -220,7 +220,7 @@ const Ontario = () => {
                             <td key={`downloads3520_threat_url_${index}`}>
                               <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>
@@ -269,7 +269,7 @@ const Ontario = () => {
                             <td key={`downloads3530_threat_url_${index}`}>
                               <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>
@@ -318,7 +318,7 @@ const Ontario = () => {
                             <td key={`downloads3540_threat_url_${index}`}>
                               <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>
@@ -367,7 +367,7 @@ const Ontario = () => {
                             <td key={`downloads3550_threat_url_${index}`}>
                               <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>
@@ -416,7 +416,7 @@ const Ontario = () => {
                             <td key={`downloads3560_threat_url_${index}`}>
                               <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>
@@ -465,7 +465,7 @@ const Ontario = () => {
                             <td key={`downloads3570_threat_url_${index}`}>
                               <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>
@@ -514,7 +514,7 @@ const Ontario = () => {
                             <td key={`downloads3580_threat_url_${index}`}>
                               <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>
@@ -563,7 +563,7 @@ const Ontario = () => {
                             <td key={`downloads3590_threat_url_${index}`}>
                               <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>
@@ -612,7 +612,7 @@ const Ontario = () => {
                             <td key={`downloads3595_threat_url_${index}`}>
                               <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>

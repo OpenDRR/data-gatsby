@@ -65,12 +65,12 @@ const Alberta = () => {
                       <span className="label label-default">{data.format}</span>
                     </td>
                     <td key={`downloads_file_url_${index}`}>
-                    <Link
-                                className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
-                              >
-                                Access
-                              </Link>
+                      <Link
+                        className="btn btn-primary btn-sm pull-right"
+                        to={data.url}
+                      >
+                        Access
+                      </Link>
                     </td>
                   </tr>
                 );
@@ -119,7 +119,7 @@ const Alberta = () => {
                               </span>
                             </td>
                             <td key={`downloads4810_threat_url_${index}`}>
-                            <Link
+                              <Link
                                 className="btn btn-primary btn-sm pull-right"
                                 to={data.url}
                               >
@@ -168,7 +168,7 @@ const Alberta = () => {
                               </span>
                             </td>
                             <td key={`downloads4820_threat_url_${index}`}>
-                            <Link
+                              <Link
                                 className="btn btn-primary btn-sm pull-right"
                                 to={data.url}
                               >
@@ -217,7 +217,7 @@ const Alberta = () => {
                               </span>
                             </td>
                             <td key={`downloads4830_threat_url_${index}`}>
-                            <Link
+                              <Link
                                 className="btn btn-primary btn-sm pull-right"
                                 to={data.url}
                               >
@@ -266,7 +266,7 @@ const Alberta = () => {
                               </span>
                             </td>
                             <td key={`downloads4840_threat_url_${index}`}>
-                            <Link
+                              <Link
                                 className="btn btn-primary btn-sm pull-right"
                                 to={data.url}
                               >
@@ -315,7 +315,7 @@ const Alberta = () => {
                               </span>
                             </td>
                             <td key={`downloads4850_threat_url_${index}`}>
-                            <Link
+                              <Link
                                 className="btn btn-primary btn-sm pull-right"
                                 to={data.url}
                               >
@@ -364,7 +364,7 @@ const Alberta = () => {
                               </span>
                             </td>
                             <td key={`downloads4860_threat_url_${index}`}>
-                            <Link
+                              <Link
                                 className="btn btn-primary btn-sm pull-right"
                                 to={data.url}
                               >
@@ -413,7 +413,7 @@ const Alberta = () => {
                               </span>
                             </td>
                             <td key={`downloads4870_threat_url_${index}`}>
-                            <Link
+                              <Link
                                 className="btn btn-primary btn-sm pull-right"
                                 to={data.url}
                               >
@@ -462,7 +462,7 @@ const Alberta = () => {
                               </span>
                             </td>
                             <td key={`downloads4880_threat_url_${index}`}>
-                            <Link
+                              <Link
                                 className="btn btn-primary btn-sm pull-right"
                                 to={data.url}
                               >

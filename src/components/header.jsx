@@ -7,25 +7,25 @@ class Header extends Component {
     return (
       <header className="header-styles">
         <div className="row">
-        <div id="wb-bnr" className="container">
-          <section id="wb-lang" className="text-right">
-            <h2 className="wb-inv">Language Selection</h2>
-            <div
-            className="brand col-xs-5 col-md-4"
-            property="publisher"
-            typeof="GovernmentOrganization"
-          >
-            <a href="https://www.canada.ca/en.html">
-              <img className="" src={Logo} alt="logo" />
-            </a>
-        </div>
-            <ul className="list-inline margin-bottom-none">
-              <li>
-                <Link to="/fr/">Français</Link>
-              </li>
-            </ul>
-          </section>
-        </div>
+          <div id="wb-bnr" className="container">
+            <section id="wb-lang" className="text-right">
+              <h2 className="wb-inv">Language Selection</h2>
+              <div
+                className="brand col-xs-5 col-md-4"
+                property="publisher"
+                typeof="GovernmentOrganization"
+              >
+                <a href="https://www.canada.ca/en.html">
+                  <img className="" src={Logo} alt="logo" />
+                </a>
+              </div>
+              <ul className="list-inline margin-bottom-none">
+                <li>
+                  <Link to="/fr/">Français</Link>
+                </li>
+              </ul>
+            </section>
+          </div>
         </div>
       </header>
     );

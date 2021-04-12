@@ -122,7 +122,7 @@ const NovaScotia = () => {
                             <td key={`downloads1210_threat_url_${index}`}>
                             <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>
@@ -171,7 +171,7 @@ const NovaScotia = () => {
                             <td key={`downloads1220_threat_url_${index}`}>
                             <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>
@@ -220,7 +220,7 @@ const NovaScotia = () => {
                             <td key={`downloads1230_threat_url_${index}`}>
                             <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>
@@ -269,7 +269,7 @@ const NovaScotia = () => {
                             <td key={`downloads1240_threat_url_${index}`}>
                             <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>
@@ -318,7 +318,7 @@ const NovaScotia = () => {
                             <td key={`downloads1250_threat_url_${index}`}>
                             <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>

@@ -70,7 +70,7 @@ const NorthwestTerritories = () => {
                         href={data.url}
                         download
                       >
-                        Download
+                        Accès
                       </a>
                     </td>
                   </tr>
@@ -126,9 +126,9 @@ const NorthwestTerritories = () => {
                             <td key={`downloads6110_threat_url_${index}`}>
                             <Link
                         className="btn btn-primary btn-sm pull-right"
-                        to={data.url}
+                        to={data.urlfr}
                       >
-                        Access
+                        Accès
                       </Link>
                             </td>
                           </tr>

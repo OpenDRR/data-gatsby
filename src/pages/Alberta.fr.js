@@ -70,7 +70,7 @@ const Alberta = () => {
                         href={data.url}
                         download
                       >
-                       Accès
+                        Accès
                       </a>
                     </td>
                   </tr>
@@ -103,28 +103,28 @@ const Alberta = () => {
                       </tr>
                     </thead>
                     <tbody>
-                      {YAMLData.downloads5910.map((data, index) => {
+                      {YAMLData.downloads4810.map((data, index) => {
                         return (
-                          <tr key={`downloads5910_${index}`}>
+                          <tr key={`downloads4810_${index}`}>
                             <td key={`downloads5910_threat_title_${index}`}>
                               {data.titlefr}
                             </td>
                             <td
-                              key={`downloads5910_threat_lastUpdated_${index}`}
+                              key={`downloads4810_threat_lastUpdated_${index}`}
                             >
                               {data.lastUpdated}
                             </td>
-                            <td key={`downloads5910_threat_format_${index}`}>
+                            <td key={`downloads4810_threat_format_${index}`}>
                               <span className="label label-default">
                                 {data.format}
                               </span>
                             </td>
-                            <td key={`downloads5910_threat_url_${index}`}>
-                            <Link
+                            <td key={`downloads4810_threat_url_${index}`}>
+                              <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
-                               Accès
+                                Accès
                               </Link>
                             </td>
                           </tr>
@@ -152,26 +152,26 @@ const Alberta = () => {
                       </tr>
                     </thead>
                     <tbody>
-                      {YAMLData.downloads5920.map((data, index) => {
+                      {YAMLData.downloads4820.map((data, index) => {
                         return (
-                          <tr key={`downloads5920_${index}`}>
-                            <td key={`downloads5920_threat_title_${index}`}>
+                          <tr key={`downloads4820_${index}`}>
+                            <td key={`downloads4820_threat_title_${index}`}>
                               {data.titlefr}
                             </td>
                             <td
-                              key={`downloads5920_threat_lastUpdated_${index}`}
+                              key={`downloads4820_threat_lastUpdated_${index}`}
                             >
                               {data.lastUpdated}
                             </td>
-                            <td key={`downloads5920_threat_format_${index}`}>
+                            <td key={`downloads4820_threat_format_${index}`}>
                               <span className="label label-default">
                                 {data.format}
                               </span>
                             </td>
-                            <td key={`downloads5920_threat_url_${index}`}>
-                            <Link
+                            <td key={`downloads4820_threat_url_${index}`}>
+                              <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>
@@ -201,26 +201,26 @@ const Alberta = () => {
                       </tr>
                     </thead>
                     <tbody>
-                      {YAMLData.downloads5930.map((data, index) => {
+                      {YAMLData.downloads4830.map((data, index) => {
                         return (
-                          <tr key={`downloads5930_${index}`}>
-                            <td key={`downloads5930_threat_title_${index}`}>
+                          <tr key={`downloads4830_${index}`}>
+                            <td key={`downloads4830_threat_title_${index}`}>
                               {data.titlefr}
                             </td>
                             <td
-                              key={`downloads5930_threat_lastUpdated_${index}`}
+                              key={`downloads4830_threat_lastUpdated_${index}`}
                             >
                               {data.lastUpdated}
                             </td>
-                            <td key={`downloads5930_threat_format_${index}`}>
+                            <td key={`downloads4830_threat_format_${index}`}>
                               <span className="label label-default">
                                 {data.format}
                               </span>
                             </td>
-                            <td key={`downloads5930_threat_url_${index}`}>
-                            <Link
+                            <td key={`downloads4830_threat_url_${index}`}>
+                              <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>
@@ -250,26 +250,26 @@ const Alberta = () => {
                       </tr>
                     </thead>
                     <tbody>
-                      {YAMLData.downloads5940.map((data, index) => {
+                      {YAMLData.downloads4840.map((data, index) => {
                         return (
-                          <tr key={`downloads5940_${index}`}>
-                            <td key={`downloads5940_threat_title_${index}`}>
+                          <tr key={`downloads4840_${index}`}>
+                            <td key={`downloads4840_threat_title_${index}`}>
                               {data.titlefr}
                             </td>
                             <td
-                              key={`downloads5940_threat_lastUpdated_${index}`}
+                              key={`downloads4840_threat_lastUpdated_${index}`}
                             >
                               {data.lastUpdated}
                             </td>
-                            <td key={`downloads5940_threat_format_${index}`}>
+                            <td key={`downloads4840_threat_format_${index}`}>
                               <span className="label label-default">
                                 {data.format}
                               </span>
                             </td>
-                            <td key={`downloads5940_threat_url_${index}`}>
-                            <Link
+                            <td key={`downloads4840_threat_url_${index}`}>
+                              <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Access
                               </Link>
@@ -299,26 +299,26 @@ const Alberta = () => {
                       </tr>
                     </thead>
                     <tbody>
-                      {YAMLData.downloads5950.map((data, index) => {
+                      {YAMLData.downloads4850.map((data, index) => {
                         return (
-                          <tr key={`downloads5950_${index}`}>
-                            <td key={`downloads5950_threat_title_${index}`}>
+                          <tr key={`downloads4850_${index}`}>
+                            <td key={`downloads4850_threat_title_${index}`}>
                               {data.titlefr}
                             </td>
                             <td
-                              key={`downloads5950_threat_lastUpdated_${index}`}
+                              key={`downloads4850_threat_lastUpdated_${index}`}
                             >
                               {data.lastUpdated}
                             </td>
-                            <td key={`downloads5950_threat_format_${index}`}>
+                            <td key={`downloads4850_threat_format_${index}`}>
                               <span className="label label-default">
                                 {data.format}
                               </span>
                             </td>
-                            <td key={`downloads5950_threat_url_${index}`}>
-                            <Link
+                            <td key={`downloads4850_threat_url_${index}`}>
+                              <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>
@@ -348,26 +348,26 @@ const Alberta = () => {
                       </tr>
                     </thead>
                     <tbody>
-                      {YAMLData.downloads5960.map((data, index) => {
+                      {YAMLData.downloads4860.map((data, index) => {
                         return (
-                          <tr key={`downloads5960_${index}`}>
-                            <td key={`downloads5960_threat_title_${index}`}>
+                          <tr key={`downloads4860_${index}`}>
+                            <td key={`downloads4860_threat_title_${index}`}>
                               {data.titlefr}
                             </td>
                             <td
-                              key={`downloads5960_threat_lastUpdated_${index}`}
+                              key={`downloads4860_threat_lastUpdated_${index}`}
                             >
                               {data.lastUpdated}
                             </td>
-                            <td key={`downloads5960_threat_format_${index}`}>
+                            <td key={`downloads4860_threat_format_${index}`}>
                               <span className="label label-default">
                                 {data.format}
                               </span>
                             </td>
-                            <td key={`downloads5960_threat_url_${index}`}>
-                            <Link
+                            <td key={`downloads4860_threat_url_${index}`}>
+                              <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>
@@ -397,26 +397,26 @@ const Alberta = () => {
                       </tr>
                     </thead>
                     <tbody>
-                      {YAMLData.downloads5970.map((data, index) => {
+                      {YAMLData.downloads4870.map((data, index) => {
                         return (
-                          <tr key={`downloads5970_${index}`}>
-                            <td key={`downloads5970_threat_title_${index}`}>
+                          <tr key={`downloads4870_${index}`}>
+                            <td key={`downloads4870_threat_title_${index}`}>
                               {data.titlefr}
                             </td>
                             <td
-                              key={`downloads5970_threat_lastUpdated_${index}`}
+                              key={`downloads4870_threat_lastUpdated_${index}`}
                             >
                               {data.lastUpdated}
                             </td>
-                            <td key={`downloads5970_threat_format_${index}`}>
+                            <td key={`downloads4870_threat_format_${index}`}>
                               <span className="label label-default">
                                 {data.format}
                               </span>
                             </td>
-                            <td key={`downloads5970_threat_url_${index}`}>
-                            <Link
+                            <td key={`downloads4870_threat_url_${index}`}>
+                              <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>
@@ -446,26 +446,26 @@ const Alberta = () => {
                       </tr>
                     </thead>
                     <tbody>
-                      {YAMLData.downloads5980.map((data, index) => {
+                      {YAMLData.downloads4880.map((data, index) => {
                         return (
-                          <tr key={`downloads5980_${index}`}>
-                            <td key={`downloads5980_threat_title_${index}`}>
+                          <tr key={`downloads4880_${index}`}>
+                            <td key={`downloads4880_threat_title_${index}`}>
                               {data.titlefr}
                             </td>
                             <td
-                              key={`downloads5980_threat_lastUpdated_${index}`}
+                              key={`downloads4880_threat_lastUpdated_${index}`}
                             >
                               {data.lastUpdated}
                             </td>
-                            <td key={`downloads5980_threat_format_${index}`}>
+                            <td key={`downloads4880_threat_format_${index}`}>
                               <span className="label label-default">
                                 {data.format}
                               </span>
                             </td>
-                            <td key={`downloads5980_threat_url_${index}`}>
-                            <Link
+                            <td key={`downloads4880_threat_url_${index}`}>
+                              <Link
                                 className="btn btn-primary btn-sm pull-right"
-                                to={data.url}
+                                to={data.urlfr}
                               >
                                 Accès
                               </Link>

@@ -1,204 +1,198 @@
 // include @media to declare breakpoints within a className
 .splash-image {
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
 }
 .landing-content {
-    position: absolute;
+  position: absolute;
+  top: 25%;
+  left: 20%;
+  align-items: center;
+  background-color: white;
+
+  @include media("<LGdesktop") {
     top: 25%;
-    left: 20%;
-     align-items: center;
-    background-color: white;
-
-    @include media('<LGdesktop') {
-        top: 25%;
-        left: 10%;
-    }
-
+    left: 10%;
+  }
 }
 .mt-1 {
-    margin-top: 1em;
+  margin-top: 1em;
 }
 
 h1 {
-	border-bottom: 1px solid $border-red;
-	margin-bottom: .2em;
-	margin-top: 1em;
-	padding-bottom: .2em;
+  border-bottom: 1px solid $border-red;
+  margin-bottom: 0.2em;
+  margin-top: 1em;
+  padding-bottom: 0.2em;
 }
 
-.background{
-    width: 100%;
-    height: 100%;
-    
+.background {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .supplemental {
-    margin-bottom: 10vw;
+  margin-bottom: 10vw;
 
-
-    .contact-email, 
-    .keywords, 
-    .publisher,
-    .licence {
-        font-weight: bold;
-    }
-    .license-col {
-        display: flex;
-    }
-    .licence {
-        margin-right: .5vw;
-    }
+  .contact-email,
+  .keywords,
+  .publisher,
+  .licence {
+    font-weight: bold;
+  }
+  .license-col {
+    display: flex;
+  }
+  .licence {
+    margin-right: 0.5vw;
+  }
 }
 
 .map-container {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    }
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
 
 .navbar-brand {
-    margin:  10px 0;
-    padding: 0;
+  margin: 10px 0;
+  padding: 0;
+  width: 260px;
+  @include media("<=desktop") {
     width: 260px;
-  @include media('<=desktop') {
-      width: 260px;
-      margin:  10px 0;
-      padding: 0;
-  }  
-  @include media('<=tablet') {
-      width: 200px;
+    margin: 10px 0;
+    padding: 0;
+  }
+  @include media("<=tablet") {
+    width: 200px;
   }
 }
 
 .lang-toggle {
-    position: relative;
-    text-align: right;
-    align-items: flex-end;
-    margin-left: 30vw;
-    
+  position: relative;
+  text-align: right;
+  align-items: flex-end;
+  margin-left: 30vw;
 }
-// .header 
-// .navbar 
+// .header
+// .navbar
 // .navbar-default
 
-
 .hero-section {
-	// height: 50vh;
-	width: 100%;
-	// max-height: 1200px;
-	position: relative;
-	overflow: hidden;
-    margin-bottom: 2vw;
+  // height: 50vh;
+  width: 100%;
+  // max-height: 1200px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 2vw;
 
-    @include media('<=tablet') {
-        height: 30vh;
-        margin-bottom: 4vw;
+  @include media("<=tablet") {
+    height: 30vh;
+    margin-bottom: 4vw;
+  }
+  @include media(">=desktop") {
+  }
+  @include media("<=desktop") {
+  }
+
+  .hero-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+  }
+  // .banner-img
+  .hero-slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    &:before {
+      content: "";
+      width: 100%;
+      bottom: 0vh;
+      left: 0;
+      overflow: hidden;
+      opacity: 0.4;
     }
-    @include media('>=desktop') {
+  }
+  .slide-title {
+    z-index: 1 !important;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 20vh;
 
+    @include media("<=tablet") {
+      height: 20vh;
+      text-align: center;
+      font-size: 20px;
     }
-    @include media('<=desktop') {
+  }
+  .slide-button {
+    z-index: 1 !important;
+    top: 50%;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: white !important;
 
+    @include media("<=tablet") {
+      height: 35vh;
+      top: 0;
+      text-align: center;
     }
+  }
 
-    .hero-wrapper {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        overflow: hidden;
-        position: relative;
+  .banner-buttons {
+    z-index: 1 !important;
+    top: 60%;
+    right: 5vw;
+    display: flex;
+    position: absolute;
+    color: white;
+    width: 10vw;
+    align-items: center;
+
+    @include media("<desktop") {
+      top: 75%;
     }
-    // .banner-img
-    .hero-slider {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        align-items: center;
-        justify-content: center;
-        color: white;
-        &:before {
-            content: '';
-            width: 100%;
-            // height: 100vh;
-            bottom: 0vh;
-            left: 0;
-            overflow: hidden;
-            // opacity: 0.4;
-        }
+    @include media(">tablet") {
+      top: 60%;
     }
-    .slide-title {
-        z-index: 1 !important;
-        display: flex;
-        position: absolute;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        height: 20vh;
-
-        @include media('<=tablet') {
-            height: 20vh;
-            text-align: center;
-            font-size: 20px;
-        }
-    }
-    .slide-button {
-        z-index: 1 !important;
-        top: 50%;
-        display: flex;
-        position: absolute;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        color: white !important;
-
-        @include media('<=tablet') {
-            height: 35vh;
-            top: 0;
-            text-align: center;
-        }
-    }
-
-
-    .banner-buttons {
-        z-index: 1 !important;
-        top: 60%;
-        right: 5vw;
-        display: flex;
-        position: absolute;
-        color: white;
-        width: 10vw;
-        align-items: center;
-
-        @include media('<desktop') {
-            top: 75%;
-        }
-    }
+  }
 }
-
-
 
 .ER-container {
-    margin-bottom: 200px;
-    display: inline;
-.Region-Summary {
-	text-decoration: none;
-	list-style: none;
-	text-align: left;
+  margin-bottom: 200px;
+  display: inline;
+  .Region-Summary {
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+  }
 }
-}
-
 
 .LNU {
-    @include media("<=tablet") {
-        // text-align: left;
-    }
+  @include media("<=tablet") {
+    // text-align: left;
+  }
 }

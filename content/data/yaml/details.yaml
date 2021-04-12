@@ -71,7 +71,37 @@
 # - Mont - 2435
 # - Mauricie - 2470
 
+# Newfoundland and Labrador / Terre-Neuve-et-Labrador
+# - Avalon Peninsula - 1010
+# - South Coast--Burin Peninsula / Cate-sud--Burin Peninsula 1020 
+# - West Coast--Northern Peninsula--Labrador / Cate-ouest--Northern Peninsula--Labrador 1030
+# - Notre Dame--Central Bonavista Bay 1040
 
+# Northwest Territories / Territoires du Nord-Ouest
+# - Northwest Territories / Territoires du Nord-Ouest 6110
+
+# Nova Scotia / Nouvelle--Ecosse
+# - North Shore / C te-nord 1220
+# - Southern / Sud 1240
+# - Halifax - 1250
+# - Cape Breton - 1210
+# - Annapolis Valley - 1230
+
+# New Brunswick / Nouveau-Brunswick
+# - Campbellton--Miramichi - 1310
+# - Moncton--Richibucto - 1320
+# - Saint John--St. Stephen - 1330
+# - Fredericton--Oromocto - 1340
+# - Edmundston--Woodstock - 1350
+
+# Nunavut
+# - Nunavut 6310
+
+# Yukon
+# - Yukon - 6010
+
+# Prince Edward Island / ile-du-Prince-edouard
+# - Prince Edward Island / ile-du-Prince-edouard - 1110
 
 - path: "/details/PSRA-All-Indicators-B"
   name:
@@ -5362,7 +5392,7 @@
   - lang: "French"
   - format: ".gpkg"
 
-  #5940
+  #5930
 
 - path: "/details/5930/Menace-Multirisque-Subdivision-de-Recensement"
   name:

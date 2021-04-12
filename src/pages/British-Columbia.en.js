@@ -69,7 +69,8 @@ const BritishColumbia = () => {
                     </td>
                     <td>English</td>
                     <td key={`downloads_file_url_${index}`}>
-                      <Link to={data.url}
+                      <Link
+                        to={data.url}
                         className="btn btn-primary btn-sm pull-right"
                       >
                         Access
@@ -171,7 +172,7 @@ const BritishColumbia = () => {
                               </span>
                             </td>
                             <td key={`downloads5920_threat_url_${index}`}>
-                            <Link
+                              <Link
                                 className="btn btn-primary btn-sm pull-right"
                                 to={data.url}
                               >
@@ -220,7 +221,7 @@ const BritishColumbia = () => {
                               </span>
                             </td>
                             <td key={`downloads5930_threat_url_${index}`}>
-                            <Link
+                              <Link
                                 className="btn btn-primary btn-sm pull-right"
                                 to={data.url}
                               >
@@ -269,7 +270,7 @@ const BritishColumbia = () => {
                               </span>
                             </td>
                             <td key={`downloads5940_threat_url_${index}`}>
-                            <Link
+                              <Link
                                 className="btn btn-primary btn-sm pull-right"
                                 to={data.url}
                               >
@@ -318,7 +319,7 @@ const BritishColumbia = () => {
                               </span>
                             </td>
                             <td key={`downloads5950_threat_url_${index}`}>
-                            <Link
+                              <Link
                                 className="btn btn-primary btn-sm pull-right"
                                 to={data.url}
                               >
@@ -367,7 +368,7 @@ const BritishColumbia = () => {
                               </span>
                             </td>
                             <td key={`downloads5960_threat_url_${index}`}>
-                            <Link
+                              <Link
                                 className="btn btn-primary btn-sm pull-right"
                                 to={data.url}
                               >
@@ -416,7 +417,7 @@ const BritishColumbia = () => {
                               </span>
                             </td>
                             <td key={`downloads5970_threat_url_${index}`}>
-                            <Link
+                              <Link
                                 className="btn btn-primary btn-sm pull-right"
                                 to={data.url}
                               >
@@ -465,7 +466,7 @@ const BritishColumbia = () => {
                               </span>
                             </td>
                             <td key={`downloads5980_threat_url_${index}`}>
-                            <Link
+                              <Link
                                 className="btn btn-primary btn-sm pull-right"
                                 to={data.url}
                               >
