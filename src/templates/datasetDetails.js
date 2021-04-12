@@ -1,8 +1,8 @@
 import React from "react";
 import Layout from "../components/layout";
-import { Link } from "gatsby";
+// import { Link } from "gatsby";
 import ContactInfo from "../../content/data/yaml/contact.yaml";
-import Breadcrumb from '../components/Breadcrumb'
+import Breadcrumb from "../components/Breadcrumb";
 
 const DatasetDetails = (props) => {
   const { pageContext } = props;
@@ -11,30 +11,28 @@ const DatasetDetails = (props) => {
     <Layout>
       <div className="container">
         <Breadcrumb />
-        <div className="breadcrumb">
+        {/* <div className="breadcrumb">
           <Link to="https:www.canada.ca/en.html">Canada.ca </Link>/
           <Link to="/en/Provinces-and-Territories">
             {" "}
             Provinces and Territories{" "}
           </Link>
           / Details
-        </div>
+        </div> */}
         <div>
           {name.map((data, index) => {
             return <h1 key={`name_title_${index}`}>{data.title}</h1>;
           })}
         </div>
-        <section className="">
-          <div id="resource-desc" className="pull-left">
-            {details.map((item, index) => {
-              return (
-                <p key={`details_description_${index}`}>{item.description}</p>
-              );
-            })}
-          </div>
-        </section>
-        <section>
-          <div className="">
+        <div className="">
+            <div className="col-md-7" id="resource-desc">
+              {details.map((item, index) => {
+                return (
+                  <p key={`details_description_${index}`}>{item.description}</p>
+                );
+              })}
+            </div>
+            {/* <div className="col-md-5 pull-right">
             <h2>Spatial Extent</h2>
             {details.map((item, index) => {
               return (
@@ -43,10 +41,9 @@ const DatasetDetails = (props) => {
                 </p>
               );
             })}
+          </div> */}
           </div>
-        </section>
-        <section>
-          <aside className="">
+          <div className="col-md-5 pull-right">
             <h2 id="wb-cont">Additional Information</h2>
             <p className="contact-email">
               Contact Email:{" "}
@@ -67,27 +64,29 @@ const DatasetDetails = (props) => {
                 Open Government Licence - Canada
               </a>
             </div>
-            <div className="">
-              <div className="">
-                <div className="panel-title">Contact</div>
+            <div className="panel-heading">
+              <div className="panel-title">
+                <div className="container"><b>Contact</b></div>
               </div>
-              <p>Name: {ContactInfo.contact.name}</p>
-              <p>Position: {ContactInfo.contact.position}</p>
-              <p>Address: {ContactInfo.contact.address}</p>
-              <p>Province: {ContactInfo.contact.stateorprovince}</p>
-              <p>Postal Code: {ContactInfo.contact.postalcode}</p>
-              <p>Country: {ContactInfo.contact.country}</p>
-              <p>Phone: {ContactInfo.contact.phone}</p>
-              <p>Fax: {ContactInfo.contact.fax}</p>
-              <p>Email: {ContactInfo.contact.email}</p>
-              <p>{ContactInfo.contact.url}</p>
-              <p>Hours: {ContactInfo.contact.hours}</p>
-              <p>Instructions: {ContactInfo.contact.instructions}</p>
-              <p>Role: {ContactInfo.contact.role}</p>
+              <ul className="list-group">
+              <li className="list-group-item"><b>Name:</b> {ContactInfo.contact.name}</li>
+              <li className="list-group-item"><b>position:</b> {ContactInfo.contact.position}</li>
+              <li className="list-group-item"><b>Address:</b> {ContactInfo.contact.address}</li>
+              <li className="list-group-item"><b>Province:</b> {ContactInfo.contact.stateorprovince}</li>
+              <li className="list-group-item"><b>Postal Code: </b>{ContactInfo.contact.postalcode}</li>
+              <li className="list-group-item"><b>Country:</b> {ContactInfo.contact.country}</li>
+              <li className="list-group-item"><b>Phone:</b> {ContactInfo.contact.phone}</li>
+              <li className="list-group-item"><b>Fax:</b> {ContactInfo.contact.fax}</li>
+              <li className="list-group-item"><b>Email: </b> <a href={ContactInfo.contact.email}> {ContactInfo.contact.email}</a></li>
+              <li className="list-group-item"><a href={ContactInfo.contact.url}>{ContactInfo.contact.url}</a></li>
+              <li className="list-group-item"><b>Hours:</b> {ContactInfo.contact.hours}</li>
+              <li className="list-group-item"><b>Instructions:</b> {ContactInfo.contact.instructions}</li>
+              <li className="list-group-item"><b>Role:</b> {ContactInfo.contact.role}</li>
+              </ul>
             </div>
-          </aside>
-        </section>
-        <table className="table table-hover">
+          </div>
+        </div>
+        <table className="table table-hover container">
           <thead>
             <tr>
               <th>Resource Name</th>
@@ -98,7 +97,6 @@ const DatasetDetails = (props) => {
             </tr>
           </thead>
         </table>
-      </div>
     </Layout>
   );
 };
