@@ -16,13 +16,10 @@ const NationalDatasetsPage = () => {
           <table className="table table-hover">
             <thead>
               <th>Nom</th>
-              <th>Date de modification</th>
-              <th>Format</th>
             </thead>
             <tbody>
               <tr>
                 <th>Menaces Liées Aux Risques Naturels</th>
-                <th></th>
                 <th>
                   <a
                     download
@@ -36,7 +33,6 @@ const NationalDatasetsPage = () => {
 
               <tr>
                 <th>Dynamique du Risque</th>
-                <th></th>
                 <th>
                   <a
                     download
@@ -49,7 +45,6 @@ const NationalDatasetsPage = () => {
               </tr>
               <tr>
                 <th>Exposition Physique</th>
-                <th></th>
                 <th>
                   <a
                     download
@@ -62,7 +57,6 @@ const NationalDatasetsPage = () => {
               </tr>
               <tr>
                 <th>Tissu Social et Seuils de Capacité</th>
-                <th></th>
                 <th>
                   <a
                     download

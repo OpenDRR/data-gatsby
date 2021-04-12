@@ -17,14 +17,14 @@ const NationalDatasetsPage = () => {
             <thead>
               <tr>
                 <th>Name</th>
-                <th>Last Updated</th>
-                <th>Format</th>
+               
+                {/* <th>Format</th> */}
               </tr>
             </thead>
             <tbody>
               <tr>
                 <th>Natural Hazard Threats</th>
-                <th></th>
+                
                 <th>
                   <a
                     download
@@ -38,7 +38,7 @@ const NationalDatasetsPage = () => {
 
               <tr>
                 <th>Risk Dynamics</th>
-                <th></th>
+            
                 <th>
                   <a
                     download
@@ -51,7 +51,7 @@ const NationalDatasetsPage = () => {
               </tr>
               <tr>
                 <th>Physical Exposure</th>
-                <th></th>
+            
                 <th>
                   <a
                     download
@@ -64,7 +64,7 @@ const NationalDatasetsPage = () => {
               </tr>
               <tr>
                 <th>Social Fabric and Capacity Thresholds</th>
-                <th></th>
+               
                 <th>
                   <a
                     download

@@ -10,7 +10,7 @@ const Breadcrumb = () => {
             <a href="https://www.canada.ca/en.html">Canada.ca</a>
           </li>
           <li>
-            <a href="/en">Open Government</a>
+            <a href="/en">OpenDRR Home</a>
           </li>
 
           <li>
@@ -18,7 +18,7 @@ const Breadcrumb = () => {
               className=" active"
               href="/"
             >
-              Active Monitoring of River ...
+              Details
             </a>
           </li>
         </ol>

@@ -45,28 +45,23 @@ const DatasetDetails = (props) => {
           </div>
           <div className="col-md-5 pull-right">
             <h2 id="wb-cont">Additional Information</h2>
-            <p className="contact-email">
-              Contact Email:{" "}
-              <a href="mailto:nrcan.egs-sgu.rncan@canada.ca">
-                nrcan.egs-sgu.rncan@canada.ca
-              </a>
-            </p>
-            <p className="keywords">
-              Keywords:{" "}
+      
+            <b className="keywords">
+              Keywords:{" "}</b>
               <span className="label label-default">Natural Disasters</span>
-            </p>
+          
             <p className="publisher">
-              Publisher - Current Organization Name: Natural Resources Canada{" "}
+            <b>Publisher:</b> Natural Resources Canada{" "}
             </p>
             <div className="license-col">
-              <p className="licence">Licence: </p>
+              <b className="licence">Licence: </b>
               <a href="https:open.canada.ca/en/open-government-licence-canada">
                 Open Government Licence - Canada
               </a>
             </div>
-            <div className="panel-heading">
-              <div className="panel-title">
-                <div className="container"><b>Contact</b></div>
+            <div>
+              <div>
+              <h2 id="wb-cont">Contact</h2>
               </div>
               <ul className="list-group">
               <li className="list-group-item"><b>Name:</b> {ContactInfo.contact.name}</li>
@@ -81,22 +76,23 @@ const DatasetDetails = (props) => {
               <li className="list-group-item"><a href={ContactInfo.contact.url}>{ContactInfo.contact.url}</a></li>
               <li className="list-group-item"><b>Hours:</b> {ContactInfo.contact.hours}</li>
               <li className="list-group-item"><b>Instructions:</b> {ContactInfo.contact.instructions}</li>
-              <li className="list-group-item"><b>Role:</b> {ContactInfo.contact.role}</li>
               </ul>
             </div>
           </div>
-        </div>
-        <table className="table table-hover container">
+          <section div className="container">
+          <table className="table table-hover container">
           <thead>
             <tr>
-              <th>Resource Name</th>
-              <th>Resource Type</th>
+              <th>Name</th>
+              <th>Type</th>
               <th>Format</th>
               <th>Language</th>
               <th>Links</th>
             </tr>
           </thead>
         </table>
+          </section>
+        </div>
     </Layout>
   );
 };
