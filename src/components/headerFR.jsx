@@ -20,7 +20,7 @@ class HeaderFR extends Component {
                 </a>
               </div>
               <ul className="list-inline margin-bottom-none">
-                <li>
+                <li id="#wb-lng">
                   <Link to="/en/">English</Link>
                 </li>
               </ul>

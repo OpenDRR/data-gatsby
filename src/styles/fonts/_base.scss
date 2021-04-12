@@ -4,11 +4,11 @@
 		style: normal;
 		weight: normal;
 	}
-	src: url("../fonts/gcweb_0c4a4eb7974d0a7287c93c02965f9b3f.eot"),
-	url("../fonts/gcweb_0c4a4eb7974d0a7287c93c02965f9b3f.eot?#iefix") format("embedded-opentype"),
-	url("../fonts/gcweb_0c4a4eb7974d0a7287c93c02965f9b3f.woff") format("woff"),
-	url("../fonts/gcweb_0c4a4eb7974d0a7287c93c02965f9b3f.ttf") format("truetype"),
-	url("../fonts/gcweb_0c4a4eb7974d0a7287c93c02965f9b3f.svg#gcweb") format("svg");
+	src: src("gcweb_0c4a4eb7974d0a7287c93c02965f9b3f.eot"),
+	src("gcweb_0c4a4eb7974d0a7287c93c02965f9b3f.eot?#iefix") format("embedded-opentype"),
+	src("gcweb_0c4a4eb7974d0a7287c93c02965f9b3f.woff") format("woff"),
+	src("gcweb_0c4a4eb7974d0a7287c93c02965f9b3f.ttf") format("truetype"),
+	src("gcweb_0c4a4eb7974d0a7287c93c02965f9b3f.svg#gcweb") format("svg");
 }
 
 %basic-font-format {

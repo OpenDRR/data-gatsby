@@ -11,15 +11,69 @@ const NationalDatasetsPage = () => {
         </div>
         <h1 id="wb-cont">National Datasets</h1>
         <section style={{ marginTop: "20vh", marginBottom: "20vh" }} id="NHSL">
-          <h2>Couches nationales d'établissements humains</h2>
+          <h2>Couches Nationales D'etablissements Humains</h2>
           <hr />
           <table className="table table-hover">
             <thead>
-              <th>Name</th>
-              <th>Last Updated</th>
+              <th>Nom</th>
+              <th>Date de modification</th>
               <th>Format</th>
             </thead>
-            <tbody></tbody>
+            <tbody>
+              <tr>
+                <th>Menaces Liées Aux Risques Naturels</th>
+                <th></th>
+                <th>
+                  <a
+                    download
+                    className="btn btn-primary btn-sm pull-right"
+                    href="https://ftp.maps.canada.ca/pub/nrcan_rncan/Earthquakes_Tremblement-de-terre/nhsl_hazard_threat_data"
+                  >
+                    Accès
+                  </a>
+                </th>
+              </tr>
+
+              <tr>
+                <th>Dynamique du Risque</th>
+                <th></th>
+                <th>
+                  <a
+                    download
+                    className="btn btn-primary btn-sm pull-right"
+                    href="https://ftp.maps.canada.ca/pub/nrcan_rncan/Earthquakes_Tremblement-de-terre/nhsl_risk_dynamics_data"
+                  >
+                    Accès
+                  </a>
+                </th>
+              </tr>
+              <tr>
+                <th>Exposition Physique</th>
+                <th></th>
+                <th>
+                  <a
+                    download
+                    className="btn btn-primary btn-sm pull-right"
+                    href="https://ftp.maps.canada.ca/pub/nrcan_rncan/Earthquakes_Tremblement-de-terre/nhsl_physical_exposure_data"
+                  >
+                    Accès
+                  </a>
+                </th>
+              </tr>
+              <tr>
+                <th>Tissu Social et Seuils de Capacité</th>
+                <th></th>
+                <th>
+                  <a
+                    download
+                    className="btn btn-primary btn-sm pull-right"
+                    href="https://ftp.maps.canada.ca/pub/nrcan_rncan/Earthquakes_Tremblement-de-terre/nhsl_social_fabric_data"
+                  >
+                    Accès
+                  </a>
+                </th>
+              </tr>
+            </tbody>
           </table>
         </section>
         <section style={{ marginTop: "20vh", marginBottom: "20vh" }} id="SR">
@@ -28,7 +82,7 @@ const NationalDatasetsPage = () => {
           <table className="table table-hover">
             <thead>
               <th>Nom</th>
-              <th>Dernière mise à jour</th>
+              <th>Date de modification</th>
               <th>Format</th>
             </thead>
             <tbody></tbody>
@@ -41,7 +95,7 @@ const NationalDatasetsPage = () => {
           <table className="table table-hover">
             <thead>
               <th>Nom</th>
-              <th>Dernière mise à jour</th>
+              <th>Date de modification</th>
               <th>Format</th>
             </thead>
             <tbody></tbody>

@@ -21,7 +21,61 @@ const NationalDatasetsPage = () => {
                 <th>Format</th>
               </tr>
             </thead>
-            <tbody></tbody>
+            <tbody>
+              <tr>
+                <th>Natural Hazard Threats</th>
+                <th></th>
+                <th>
+                  <a
+                    download
+                    className="btn btn-primary btn-sm pull-right"
+                    href="https://ftp.maps.canada.ca/pub/nrcan_rncan/Earthquakes_Tremblement-de-terre/nhsl_hazard_threat_data"
+                  >
+                    Access
+                  </a>
+                </th>
+              </tr>
+
+              <tr>
+                <th>Risk Dynamics</th>
+                <th></th>
+                <th>
+                  <a
+                    download
+                    className="btn btn-primary btn-sm pull-right"
+                    href="https://ftp.maps.canada.ca/pub/nrcan_rncan/Earthquakes_Tremblement-de-terre/nhsl_risk_dynamics_data"
+                  >
+                    Access
+                  </a>
+                </th>
+              </tr>
+              <tr>
+                <th>Physical Exposure</th>
+                <th></th>
+                <th>
+                  <a
+                    download
+                    className="btn btn-primary btn-sm pull-right"
+                    href="https://ftp.maps.canada.ca/pub/nrcan_rncan/Earthquakes_Tremblement-de-terre/nhsl_physical_exposure_data"
+                  >
+                    Access
+                  </a>
+                </th>
+              </tr>
+              <tr>
+                <th>Social Fabric and Capacity Thresholds</th>
+                <th></th>
+                <th>
+                  <a
+                    download
+                    className="btn btn-primary btn-sm pull-right"
+                    href="https://ftp.maps.canada.ca/pub/nrcan_rncan/Earthquakes_Tremblement-de-terre/nhsl_social_fabric_data"
+                  >
+                    Access
+                  </a>
+                </th>
+              </tr>
+            </tbody>
           </table>
         </section>
         <section style={{ marginTop: "20vh", marginBottom: "20vh" }} id="SR">
