@@ -21,6 +21,7 @@ exports.components = {
   "component---src-pages-national-datasets-en-js": preferDefault(require("/Users/michaelchristianson/Documents/gd-clone/src/pages/National-Datasets.en.js")),
   "component---src-pages-new-brunswick-en-js": preferDefault(require("/Users/michaelchristianson/Documents/gd-clone/src/pages/New-Brunswick.en.js")),
   "component---src-pages-newfoundland-and-labrador-en-js": preferDefault(require("/Users/michaelchristianson/Documents/gd-clone/src/pages/Newfoundland-and-Labrador.en.js")),
+  "component---src-pages-nhsl-en-js": preferDefault(require("/Users/michaelchristianson/Documents/gd-clone/src/pages/nhsl.en.js")),
   "component---src-pages-northwest-territories-en-js": preferDefault(require("/Users/michaelchristianson/Documents/gd-clone/src/pages/Northwest-Territories.en.js")),
   "component---src-pages-nouveau-brunswick-fr-js": preferDefault(require("/Users/michaelchristianson/Documents/gd-clone/src/pages/Nouveau-Brunswick.fr.js")),
   "component---src-pages-nouvelle-ecosse-fr-js": preferDefault(require("/Users/michaelchristianson/Documents/gd-clone/src/pages/Nouvelle-Écosse.fr.js")),

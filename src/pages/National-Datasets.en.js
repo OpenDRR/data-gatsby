@@ -11,72 +11,10 @@ const NationalDatasetsPage = () => {
         </div>
         <h1 id="wb-cont">National Datasets</h1>
         <section style={{ marginTop: "20vh", marginBottom: "20vh" }} id="NHSL">
-          <h2>National Human Settlement Layers</h2>
+          <h2>National Human Settlement Layer</h2>
           <hr />
-          <table className="table table-hover">
-            <thead>
-              <tr>
-                <th>Name</th>
-               
-                {/* <th>Format</th> */}
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th>Natural Hazard Threats</th>
-                
-                <th>
-                  <a
-                    download
-                    className="btn btn-primary btn-sm pull-right"
-                    href="https://ftp.maps.canada.ca/pub/nrcan_rncan/Earthquakes_Tremblement-de-terre/nhsl_hazard_threat_data"
-                  >
-                    Access
-                  </a>
-                </th>
-              </tr>
-
-              <tr>
-                <th>Risk Dynamics</th>
-            
-                <th>
-                  <a
-                    download
-                    className="btn btn-primary btn-sm pull-right"
-                    href="https://ftp.maps.canada.ca/pub/nrcan_rncan/Earthquakes_Tremblement-de-terre/nhsl_risk_dynamics_data"
-                  >
-                    Access
-                  </a>
-                </th>
-              </tr>
-              <tr>
-                <th>Physical Exposure</th>
-            
-                <th>
-                  <a
-                    download
-                    className="btn btn-primary btn-sm pull-right"
-                    href="https://ftp.maps.canada.ca/pub/nrcan_rncan/Earthquakes_Tremblement-de-terre/nhsl_physical_exposure_data"
-                  >
-                    Access
-                  </a>
-                </th>
-              </tr>
-              <tr>
-                <th>Social Fabric and Capacity Thresholds</th>
-               
-                <th>
-                  <a
-                    download
-                    className="btn btn-primary btn-sm pull-right"
-                    href="https://ftp.maps.canada.ca/pub/nrcan_rncan/Earthquakes_Tremblement-de-terre/nhsl_social_fabric_data"
-                  >
-                    Access
-                  </a>
-                </th>
-              </tr>
-            </tbody>
-          </table>
+          <p>The National Human Settlement Layer (NHSL) is a collection of thematic datasets that describe the physical, social and economic characteristics of urban centres and rural/remote communities across Canada, and their vulnerability to natural hazards of concern.</p>
+          <Link to="/en/nhsl">Explore</Link>
         </section>
         <section style={{ marginTop: "20vh", marginBottom: "20vh" }} id="SR">
           <h2>Seismic Risk</h2>

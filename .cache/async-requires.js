@@ -19,6 +19,7 @@ exports.components = {
   "component---src-pages-national-datasets-en-js": () => import("./../../../src/pages/National-Datasets.en.js" /* webpackChunkName: "component---src-pages-national-datasets-en-js" */),
   "component---src-pages-new-brunswick-en-js": () => import("./../../../src/pages/New-Brunswick.en.js" /* webpackChunkName: "component---src-pages-new-brunswick-en-js" */),
   "component---src-pages-newfoundland-and-labrador-en-js": () => import("./../../../src/pages/Newfoundland-and-Labrador.en.js" /* webpackChunkName: "component---src-pages-newfoundland-and-labrador-en-js" */),
+  "component---src-pages-nhsl-en-js": () => import("./../../../src/pages/nhsl.en.js" /* webpackChunkName: "component---src-pages-nhsl-en-js" */),
   "component---src-pages-northwest-territories-en-js": () => import("./../../../src/pages/Northwest-Territories.en.js" /* webpackChunkName: "component---src-pages-northwest-territories-en-js" */),
   "component---src-pages-nouveau-brunswick-fr-js": () => import("./../../../src/pages/Nouveau-Brunswick.fr.js" /* webpackChunkName: "component---src-pages-nouveau-brunswick-fr-js" */),
   "component---src-pages-nouvelle-ecosse-fr-js": () => import("./../../../src/pages/Nouvelle-Écosse.fr.js" /* webpackChunkName: "component---src-pages-nouvelle-ecosse-fr-js" */),
