@@ -1,16 +1,44 @@
-# name: Gatsby Publish
+name: Gatsby build and deploy
 
-# on:
-#   push:
-#     branches: [ gh-pages ]
+# See
+# https://github.com/marketplace/actions/github-pages-action#%EF%B8%8F-gatsby
 
-# jobs:
-#   build:
-#     runs-on: ubuntu-latest
-#     steps:
-#       - uses: enriikke/gatsby-gh-pages-action@v2.1.1
-#       - name: Gatsby Publish
-#         with:
-#           access-token: ${{ secrets.data }}
-#           deploy-branch: gh-pages
-#           gatsby-args: --verbose
+on:
+  push:
+    branches: [ gh-pages-gatsby ]
+  pull_request:
+    branches: [ gh-pages-gatsby ]
+  workflow_dispatch:
+
+jobs:
+  gatsby_build_and_deploy:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - run: npm install
+      #- run: npm ci
+      - run: npm run format
+      #- run: npm run test
+      - run: npm run build
+        env:
+          PREFIX_PATHS: true
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
