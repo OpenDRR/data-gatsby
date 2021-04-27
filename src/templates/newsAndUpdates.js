@@ -1,26 +1,26 @@
-import React from "react"
-import { graphql, Link } from "gatsby"
-import Layout from '../components/layout'
+import React from "react";
+import { graphql, Link } from "gatsby";
+import Layout from "../components/layout";
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
 }) {
-  const { markdownRemark } = data // data.markdownRemark holds your post data
-  const { frontmatter, html } = markdownRemark
+  const { markdownRemark } = data; // data.markdownRemark holds your post data
+  const { frontmatter, html } = markdownRemark;
   return (
     <Layout>
-    <div className="container">
-      <div className="news">
-        <Link to="/en/">Home</Link>
-        <h1>{frontmatter.title}</h1>
-        <h2>{frontmatter.date}</h2>
-        <div
-          className="news-content"
-          dangerouslySetInnerHTML={{ __html: html }}
-        />
+      <div className="container">
+        <div className="news">
+          <Link to="/en/">Home</Link>
+          <h1>{frontmatter.title}</h1>
+          <h2>{frontmatter.date}</h2>
+          <div
+            className="news-content"
+            dangerouslySetInnerHTML={{ __html: html }}
+          />
+        </div>
       </div>
-    </div>
     </Layout>
-  )
+  );
 }
 export const pageQuery = graphql`
   query($slug: String!) {
@@ -33,4 +33,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;

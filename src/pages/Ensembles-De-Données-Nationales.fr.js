@@ -7,68 +7,20 @@ const NationalDatasetsPage = () => {
       <div className="container">
         <div className="breadcrumb">
           <Link to="/fr/">Accueil</Link>
-          <span> / Ensembles de données nationales </span>
+          <span> / Ensembles De Données Nationales </span>
         </div>
-        <h1 id="wb-cont">National Datasets</h1>
+        <h1 id="wb-cont">Ensembles De Données Nationales</h1>
         <section style={{ marginTop: "20vh", marginBottom: "20vh" }} id="NHSL">
-          <h2>Couches Nationales D'etablissements Humains</h2>
+          <h2>Couche Nationale Des Établissements Humains</h2>
           <hr />
-          <table className="table table-hover">
-            <thead>
-              <th>Nom</th>
-            </thead>
-            <tbody>
-              <tr>
-                <th>Menaces Liées Aux Risques Naturels</th>
-                <th>
-                  <a
-                    download
-                    className="btn btn-primary btn-sm pull-right"
-                    href="https://ftp.maps.canada.ca/pub/nrcan_rncan/Earthquakes_Tremblement-de-terre/nhsl_hazard_threat_data"
-                  >
-                    Accès
-                  </a>
-                </th>
-              </tr>
-
-              <tr>
-                <th>Dynamique du Risque</th>
-                <th>
-                  <a
-                    download
-                    className="btn btn-primary btn-sm pull-right"
-                    href="https://ftp.maps.canada.ca/pub/nrcan_rncan/Earthquakes_Tremblement-de-terre/nhsl_risk_dynamics_data"
-                  >
-                    Accès
-                  </a>
-                </th>
-              </tr>
-              <tr>
-                <th>Exposition Physique</th>
-                <th>
-                  <a
-                    download
-                    className="btn btn-primary btn-sm pull-right"
-                    href="https://ftp.maps.canada.ca/pub/nrcan_rncan/Earthquakes_Tremblement-de-terre/nhsl_physical_exposure_data"
-                  >
-                    Accès
-                  </a>
-                </th>
-              </tr>
-              <tr>
-                <th>Tissu Social et Seuils de Capacité</th>
-                <th>
-                  <a
-                    download
-                    className="btn btn-primary btn-sm pull-right"
-                    href="https://ftp.maps.canada.ca/pub/nrcan_rncan/Earthquakes_Tremblement-de-terre/nhsl_social_fabric_data"
-                  >
-                    Accès
-                  </a>
-                </th>
-              </tr>
-            </tbody>
-          </table>
+          <p>
+            La couche nationale des établissements humains (CNÉH) est une
+            collection de jeux de données thématiques qui décrivent les
+            caractéristiques physiques, sociales et économiques des centres
+            urbains et des communautés rurales/éloignées du Canada, ainsi que
+            leur vulnérabilité aux risques naturels préoccupants.
+          </p>
+          <Link to="/fr/nhsl">Explorez</Link>
         </section>
         <section style={{ marginTop: "20vh", marginBottom: "20vh" }} id="SR">
           <h2>Risque sismique</h2>

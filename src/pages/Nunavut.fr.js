@@ -10,7 +10,7 @@ const Nunavut = () => {
     <Layout>
       <div className="container provincial-banner">
         <div className="breadcrumb">
-        <Link to="/fr/Provinces-et-Territoires">
+          <Link to="/fr/Provinces-et-Territoires">
             Provinces et Territoires
           </Link>{" "}
           / Nunavut

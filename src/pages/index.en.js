@@ -8,6 +8,7 @@ import Layout from "../components/layout";
 
 const IndexPage = () => (
   <Layout>
+    <SEO title="Home" />
     <div className="container home">
       <h1>OpenDRR Downloads</h1>
       <p>
@@ -19,7 +20,7 @@ const IndexPage = () => (
         Economic Region.
       </p>
 
-      <SEO title="Home" />
+  
       <Banner slides={SliderData} />
       <HomeCardGrid />
     </div>

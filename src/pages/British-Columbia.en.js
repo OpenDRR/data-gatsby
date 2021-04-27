@@ -4,10 +4,12 @@ import YAMLData from "../../content/data/yaml/prov-terr.yaml";
 import { Link } from "gatsby";
 import { Accordion, Card, Button } from "react-bootstrap";
 import Layout from "../components/layout";
+import SEO from '../components/seo'
 
 const BritishColumbia = () => {
   return (
     <Layout>
+      <SEO title='British Columbia' lang='en' />
       <div className="container provincial-banner">
         <div className="breadcrumb">
           <Link to="/en/Provinces-and-Territories">

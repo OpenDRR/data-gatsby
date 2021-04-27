@@ -9,7 +9,7 @@ import SEO from "../components/seo";
 const ColombieBritannique = () => {
   return (
     <LayoutFR>
-      <SEO title="Colombie-Britannique" />
+      <SEO title="Colombie-Britannique" lang='fr' />
       <div className="container provincial-banner">
         <div className="breadcrumb">
           <Link to="/fr/Provinces-et-Territoires">

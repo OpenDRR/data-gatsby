@@ -1,9 +1,10 @@
 // const config = require('./config/site')
 
-require('dotenv').config({
+require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
-})
+});
 module.exports = {
+  flags: { PRESERVE_WEBPACK_CACHE: true },
   pathPrefix: "/data",
 
   siteMetadata: {
@@ -16,12 +17,6 @@ module.exports = {
     `gatsby-plugin-modal-routing`,
     `gatsby-transformer-yaml`,
     `gatsby-plugin-sass`,
-    // {
-    //   resolve: `gatsby-plugin-layout`,
-    //   options: {
-    //     component: require.resolve(`./src/components/layout.js`),
-    //   },
-    // },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -78,4 +73,4 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
-}
+};
