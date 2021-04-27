@@ -2,21 +2,9 @@ import React from "react";
 import { Link } from "gatsby";
 import "../components/SVGMapComponent/mapstyles.css";
 import Map from "../components/MapOfCanada/map";
-import * as d3 from "d3";
 import Layout from "../components/layout";
 
 const ProvincesAndTerritories = () => {
-  const [data, setData] = React.useState([]);
-  const [loading, setLoading] = React.useState(true);
-
-  React.useEffect(() => {
-    d3.json("../../components/MapOfCanada/MapData.json").then((d) => {
-      setData(d);
-      setLoading(false);
-    });
-    return () => undefined;
-  }, []);
-
   return (
     <Layout>
       <div className="container">
@@ -28,8 +16,7 @@ const ProvincesAndTerritories = () => {
       <section>
         <div className="container">
           <h4>Select a Province or Territory to continue:</h4>
-          {loading && <div>loading</div>}
-          {!loading && <Map data={data} />}
+          <Map />
         </div>
       </section>
       <section>
