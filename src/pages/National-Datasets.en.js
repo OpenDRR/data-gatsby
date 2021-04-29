@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import Layout from "../components/layout";
 import { useBreadcrumb } from "gatsby-plugin-breadcrumb";
-import Breadcrumb from "../components/Breadcrumb/index.jsx";
+import Breadcrumb from "../components/Breadcrumb";
 
 const NationalDatasetsPage = ({ location }) => {
   const { crumbs } = useBreadcrumb({

@@ -2,7 +2,7 @@ import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/layout";
 import { useBreadcrumb } from "gatsby-plugin-breadcrumb";
-import Breadcrumb from "../components/Breadcrumb/index.jsx";
+import Breadcrumb from "../components/Breadcrumb";
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
   location,

@@ -6,7 +6,7 @@ import HomeCardGrid from "../components/homeCardGrid";
 import { SliderData } from "../../config/SliderData";
 import Layout from "../components/layout";
 import { useBreadcrumb } from "gatsby-plugin-breadcrumb";
-import Breadcrumb from "../components/Breadcrumb/index.jsx";
+import Breadcrumb from "../components/Breadcrumb";
 
 const IndexPage = ({ location }) => {
   const { crumbs } = useBreadcrumb({

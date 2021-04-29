@@ -4,7 +4,7 @@ import "../components/SVGMapComponent/mapstyles.css";
 import Map from "../components/MapOfCanada/map";
 import Layout from "../components/layout";
 import { useBreadcrumb } from "gatsby-plugin-breadcrumb";
-import Breadcrumb from "../components/Breadcrumb/index.jsx";
+import Breadcrumb from "../components/Breadcrumb";
 
 const ProvincesAndTerritories = ({ location }) => {
   const { crumbs } = useBreadcrumb({

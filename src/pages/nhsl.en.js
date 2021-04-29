@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../components/layout";
 import { useBreadcrumb } from "gatsby-plugin-breadcrumb";
-import Breadcrumb from "../components/Breadcrumb/index.jsx";
+import Breadcrumb from "../components/Breadcrumb";
 
 const NHSL = ({ location }) => {
   const { crumbs } = useBreadcrumb({

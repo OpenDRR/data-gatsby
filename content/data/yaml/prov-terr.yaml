@@ -48,9 +48,6 @@ downloadsBC:
     lastUpdated: 2021-03-18
     format: ".gpkg"
 
-
-
-
 downloads:
   - file:
     title: "PSRA All Indicators B"

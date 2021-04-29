@@ -6,7 +6,8 @@ import { Accordion, Card, Button } from "react-bootstrap";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import { useBreadcrumb } from "gatsby-plugin-breadcrumb";
-import Breadcrumb from "../components/Breadcrumb/index.jsx";
+import Breadcrumb from "../components/Breadcrumb";
+
 const Alberta = ({ location }) => {
   const { crumbs } = useBreadcrumb({
     location,
