@@ -3,14 +3,18 @@ import { Link } from "gatsby";
 import "../components/SVGMapComponent/mapstyles.css";
 import Map from "../components/MapOfCanada/map";
 import Layout from "../components/layout";
+import { useBreadcrumb } from "gatsby-plugin-breadcrumb";
+import Breadcrumb from "../components/Breadcrumb/index.jsx";
 
-const ProvincesAndTerritories = () => {
+const ProvincesAndTerritories = ({ location }) => {
+  const { crumbs } = useBreadcrumb({
+    location,
+    crumbLabel: "Provinces and Territories",
+  });
   return (
     <Layout>
       <div className="container">
-        <div>
-          <Link to="/en/">Home</Link> / Provinces and Territories
-        </div>
+        <Breadcrumb crumbs={crumbs} />
         <h1 id="wb-cont">Province And Territory Datasets</h1>
       </div>
       <section>

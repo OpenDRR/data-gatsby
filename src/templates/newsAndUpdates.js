@@ -1,16 +1,23 @@
 import React from "react";
-import { graphql, Link } from "gatsby";
+import { graphql } from "gatsby";
 import Layout from "../components/layout";
+import { useBreadcrumb } from "gatsby-plugin-breadcrumb";
+import Breadcrumb from "../components/Breadcrumb/index.jsx";
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
+  location,
 }) {
   const { markdownRemark } = data; // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark;
+  const { crumbs } = useBreadcrumb({
+    location,
+    crumbLabel: `${frontmatter.title}`,
+  });
   return (
     <Layout>
       <div className="container">
         <div className="news">
-          <Link to="/en/">Home</Link>
+          <Breadcrumb crumbs={crumbs} />
           <h1>{frontmatter.title}</h1>
           <h2>{frontmatter.date}</h2>
           <div

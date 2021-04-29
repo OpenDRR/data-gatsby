@@ -5,17 +5,18 @@ import { Link } from "gatsby";
 import { Accordion, Card, Button } from "react-bootstrap";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-const Alberta = () => {
+import { useBreadcrumb } from "gatsby-plugin-breadcrumb";
+import Breadcrumb from "../components/Breadcrumb/index.jsx";
+const Alberta = ({ location }) => {
+  const { crumbs } = useBreadcrumb({
+    location,
+    crumbLabel: "Alberta",
+  });
   return (
     <Layout>
-      <SEO title='Alberta' lang='en' />
+      <SEO title="Alberta" lang="en" />
       <div className="container provincial-banner">
-        <div className="breadcrumb">
-          <Link to="/en/Provinces-and-Territories">
-            Provinces and Territories
-          </Link>{" "}
-          / Alberta
-        </div>
+        <Breadcrumb crumbs={crumbs} />
         <div className="provincial-data">
           <h1 id="wb-cont">{YAMLData.enNameAB}</h1>
         </div>
