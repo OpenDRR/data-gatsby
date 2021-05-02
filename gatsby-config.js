@@ -4,7 +4,12 @@ require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 module.exports = {
-  flags: { PRESERVE_WEBPACK_CACHE: true },
+  flags: { 
+    PRESERVE_WEBPACK_CACHE: true,
+    FAST_DEV: true,
+    PARALLEL_SOURCING: true,
+    FUNCTIONS: true
+  },
   pathPrefix: "/data",
 
   siteMetadata: {

@@ -3,14 +3,18 @@ import Layout from "../components/layout";
 // import { Link } from "gatsby";
 import ContactInfo from "../../content/data/yaml/contact.yaml";
 import Breadcrumb from "../components/Breadcrumb";
+import { useBreadcrumb } from "gatsby-plugin-breadcrumb";
 
-const DatasetDetails = (props) => {
-  const { pageContext } = props;
+const DatasetDetails = ({ pageContext, location }) => {
   const { details, name } = pageContext;
+  const { crumbs } = useBreadcrumb({
+    location,
+    crumbLabel: "Dataset Details",
+  });
   return (
     <Layout>
       <div className="container">
-        <Breadcrumb />
+        <Breadcrumb crumbs={crumbs} />
         <div>
           {name.map((data, index) => {
             return <h1 key={`name_title_${index}`}>{data.title}</h1>;
