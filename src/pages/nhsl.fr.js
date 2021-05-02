@@ -1,8 +1,14 @@
 import React from "react";
 import Layout from "../components/layout";
 import Breadcrumb from "../components/Breadcrumb";
+import { useBreadcrumb } from "gatsby-plugin-breadcrumb";
 
-const NHSL = () => {
+
+const NHSL = ({ location }) => {
+  const { crumbs } = useBreadcrumb({
+    location,
+    crumbLabel: "Couche Nationale Des Établissements Humains",
+  });
   function ReadMoreLess() {
     var dots = document.getElementById("dots");
     var moretext = document.getElementById("more");
@@ -86,7 +92,7 @@ const NHSL = () => {
   return (
     <Layout>
       <div className="container">
-        <Breadcrumb />
+      <Breadcrumb crumbs={crumbs} />
         <div className="row">
           <h1 id="wb-cont">Couche Nationale Des Établissements Humains</h1>
         </div>
