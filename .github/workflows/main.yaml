@@ -5,9 +5,9 @@ name: Gatsby build and deploy
 
 on:
   push:
-    branches: [gh-pages-gatsby]
+    branches: [main]
   pull_request:
-    branches: [gh-pages-gatsby]
+    branches: [main]
   workflow_dispatch:
 
 jobs:
