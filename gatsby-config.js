@@ -10,7 +10,7 @@ module.exports = {
     PARALLEL_SOURCING: true,
     FUNCTIONS: true
   },
-  pathPrefix: "/data",
+  pathPrefix: "/data-gatsby",
 
   siteMetadata: {
     title: `OpenDrr Data`,
