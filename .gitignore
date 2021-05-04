@@ -10,7 +10,6 @@ logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
->>>>>>> 20d757fbf (Add .gitignore from gatsby-starter-default)
 
 # Runtime data
 pids
